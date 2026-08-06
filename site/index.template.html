@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#092538">
+    <meta name="color-scheme" content="light">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; img-src 'self' data:; object-src 'none'; script-src 'self' '__CSP_HASH__'; style-src 'self'; __CSP_UPGRADE__">
+    <title>Boosty Dolls — каталог кукольных авторов, мастер-классов и подписок</title>
+    <meta name="description" content="__DESCRIPTION__">
+    <meta name="keywords" content="Boosty, куклы, мастер-классы, выкройки, BJD, OOAK, кукольная миниатюра, русскоязычные авторы">
+    <link rel="canonical" href="__SITE_URL__">
+    <link rel="alternate" type="application/rss+xml" title="Обновления Boosty Dolls Каталога" href="__SITE_URL__feed.xml">
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./site.webmanifest">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="Boosty Dolls Каталог">
+    <meta property="og:title" content="Boosty Dolls Каталог">
+    <meta property="og:description" content="__DESCRIPTION__">
+    <meta property="og:url" content="__SITE_URL__">
+    <meta property="og:image" content="__SITE_URL__assets/og-cover.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Boosty Dolls Каталог — проверенные кукольные авторы и материалы">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boosty Dolls Каталог">
+    <meta name="twitter:description" content="__DESCRIPTION__">
+    <meta name="twitter:image" content="__SITE_URL__assets/og-cover.png">
+
+    <link rel="stylesheet" href="./assets/styles.css?v=__ASSET_VERSION__">
+    <script type="application/ld+json">__JSON_LD__</script>
+    <script type="module" src="./assets/app.js?v=__ASSET_VERSION__"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Перейти к каталогу</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Boosty Dolls Каталог — на главную">
+        <span class="brand-mark" aria-hidden="true">B/D</span>
+        <span>Boosty Dolls Каталог</span>
+      </a>
+      <nav class="header-nav" aria-label="Основная навигация">
+        <a href="#catalog">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-search"></use></svg>
+          <span>Каталог</span>
+        </a>
+        <a href="#about">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-info"></use></svg>
+          <span>О проекте</span>
+        </a>
+        <a class="header-github-link" href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+          <span>GitHub</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Независимая подборка · обновляется еженедельно</p>
+          <h1 id="hero-title">Кукольные авторы и материалы — в одном каталоге</h1>
+          <p class="hero-lead">
+            Подписки, отдельные мастер-классы, выкройки, курсы и коллекционные медиа:
+            сравнивайте русскоязычных и двуязычных авторов Boosty по теме, активности и цене.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalog">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-search"></use></svg>
+              Найти автора
+            </a>
+            <a class="button button-ghost" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+              Предложить автора
+            </a>
+          </div>
+          <p class="hero-note">
+            Данные проверены <time datetime="__CHECKED_AT__">__CHECKED_AT_HUMAN__</time>.
+            Каталог не связан с Boosty и не получает комиссию.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Статистика каталога">
+          <div class="hero-orbit" aria-hidden="true">
+            <span>BJD</span><span>OOAK</span><span>1:6</span><span>1:12</span>
+          </div>
+          <dl class="hero-stats">
+            <div><dt>Авторов</dt><dd>__CHANNEL_COUNT__</dd></div>
+            <div><dt>Активны ≤ 90 дней</dt><dd>__ACTIVE_COUNT__</dd></div>
+            <div><dt>С подпиской</dt><dd>__SUBSCRIPTION_COUNT__</dd></div>
+            <div><dt>С разовыми материалами</dt><dd>__ONE_OFF_COUNT__</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="payment-lanes" aria-labelledby="payment-lanes-title">
+        <div class="payment-lanes-heading">
+          <p class="eyebrow eyebrow-dark">Как покупать контент</p>
+          <h2 id="payment-lanes-title">Два базовых формата оплаты</h2>
+          <p>Форматы не смешиваются: цены и фильтры для них показаны отдельно.</p>
+        </div>
+        <div class="payment-lane-grid" role="group" aria-label="Быстрый фильтр по оплате">
+          <button class="payment-lane payment-lane-subscription" type="button" data-payment-filter="subscription" aria-pressed="false">
+            <span class="payment-lane-icon" aria-hidden="true">↻</span>
+            <span>
+              <strong>Подписка</strong>
+              <small>Регулярный доступ · __SUBSCRIPTION_COUNT__ авторов · медиана __MEDIAN_SUBSCRIPTION_PRICE__ ₽/мес.</small>
+            </span>
+          </button>
+          <button class="payment-lane payment-lane-one-off" type="button" data-payment-filter="one-off" aria-pressed="false">
+            <span class="payment-lane-icon" aria-hidden="true">◇</span>
+            <span>
+              <strong>Разовая покупка</strong>
+              <small>PDF, урок или курс · __ONE_OFF_COUNT__ авторов · медиана __MEDIAN_ONE_OFF_PRICE__ ₽</small>
+            </span>
+          </button>
+          <button class="payment-lane-all is-active" type="button" data-payment-filter="" aria-pressed="true">
+            Все __CHANNEL_COUNT__
+          </button>
+          <button class="payment-lane-both" type="button" data-payment-filter="both" aria-pressed="false">
+            Оба формата · __BOTH_COUNT__
+          </button>
+        </div>
+      </section>
+
+      <section class="topic-strip" aria-label="Популярные направления">
+        <p>По тематике</p>
+        <div class="topic-chips" id="popular-topics">
+          __CATEGORY_CHIPS__
+          <button class="topic-more" type="button" aria-controls="popular-topics" aria-expanded="false">Ещё темы</button>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">Каталог</p>
+            <h2 id="catalog-title">Найдите автора или материал</h2>
+          </div>
+          <div class="section-tools">
+            <p class="result-summary" id="result-summary" aria-live="polite">
+              Показано <strong>__CHANNEL_COUNT__</strong> авторов
+            </p>
+            <div class="view-toggle" role="group" aria-label="Представление каталога">
+              <button class="view-button" type="button" data-view="cards" aria-pressed="false">
+                <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-grid"></use></svg>
+                Карточки
+              </button>
+              <button class="view-button is-active" type="button" data-view="table" aria-pressed="true">
+                <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-table"></use></svg>
+                Таблица
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <form class="filters" id="filters" role="search">
+          <div class="filter filter-search">
+            <label for="query">Поиск</label>
+            <input id="query" name="q" type="search" maxlength="100" placeholder="Например: BJD, Blythe, выкройки, 1:12">
+          </div>
+
+          <button class="mobile-filters-toggle" type="button" aria-controls="advanced-filters" aria-expanded="false">Фильтры</button>
+
+          <div class="advanced-filters" id="advanced-filters">
+            <div class="filter">
+              <label for="category">
+                Тема
+                <span class="filter-label-note" aria-hidden="true">несколько у автора</span>
+              </label>
+              <span class="sr-only" id="category-help">
+                Один автор может относиться к нескольким направлениям. Счётчики учитывают остальные выбранные фильтры.
+              </span>
+              <select id="category" name="category" aria-describedby="category-help">
+                <option value="" data-topic-label="Все темы">Все темы</option>
+                __CATEGORY_OPTIONS__
+              </select>
+            </div>
+
+            <div class="filter">
+              <label for="payment-type">Формат оплаты</label>
+              <select id="payment-type" name="payment">
+                <option value="">Любой</option>
+                <option value="subscription">Подписка</option>
+                <option value="one-off">Разовая покупка</option>
+                <option value="both">Оба формата</option>
+              </select>
+            </div>
+
+            <div class="filter">
+              <label for="activity">Активность</label>
+              <select id="activity" name="activity">
+                <option value="">Любая</option>
+                <option value="fresh">Свежие — до 30 дней</option>
+                <option value="active">Активные — до 90 дней</option>
+                <option value="rare">Редкие — до года</option>
+                <option value="archive">Архивные — больше года</option>
+              </select>
+            </div>
+
+            <div class="filter">
+              <label for="max-subscription-price">Подписка до, ₽/мес.</label>
+              <input id="max-subscription-price" name="maxSubscriptionPrice" type="number" min="0" max="500000" step="50" inputmode="numeric" placeholder="Без ограничения">
+            </div>
+
+            <div class="filter">
+              <label for="max-one-off-price">Материал до, ₽</label>
+              <input id="max-one-off-price" name="maxOneOffPrice" type="number" min="0" max="500000" step="50" inputmode="numeric" placeholder="Без ограничения">
+            </div>
+
+            <div class="filter">
+              <label for="sort">Сортировка</label>
+              <select id="sort" name="sort">
+                <option value="recommended">Рекомендованные</option>
+                <option value="recent">Сначала свежие</option>
+                <option value="subscribers">Больше подписчиков</option>
+                <option value="subscriptionPrice">Подписка дешевле</option>
+                <option value="oneOffPrice">Материалы дешевле</option>
+                <option value="name">По названию</option>
+                <option value="category">По теме</option>
+                <option value="growth">По росту аудитории</option>
+              </select>
+            </div>
+
+            <label class="toggle">
+              <input id="growth" name="growth" type="checkbox">
+              <span>Только с ростом аудитории</span>
+            </label>
+
+            <button class="button button-reset" id="reset-filters" type="reset">Сбросить</button>
+          </div>
+        </form>
+
+        <div class="active-filters" id="active-filters" aria-live="polite"></div>
+
+        <div class="catalog-results">
+          <div class="card-grid" id="channel-grid" hidden>
+            __CHANNEL_CARDS__
+          </div>
+
+          __CHANNEL_DETAILS__
+
+          <div class="table-shell" id="channel-table-view">
+            <table class="catalog-table">
+              <caption class="sr-only">Сравнение русскоязычных кукольных авторов на Boosty</caption>
+              <colgroup>
+                <col class="col-channel">
+                <col class="col-topic">
+                <col class="col-audience">
+                <col class="col-activity">
+                <col class="col-subscription">
+                <col class="col-one-off">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col" data-sort-column="name">
+                    <button type="button" data-sort-key="name">Автор <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th scope="col" data-sort-column="category">
+                    <button type="button" data-sort-key="category">Тематика <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th class="is-numeric" scope="col" data-sort-column="subscribers">
+                    <button type="button" data-sort-key="subscribers">Аудитория <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th scope="col" data-sort-column="recent">
+                    <button type="button" data-sort-key="recent">Активность <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th class="is-numeric" scope="col" data-sort-column="subscriptionPrice">
+                    <button type="button" data-sort-key="subscriptionPrice">Подписка <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th class="is-numeric" scope="col" data-sort-column="oneOffPrice">
+                    <button type="button" data-sort-key="oneOffPrice">Разовая покупка <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="channel-table-body">
+                __CHANNEL_ROWS__
+              </tbody>
+            </table>
+          </div>
+          <p class="sr-only" id="table-sort-announcement" aria-live="polite"></p>
+
+          <div class="empty-state" id="empty-state" hidden>
+            <span aria-hidden="true">⌁</span>
+            <h3>Ничего не нашлось</h3>
+            <p>Попробуйте убрать часть фильтров или сформулировать запрос шире.</p>
+            <button class="button button-secondary" type="button" data-reset-filters>Сбросить фильтры</button>
+          </div>
+
+          <div class="load-more-wrap">
+            <button class="button button-secondary" id="load-more" type="button">Показать ещё</button>
+          </div>
+        </div>
+      </section>
+
+      <dialog class="channel-dialog" id="channel-dialog" aria-modal="true">
+        <div class="dialog-frame">
+          <button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть подробности">×</button>
+          <div id="channel-dialog-content"></div>
+        </div>
+      </dialog>
+
+      <aside class="github-support" id="support" aria-labelledby="github-support-title">
+        <div class="github-support-mark" aria-hidden="true">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+        </div>
+        <div class="github-support-copy">
+          <p class="eyebrow eyebrow-dark">Открытый проект</p>
+          <h2 id="github-support-title">Каталог оказался полезным?</h2>
+          <p>
+            Поставьте звезду на GitHub — так вы сохраните проект и покажете,
+            что каталог стоит регулярно обновлять и развивать.
+          </p>
+        </div>
+        <div class="github-support-actions">
+          <a
+            class="button button-github"
+            href="__REPOSITORY_URL__"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Открыть Boosty Dolls Каталог на GitHub и поставить звезду (откроется в новой вкладке)"
+          >
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+            Открыть GitHub
+            <svg class="icon icon-small" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-arrow-up-right"></use></svg>
+          </a>
+          <a class="github-support-secondary" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+            Предложить автора
+          </a>
+        </div>
+      </aside>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow eyebrow-dark">О проекте</p>
+          <h2 id="about-title">Открытые данные, понятный выбор</h2>
+        </div>
+        <div class="about-grid">
+          <article>
+            <span class="about-number">01</span>
+            <h3>Проверяем факты</h3>
+            <p>Счётчики, цены и дата последней публикации берутся из публичных страниц Boosty.</p>
+          </article>
+          <article>
+            <span class="about-number">02</span>
+            <h3>Обновляем регулярно</h3>
+            <p>Автоматическая проверка освежает данные и добавляет новые релевантные авторы.</p>
+          </article>
+          <article>
+            <span class="about-number">03</span>
+            <h3>Разделяем форматы</h3>
+            <p>Подписка и разовая покупка имеют отдельные цены, фильтры и визуальные метки.</p>
+          </article>
+        </div>
+        <div class="disclaimer">
+          <strong>Важно.</strong>
+          Количество подписчиков не равно числу платящих подписчиков. Цены и доступность
+          публикаций могут меняться — перепроверьте условия на странице автора перед оплатой.
+          Описания сокращаются и очищаются от прямых контактных данных; имена авторов
+          и названия проектов сохраняются.
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand brand-footer" href="./">
+          <span class="brand-mark" aria-hidden="true">B/D</span>
+          <span>Boosty Dolls Каталог</span>
+        </a>
+        <p>Открытый неофициальный каталог кукольных авторов и платных материалов.</p>
+      </div>
+      <div class="footer-links">
+        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+          Поставить звезду на GitHub
+        </a>
+        <a href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+          Предложить автора
+        </a>
+        <a href="__REPOSITORY_URL__/issues/new?template=correction.yml" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-flag"></use></svg>
+          Исправить данные
+        </a>
+        <a href="./feed.xml">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-rss"></use></svg>
+          RSS обновлений
+        </a>
+      </div>
+      <p class="widget-disclosure">Без трекеров и стороннего JavaScript. Внешние ссылки открываются только по вашему действию.</p>
+    </footer>
+  </body>
+</html>

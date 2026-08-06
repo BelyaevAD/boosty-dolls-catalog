@@ -1,0 +1,44 @@
+name: Предложить автора
+description: Добавить кукольного автора с подпиской или разовыми материалами на Boosty
+title: "[Автор]: "
+labels: ["new-channel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо! Перед отправкой проверьте, что профиль русскоязычный или двуязычный, относится к куклам и содержит подписку либо отдельный платный материал.
+  - type: input
+    id: boosty_url
+    attributes:
+      label: Ссылка на Boosty
+      placeholder: https://boosty.to/example
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Основное направление
+      options:
+        - Создание кукол
+        - Кастом и OOAK
+        - Одежда и выкройки
+        - Аксессуары
+        - Миниатюра и кукольные дома
+        - Коллекционирование и медиа
+        - История, ремонт и реставрация
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Почему автора стоит добавить
+      description: Кратко опишите тематику и полезность для читателей каталога.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Проверка
+      options:
+        - label: На странице есть платная подписка или отдельный платный материал
+          required: true

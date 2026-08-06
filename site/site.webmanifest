@@ -1,0 +1,17 @@
+{
+  "name": "Boosty Dolls Каталог",
+  "short_name": "Boosty Dolls",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f1ea",
+  "theme_color": "#173b3f",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

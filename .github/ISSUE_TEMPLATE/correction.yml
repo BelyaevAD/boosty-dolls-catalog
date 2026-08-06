@@ -1,0 +1,33 @@
+name: Исправить данные
+description: Сообщить об ошибке, устаревшем профиле или неверной классификации
+title: "[Исправление]: "
+labels: ["data-quality"]
+body:
+  - type: input
+    id: channel
+    attributes:
+      label: Автор или ссылка
+      placeholder: Название или https://boosty.to/example
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Что нужно исправить
+      options:
+        - Профиль больше не относится к кукольной тематике
+        - Профиль не русскоязычный и не двуязычный
+        - Неверное направление
+        - Неверный формат оплаты
+        - Неверные данные
+        - Профиль закрыт или удалён
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Подробности
+      description: Приложите проверяемый контекст, но не публикуйте личные данные.
+    validations:
+      required: true
