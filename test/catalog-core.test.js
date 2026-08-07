@@ -45,7 +45,8 @@ test("filter reset handler cannot recursively reset the form", () => {
 
   assert.match(resetFiltersBody, /form\.reset\(\)/);
   assert.doesNotMatch(resetFiltersBody, /applyFilters|resetFilters/);
-  assert.match(appSource, /form\.addEventListener\("reset", \(\) => queueMicrotask\(applyResetState\)\)/);
+  assert.match(appSource, /form\.addEventListener\("reset", \(\) => setTimeout\(applyResetState, 0\)\)/);
+  assert.doesNotMatch(appSource, /form\.addEventListener\("reset", \(\) => queueMicrotask/);
 });
 
 test("normalizeText handles Russian text and whitespace", () => {

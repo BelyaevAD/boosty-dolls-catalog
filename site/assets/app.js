@@ -349,7 +349,7 @@ form.addEventListener("change", (event) => {
   if (event.target === sortInput) sortDirection = defaultSortDirection(sortInput.value);
   applyFilters();
 });
-form.addEventListener("reset", () => queueMicrotask(applyResetState));
+form.addEventListener("reset", () => setTimeout(applyResetState, 0));
 
 for (const button of paymentButtons) {
   button.addEventListener("click", () => {
