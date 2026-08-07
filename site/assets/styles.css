@@ -26,7 +26,7 @@
 /* Boosty Dolls: две независимые модели оплаты */
 .payment-lanes {
   width: min(1240px, calc(100% - 40px));
-  margin: 34px auto 18px;
+  margin: 40px auto 0;
 }
 
 .payment-lanes-heading {
@@ -119,6 +119,10 @@
   color: var(--ink-soft);
   font-size: 13px;
   line-height: 1.4;
+}
+
+.payment-lane > span:last-child {
+  min-width: 0;
 }
 
 .payment-lane-all,
@@ -315,7 +319,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 0;
   overflow-x: clip;
   background: var(--paper);
   color: var(--ink);
@@ -678,8 +682,8 @@ h1 {
   display: flex;
   align-items: flex-start;
   gap: 22px;
-  margin-top: -24px;
-  padding: 18px 22px;
+  margin-top: 28px;
+  padding: 20px 22px;
   border: 1px solid rgb(255 255 255 / 54%);
   border-radius: var(--radius);
   background: rgb(255 255 255 / 92%);
@@ -706,6 +710,11 @@ h1 {
 }
 
 .topic-chip {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   flex: 0 1 auto;
   padding: 9px 12px;
   border: 1px solid var(--line);
@@ -715,6 +724,19 @@ h1 {
   cursor: pointer;
   font-size: 13px;
   font-weight: 720;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.topic-chip [data-topic-count] {
+  flex: 0 0 auto;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.topic-chip.is-active [data-topic-count] {
+  color: inherit;
 }
 
 .topic-chip:hover:not(:disabled) {
@@ -779,7 +801,7 @@ h2 {
 
 .view-button {
   display: inline-flex;
-  min-height: 38px;
+  min-height: 44px;
   align-items: center;
   gap: 7px;
   padding: 7px 11px;
@@ -873,6 +895,7 @@ h2 {
 .toggle {
   display: flex;
   grid-column: 1 / span 2;
+  min-height: 44px;
   align-items: center;
   gap: 9px;
   color: var(--ink-soft);
@@ -890,7 +913,7 @@ h2 {
 .button-reset {
   grid-column: -2 / -1;
   justify-self: end;
-  min-height: auto;
+  min-height: 44px;
   padding: 7px 10px;
   background: transparent;
   color: var(--ink-soft);
@@ -914,6 +937,9 @@ h2 {
 }
 
 .filter-chip {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
   padding: 7px 10px;
   border: 1px solid #b9d7c5;
   border-radius: 999px;
@@ -1369,6 +1395,9 @@ h2 {
 
 .card-detail-link,
 .card-link {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
   color: #126c3d;
   font-size: 13px;
   font-weight: 820;
@@ -1884,11 +1913,18 @@ h2 {
 
 .tier-list li {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   padding: 13px 15px;
   border: 1px solid var(--line);
   border-radius: 11px;
+}
+
+.payment-price strong,
+.tier-list strong {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .channel-detail-note {
@@ -2052,6 +2088,42 @@ h2 {
   }
 }
 
+@media (max-width: 900px) {
+  .topic-strip {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 18px;
+  }
+
+  .topic-strip p {
+    margin-top: 0;
+  }
+
+  .topic-chips {
+    width: 100%;
+  }
+
+  .topic-chips:not(.is-expanded) .topic-chip:nth-child(n + 7) {
+    display: none;
+  }
+
+  .topic-more {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 12px;
+    border: 1px dashed #9eb4a8;
+    border-radius: 999px;
+    background: #f7faf7;
+    color: var(--navy);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 760;
+  }
+}
+
 @media (max-width: 720px) {
   .site-header,
   .hero,
@@ -2090,22 +2162,12 @@ h2 {
     left: 16px;
   }
 
-  .topic-strip {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 10px;
-    padding: 16px;
-  }
-
-  .topic-strip p {
-    margin-top: 0;
-  }
-
   .topic-chips {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .topic-chips:not(.is-expanded) .topic-chip:nth-child(n + 6) {
+  .topic-chips:not(.is-expanded) .topic-chip:nth-child(n + 5) {
     display: none;
   }
 
@@ -2113,22 +2175,20 @@ h2 {
     display: none;
   }
 
+  .topic-chip {
+    width: 100%;
+    min-width: 0;
+    padding-inline: 10px;
+    overflow-wrap: anywhere;
+  }
+
   .topic-chip::before {
     content: attr(data-mobile-label);
   }
 
   .topic-more {
-    display: inline-flex;
-    min-height: 44px;
-    align-items: center;
-    padding: 9px 12px;
-    border: 1px dashed #9eb4a8;
-    border-radius: 999px;
-    background: #f7faf7;
-    color: var(--navy);
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 760;
+    grid-column: 1 / -1;
+    width: 100%;
   }
 
   .catalog-section {
@@ -2355,6 +2415,12 @@ h2 {
   .table-subscription,
   .table-one-off {
     grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 720px) {
+  .filters {
+    grid-template-columns: 1fr;
   }
 }
 

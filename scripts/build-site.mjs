@@ -50,6 +50,10 @@ function formatNumber(value) {
   return Number(value || 0).toLocaleString(locale);
 }
 
+function formatRubles(value) {
+  return `${formatNumber(value)}\u00A0₽`;
+}
+
 function formatDate(value, options = {}) {
   if (!value) return "нет данных";
   const date = new Date(value.length === 10 ? `${value}T12:00:00+07:00` : value);
@@ -73,7 +77,7 @@ function subscriptionPrice(channel) {
 
 function formatSubscriptionPrice(channel) {
   const value = subscriptionPrice(channel);
-  return Number.isFinite(value) && value > 0 ? `${formatNumber(value)} ₽` : "—";
+  return Number.isFinite(value) && value > 0 ? formatRubles(value) : "—";
 }
 
 function oneOffPrice(channel) {
@@ -83,7 +87,7 @@ function oneOffPrice(channel) {
 
 function formatOneOffPrice(channel) {
   const value = oneOffPrice(channel);
-  return Number.isFinite(value) ? `${formatNumber(value)} ₽` : "—";
+  return Number.isFinite(value) ? formatRubles(value) : "—";
 }
 
 function paymentTypes(channel) {
@@ -114,9 +118,9 @@ function tierPrice(tier) {
   const promo = Number(tier.promoPriceRub);
   const list = Number(tier.priceRub);
   if (Number.isFinite(promo) && promo > 0 && promo < list) {
-    return `${formatNumber(promo)} ₽ вместо ${formatNumber(list)} ₽`;
+    return `${formatRubles(promo)} вместо ${formatRubles(list)}`;
   }
-  return `${formatNumber(list)} ₽`;
+  return formatRubles(list);
 }
 
 function median(values) {
@@ -258,7 +262,7 @@ function channelDetailTemplate(channel, checkedAt) {
   const oneOffItems = (channel.oneOffItems || []).map((item) => `
                 <li>
                   <span>${escapeHtml(item.title || "Платный материал")}</span>
-                  <strong>${formatNumber(item.priceRub)} ₽</strong>
+                  <strong>${formatRubles(item.priceRub)}</strong>
                 </li>`).join("");
   const subscriptionSection = tiers
     ? `<section class="payment-detail payment-detail-subscription">
@@ -333,12 +337,12 @@ function channelRow(channel, checkedAt) {
   const growthClass = growth > 0 ? "is-positive" : growth < 0 ? "is-negative" : "";
   const subscriptionRange = channel.tierCount
     ? (channel.maxSubscriptionPriceRub > subscriptionPrice(channel)
-      ? `${tierLevelLabel(channel.tierCount)} · до ${formatNumber(channel.maxSubscriptionPriceRub)} ₽`
+      ? `${tierLevelLabel(channel.tierCount)} · до ${formatRubles(channel.maxSubscriptionPriceRub)}`
       : tierLevelLabel(channel.tierCount))
     : "нет";
   const oneOffRange = channel.oneOffCountRecent
     ? `${channel.oneOffCountRecent} среди проверенных постов (до 60)${channel.maxOneOffPriceRub > oneOffPrice(channel)
-      ? ` · до ${formatNumber(channel.maxOneOffPriceRub)} ₽`
+      ? ` · до ${formatRubles(channel.maxOneOffPriceRub)}`
       : ""}`
     : "нет";
   const activityDate = channel.lastPostAt
@@ -447,7 +451,7 @@ function channelPage(channel, checkedAt) {
   const tiers = (channel.tiers || []).map((tier) => `
               <li><span>${escapeHtml(tier.name || "Подписка")}</span><strong>${escapeHtml(tierPrice(tier))}</strong></li>`).join("");
   const oneOffItems = (channel.oneOffItems || []).map((item) => `
-              <li><span>${escapeHtml(item.title || "Платный материал")}</span><strong>${formatNumber(item.priceRub)} ₽</strong></li>`).join("");
+              <li><span>${escapeHtml(item.title || "Платный материал")}</span><strong>${formatRubles(item.priceRub)}</strong></li>`).join("");
   const subscriptionSection = tiers
     ? `<section class="payment-detail payment-detail-subscription"><h2><span aria-hidden="true">↻</span> Уровни подписки</h2><ul class="tier-list">${tiers}</ul></section>`
     : "";

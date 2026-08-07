@@ -5,12 +5,13 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const output = path.join(root, "dist");
 const catalog = JSON.parse(await fs.readFile(path.join(root, "data", "channels.json"), "utf8"));
-const [index, sitemap, robots, icons, builtApp] = await Promise.all([
+const [index, sitemap, robots, icons, builtApp, builtStyles] = await Promise.all([
   fs.readFile(path.join(output, "index.html"), "utf8"),
   fs.readFile(path.join(output, "sitemap.xml"), "utf8"),
   fs.readFile(path.join(output, "robots.txt"), "utf8"),
   fs.readFile(path.join(output, "assets", "icons.svg"), "utf8"),
   fs.readFile(path.join(output, "assets", "app.js"), "utf8"),
+  fs.readFile(path.join(output, "assets", "styles.css"), "utf8"),
 ]);
 
 assert.ok(index.includes("<title>Boosty Dolls"), "Missing page title.");
@@ -31,7 +32,12 @@ assert.equal((index.match(/<col class="col-/g) || []).length, 6, "The comparison
 assert.ok(index.includes('data-payment-filter="subscription"'), "Subscription lane is missing.");
 assert.ok(index.includes('data-payment-filter="one-off"'), "One-off lane is missing.");
 assert.ok(index.includes('data-payment-filter="both"'), "Combined payment filter is missing.");
-assert.ok(!index.includes("медиана 0 ₽"), "Median price must ignore channels without that payment type.");
+assert.ok(!/медиана 0(?: |\u00A0)₽/u.test(index), "Median price must ignore channels without that payment type.");
+assert.ok(!/\d ₽/u.test(index), "Currency signs must not wrap separately from numeric prices.");
+assert.doesNotMatch(builtStyles, /\.topic-strip\s*\{[^}]*margin-top:\s*-\d/su, "Topic shortcuts must not overlap the payment controls.");
+assert.match(builtStyles, /\.topic-chip\s*\{[^}]*min-height:\s*44px;/su, "Topic shortcuts must be comfortable touch targets.");
+assert.match(builtStyles, /body\s*\{[^}]*min-width:\s*0;/su, "The page must not overflow a 320px viewport.");
+assert.match(builtStyles, /@media \(max-width: 720px\)\s*\{\s*\.filters\s*\{\s*grid-template-columns:\s*1fr;/su, "Mobile filters must use one column.");
 assert.ok(index.includes('id="max-subscription-price"'), "Independent subscription price filter is missing.");
 assert.ok(index.includes('id="max-one-off-price"'), "Independent one-off price filter is missing.");
 assert.ok(index.includes('data-sort-key="subscriptionPrice"'), "Subscription sorting is missing.");
@@ -63,6 +69,7 @@ for (const channel of catalog.channels) {
   assert.ok(stat.isFile(), `Missing author page for ${channel.slug}`);
   const html = await fs.readFile(page, "utf8");
   assert.ok(html.includes("Boosty Dolls Каталог"), `Wrong branding on ${channel.slug}`);
+  assert.ok(!/\d ₽/u.test(html), `Currency sign can wrap separately on ${channel.slug}`);
   if (channel.paymentTypes.includes("subscription")) assert.ok(html.includes("Уровни подписки"), `Missing subscription section for ${channel.slug}`);
   if (channel.paymentTypes.includes("one-off")) assert.ok(html.includes("Разовые материалы"), `Missing one-off section for ${channel.slug}`);
 }

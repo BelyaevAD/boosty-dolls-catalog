@@ -150,14 +150,14 @@ function renderActiveFilters(filters) {
   }
   if (filters.maxSubscriptionPrice !== null) {
     addChip(
-      `Подписка до ${filters.maxSubscriptionPrice.toLocaleString("ru-RU")} ₽`,
+      `Подписка до ${filters.maxSubscriptionPrice.toLocaleString("ru-RU")}\u00A0₽`,
       () => { maxSubscriptionInput.value = ""; },
       maxSubscriptionInput,
     );
   }
   if (filters.maxOneOffPrice !== null) {
     addChip(
-      `Материал до ${filters.maxOneOffPrice.toLocaleString("ru-RU")} ₽`,
+      `Материал до ${filters.maxOneOffPrice.toLocaleString("ru-RU")}\u00A0₽`,
       () => { maxOneOffInput.value = ""; },
       maxOneOffInput,
     );
@@ -382,6 +382,7 @@ for (const button of sortButtons) {
 topicMoreButton?.addEventListener("click", () => {
   const expanded = topicMoreButton.getAttribute("aria-expanded") === "true";
   topicMoreButton.setAttribute("aria-expanded", String(!expanded));
+  topicMoreButton.textContent = expanded ? "Ещё темы" : "Скрыть темы";
   document.querySelector("#popular-topics")?.classList.toggle("is-expanded", !expanded);
 });
 mobileFiltersToggle?.addEventListener("click", () => {
