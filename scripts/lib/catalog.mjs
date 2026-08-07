@@ -6,8 +6,24 @@ let boostySchedulerTail = Promise.resolve();
 
 export const CATEGORY_RULES = [
   {
-    category: "Создание кукол",
-    terms: ["кукл ручн", "создани кук", "вязан кук", "кукла крюч", "crochet doll", "амигуруми кук", "текстильн кук", "интерьерн кук", "тильд", "авторск кук", "арт-кукл", "art doll", "шарнирн кук", "bjd", "бжд", "реборн", "скульптинг кук", "лепк кук", "doll making"],
+    category: "Вязаные куклы и амигуруми",
+    terms: ["вязан кук", "кукла крюч", "кукла спиц", "амигуруми кук", "вязани кук", "crochet doll"],
+  },
+  {
+    category: "Текстильные и интерьерные куклы",
+    terms: ["текстильн кук", "интерьерн кук", "кукла из ткани", "тряпичн кук", "вальдорфск кук", "кукла из фетра", "тильд", "fabric doll", "cloth doll"],
+  },
+  {
+    category: "BJD и шарнирные куклы",
+    terms: ["шарнирн кук", "кукла на шарнир", "bjd", "бжд", "ball jointed doll", "скульптинг bjd", "печат bjd"],
+  },
+  {
+    category: "Авторские и арт-куклы",
+    terms: ["кукл ручн", "создани кук", "авторск кук", "арт-кукл", "art doll", "скульптинг кук", "лепк кук", "полимерн глин кук", "папье маше кук", "фарфоров кук", "кукольн скульптур", "doll making"],
+  },
+  {
+    category: "Реборн-куклы",
+    terms: ["реборн", "реборн кук", "кукл реборн", "reborn doll", "кукла младенец", "кукла-младенец"],
   },
   {
     category: "Кастом и OOAK",
@@ -18,43 +34,43 @@ export const CATEGORY_RULES = [
     terms: ["одежд для кук", "кукольн одежд", "выкройк кук", "выкройк одежд", "doll clothes", "doll pattern", "вязани для кук", "шить для кук", "наряд для кук", "гардероб кук", "паола рейна одежд", "paola reina clothes"],
   },
   {
-    category: "Аксессуары",
+    category: "Аксессуары для кукол",
     terms: ["аксессуар для кук", "кукольн обув", "обув для кук", "парик для кук", "кукольн парик", "глаз для кук", "кукольн сум", "doll shoes", "doll wig", "doll eyes", "головн убор для кук", "реквизит для кук"],
   },
   {
-    category: "Миниатюра и кукольные дома",
+    category: "Миниатюры и кукольные дома",
     terms: ["кукольн миниатюр", "кукольн дом", "кукольн мебель", "румбокс", "room box", "dollhouse", "doll house", "миниатюр 1:12", "миниатюр 1:6", "мебель 1:6", "мебель 1:12"],
   },
   {
-    category: "Коллекционирование и медиа",
+    category: "Коллекционирование и кукольные медиа",
     terms: ["коллекц кук", "коллекционер кук", "обзор кук", "распаковк кук", "новост кук", "кукольн блог", "doll review", "doll collection", "кукольн фотограф", "фотоистори кук", "кукольн стопмоушн"],
   },
   {
-    category: "История, ремонт и реставрация",
+    category: "Ремонт, реставрация и история",
     terms: ["истори кук", "антикварн кук", "винтажн кук", "реставрац кук", "ремонт кук", "восстановлен кук", "doll restoration", "музей кук"],
   },
 ];
 
 export const CATEGORIES = Object.freeze(CATEGORY_RULES.map((rule) => rule.category));
 const CATEGORY_SET = new Set(CATEGORIES);
-const DEFAULT_CATEGORY = "Создание кукол";
+const DEFAULT_CATEGORY = "Авторские и арт-куклы";
 
 export const FOCUS_TERMS = [
-  ["Вязаные куклы", ["вязан кук", "кукла крюч", "crochet doll", "амигуруми кук"], "Создание кукол"],
-  ["Текстильные куклы", ["текстильн кук", "интерьерн кук", "тильд", "fabric doll", "cloth doll"], "Создание кукол"],
-  ["BJD / шарнирные куклы", ["bjd", "бжд", "шарнирн кук", "ball jointed doll"], "Создание кукол"],
-  ["Авторские арт-куклы", ["авторск кук", "арт-кукл", "art doll", "скульптинг кук", "лепк кук"], "Создание кукол"],
-  ["Реборн", ["реборн", "reborn doll"], "Создание кукол"],
+  ["Вязаные куклы", ["вязан кук", "кукла крюч", "кукла спиц", "crochet doll", "амигуруми кук"], "Вязаные куклы и амигуруми"],
+  ["Текстильные куклы", ["текстильн кук", "интерьерн кук", "тильд", "fabric doll", "cloth doll"], "Текстильные и интерьерные куклы"],
+  ["BJD / шарнирные куклы", ["bjd", "бжд", "шарнирн кук", "ball jointed doll"], "BJD и шарнирные куклы"],
+  ["Авторские арт-куклы", ["авторск кук", "арт-кукл", "art doll", "скульптинг кук", "лепк кук"], "Авторские и арт-куклы"],
+  ["Реборн", ["реборн", "reborn doll"], "Реборн-куклы"],
   ["Кастом / OOAK", ["кастом кук", "ooak", "custom doll", "repaint doll", "reroot"], "Кастом и OOAK"],
-  ["Blythe", ["blythe", "блайз", "блайз"], "Кастом и OOAK"],
+  ["Blythe", ["blythe", "блайз"], "Кастом и OOAK"],
   ["Barbie / Fashion dolls", ["barbie", "барби", "fashion doll"], "Кастом и OOAK"],
   ["Monster High", ["monster high", "монстер хай"], "Кастом и OOAK"],
   ["Одежда и выкройки", ["одежд для кук", "кукольн одежд", "выкройк кук", "doll clothes", "doll pattern"], "Одежда и выкройки"],
-  ["Аксессуары", ["аксессуар для кук", "кукольн обув", "парик для кук", "глаз для кук"], "Аксессуары"],
-  ["Миниатюра 1:12", ["миниатюр 1:12", "мебель 1:12", "dollhouse"], "Миниатюра и кукольные дома"],
-  ["Миниатюра 1:6", ["миниатюр 1:6", "мебель 1:6", "room box", "румбокс"], "Миниатюра и кукольные дома"],
-  ["Коллекционирование / обзоры", ["коллекц кук", "обзор кук", "распаковк кук", "doll review"], "Коллекционирование и медиа"],
-  ["История / реставрация", ["истори кук", "антикварн кук", "реставрац кук", "ремонт кук"], "История, ремонт и реставрация"],
+  ["Аксессуары", ["аксессуар для кук", "кукольн обув", "парик для кук", "глаз для кук"], "Аксессуары для кукол"],
+  ["Миниатюра 1:12", ["миниатюр 1:12", "мебель 1:12", "dollhouse"], "Миниатюры и кукольные дома"],
+  ["Миниатюра 1:6", ["миниатюр 1:6", "мебель 1:6", "room box", "румбокс"], "Миниатюры и кукольные дома"],
+  ["Коллекционирование / обзоры", ["коллекц кук", "обзор кук", "распаковк кук", "doll review"], "Коллекционирование и кукольные медиа"],
+  ["История / реставрация", ["истори кук", "антикварн кук", "реставрац кук", "ремонт кук"], "Ремонт, реставрация и история"],
 ];
 const FOCUS_TOPIC_BY_LABEL = new Map(
   FOCUS_TERMS.map(([label, , topic]) => [label, topic]),
@@ -64,11 +80,15 @@ export const DISCOVERY_QUERIES = [
   "site:boosty.to вязаные куклы мастер-класс",
   "site:boosty.to текстильная авторская кукла",
   "site:boosty.to BJD шарнирные куклы",
-  "site:boosty.to кастом OOAK Blythe",
+  "site:boosty.to кастом куклы OOAK Blythe",
   "site:boosty.to одежда выкройки для кукол",
   "site:boosty.to кукольная миниатюра домик",
   "site:boosty.to коллекция обзор кукол",
   "site:boosty.to реставрация ремонт кукол",
+  "site:boosty.to реборн кукла мастер-класс",
+  "site:boosty.to арт-кукла полимерная глина",
+  "site:boosty.to кукольная обувь парики аксессуары",
+  "site:boosty.to кукольная фотография фотоистории",
 ];
 
 export const BOOSTY_POST_SEARCH_QUERIES = [
@@ -82,42 +102,68 @@ export const BOOSTY_POST_SEARCH_QUERIES = [
   "авторская кукла",
   "арт кукла",
   "шарнирная кукла",
-  "BJD doll",
+  "BJD кукла",
   "БЖД кукла",
+  "создание BJD куклы",
+  "3D модель BJD куклы",
   "кастом куклы",
-  "OOAK doll",
-  "Blythe custom",
+  "OOAK кукла",
+  "Blythe кастом куклы",
   "Блайз кастом",
-  "Monster High custom",
-  "Barbie custom",
+  "Monster High кастом куклы",
+  "Barbie кастом куклы",
   "одежда для кукол",
   "выкройка кукольной одежды",
   "одежда для BJD",
   "одежда для Blythe",
   "одежда для Barbie",
   "одежда для Paola Reina",
+  "одежда для Blythe куклы",
+  "одежда для Monster High куклы",
+  "одежда для Obitsu куклы",
+  "одежда для Smart Doll куклы",
+  "одежда для кукол Готц",
+  "вязание одежды для кукол",
+  "шитье одежды для кукол",
   "кукольная обувь",
   "парик для куклы",
   "глаза для куклы",
   "аксессуары для кукол",
+  "головные уборы для кукол",
+  "сумки для кукол",
+  "реквизит для кукол",
   "кукольная миниатюра",
   "кукольный домик",
   "румбокс",
   "мебель для кукол",
+  "диорама для кукол",
   "миниатюра 1:12",
   "миниатюра 1:6",
   "реборн кукла",
   "создание реборн",
+  "кукла младенец ручной работы",
   "реставрация кукол",
   "ремонт кукол",
+  "перепрошивка волос куклы",
+  "перерисовка лица куклы",
   "история кукол",
+  "антикварные куклы",
+  "винтажные куклы",
   "коллекция кукол",
   "обзор кукол",
   "распаковка кукол",
+  "новости кукол",
   "кукольная фотография",
+  "фотоистории кукол",
+  "стоп-моушн с куклами",
   "скульптинг куклы",
   "лепка куклы",
-  "3D модель куклы",
+  "кукла из полимерной глины",
+  "кукла папье маше",
+  "фарфоровая кукла ручной работы",
+  "вальдорфская кукла",
+  "кукла из фетра",
+  "тряпичная кукла",
   "мастер класс кукла",
   "выкройка куклы",
   "курс по куклам",
@@ -169,8 +215,9 @@ export function countMatches(text, terms) {
 }
 
 export function languageMetrics(text) {
-  const cyrillic = (text.match(/[А-Яа-яЁё]/g) || []).length;
-  const latin = (text.match(/[A-Za-z]/g) || []).length;
+  const value = String(text || "");
+  const cyrillic = (value.match(/[А-Яа-яЁё]/g) || []).length;
+  const latin = (value.match(/[A-Za-z]/g) || []).length;
   const total = cyrillic + latin;
   return {
     cyrillic,
@@ -179,10 +226,86 @@ export function languageMetrics(text) {
   };
 }
 
+function russianTextSample(value, { minCyrillic = 4, minShare = 0.55 } = {}) {
+  const metrics = languageMetrics(value);
+  return metrics.cyrillic >= minCyrillic && metrics.cyrillicShare >= minShare;
+}
+
+export function assessRussianLanguage({
+  description = "",
+  postTitles = [],
+  postTexts = [],
+  tierNames = [],
+  oneOffTitles = [],
+  ownerName = "",
+  channelTitle = "",
+} = {}) {
+  const normalizedPostTitles = unique(postTitles.map((value) => String(value || "").trim()).filter(Boolean));
+  const normalizedPostTexts = unique(postTexts.map((value) => String(value || "").trim()).filter(Boolean));
+  const postSamples = unique([...normalizedPostTitles, ...normalizedPostTexts]);
+  const normalizedCommercialTitles = unique([
+    ...tierNames,
+    ...oneOffTitles,
+  ].map((value) => String(value || "").trim()).filter(Boolean));
+  const descriptionMetrics = languageMetrics(description);
+  const postsMetrics = languageMetrics(postSamples.join(" "));
+  const commercialMetrics = languageMetrics(normalizedCommercialTitles.join(" "));
+  const aggregateMetrics = languageMetrics(unique([
+    String(description || "").trim(),
+    ...postSamples,
+    ...normalizedCommercialTitles,
+  ].filter(Boolean)).join(" "));
+  const identityMetrics = languageMetrics(`${ownerName || ""} ${channelTitle || ""}`);
+
+  const russianPostTitleCount = normalizedPostTitles.filter((title) => russianTextSample(title)).length;
+  const russianPostTextCount = normalizedPostTexts.filter((sample) => russianTextSample(sample, {
+    minCyrillic: 12,
+    minShare: 0.55,
+  })).length;
+  const russianPostSampleCount = russianPostTitleCount + russianPostTextCount;
+  const russianCommercialTitleCount = normalizedCommercialTitles.filter((title) => russianTextSample(title)).length;
+  const signals = {
+    description: descriptionMetrics.cyrillic >= 20 && descriptionMetrics.cyrillicShare >= 0.6,
+    posts: russianPostSampleCount >= 2 && postsMetrics.cyrillic >= 20 && postsMetrics.cyrillicShare >= 0.55,
+    commercial: russianCommercialTitleCount >= 2 && commercialMetrics.cyrillic >= 20 && commercialMetrics.cyrillicShare >= 0.55,
+  };
+  const strongSignalCount = Object.values(signals).filter(Boolean).length;
+  const sparseRussianDescription = signals.description &&
+    postSamples.length < 2 &&
+    normalizedCommercialTitles.length < 2 &&
+    descriptionMetrics.cyrillic >= 35 &&
+    descriptionMetrics.cyrillicShare >= 0.7;
+  const aggregateRussian = aggregateMetrics.cyrillic >= 40 &&
+    aggregateMetrics.cyrillicShare >= 0.58 &&
+    strongSignalCount >= 1;
+  const corroboratedRussian = strongSignalCount >= 2 &&
+    aggregateMetrics.cyrillic >= 30 &&
+    aggregateMetrics.cyrillicShare >= 0.52;
+
+  return {
+    isRussian: aggregateRussian || corroboratedRussian || sparseRussianDescription,
+    signals,
+    strongSignalCount,
+    russianPostTitleCount,
+    russianPostTextCount,
+    russianPostSampleCount,
+    russianCommercialTitleCount,
+    aggregate: aggregateMetrics,
+    description: descriptionMetrics,
+    posts: postsMetrics,
+    commercial: commercialMetrics,
+    identity: identityMetrics,
+  };
+}
+
 export function inferClassification(text) {
   const ranked = CATEGORY_RULES
-    .map((rule) => ({ category: rule.category, score: countMatches(text, rule.terms) }))
-    .sort((a, b) => b.score - a.score || a.category.localeCompare(b.category, "ru"));
+    .map((rule, index) => ({ category: rule.category, score: countMatches(text, rule.terms), index }))
+    .sort((a, b) =>
+      b.score - a.score ||
+      Number(a.category === DEFAULT_CATEGORY) - Number(b.category === DEFAULT_CATEGORY) ||
+      a.index - b.index
+    );
   const category = ranked[0]?.score ? ranked[0].category : DEFAULT_CATEGORY;
   const focus = FOCUS_TERMS
     .filter(([, terms]) => countMatches(text, terms) > 0)
@@ -272,11 +395,11 @@ const EXPLICIT_URL_PATTERN = /\b(?:https?:\/\/|mailto:|tel:|tg:\/\/|www\.)[^\s)\
 const SOCIAL_LINK_PATTERN = /\b(?:t(?:elegram)?\.me|vk\.com|vk\.me|wa\.me|api\.whatsapp\.com|discord\.gg|discord\.com\/invite|viber\.com)\/[^\s)\]}>,]+/giu;
 const BARE_URL_PATTERN = /(?<![\p{L}\p{N}_@])(?:[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?\.)+(?:ru|com|org|net|io|dev|ai|pro|me|gg|рф)(?:\/[^\s)\]}>,]*)?/giu;
 const CRYPTO_ADDRESS_PATTERN = /(?<![\p{L}\p{N}])(?:0x[a-f0-9]{40}|bc1[a-z0-9]{25,90}|[13][a-km-zA-HJ-NP-Z1-9]{25,34})(?![\p{L}\p{N}])/giu;
-const HANDLE_PATTERN = /@[\p{L}\p{N}_]{3,}/giu;
+const HANDLE_PATTERN = /@[\p{L}\p{N}_](?:[\p{L}\p{N}_.-]{1,118}[\p{L}\p{N}_])?/giu;
 const PHONE_CANDIDATE_PATTERN = /(?:\+\s*)?\d[\d\s().-]{5,}\d/gu;
-const CONTACT_CONTEXT_PATTERN = /(?:telegram|телеграм|(?:^|[^\p{L}\p{N}_])тг(?:$|[^\p{L}\p{N}_])|ютуб|youtube|вконтакте|\bvk\b|discord|whatsapp|ватсап|viber|вайбер|соцсет|аккаунт|профил|канал|сообществ)/iu;
-const CONTACT_INTENT_PATTERN = /(?<![\p{L}\p{N}_])(?:напишите|пишите|пиши|свяжитесь|обращайтесь|задать\s+вопрос|по\s+вопросам|прежде\s+чем\s+написать|перед\s+тем,?\s+как\s+писать|before\s+writing|contact\s+me)(?![\p{L}\p{N}_])/iu;
-const DIRECT_CONTACT_INVITATION_PATTERN = /(?<![\p{L}\p{N}_])(?:напишите|пишите|пиши|свяжитесь|обращайтесь|contact\s+me)(?![\p{L}\p{N}_])/iu;
+const CONTACT_CONTEXT_PATTERN = /(?:telegram|телеграм|(?:^|[^\p{L}\p{N}_])тг(?:$|[^\p{L}\p{N}_])|instagram|инстаграм|ютуб|youtube|вконтакте|\bvk\b|discord|whatsapp|ватсап|viber|вайбер|соцсет|аккаунт|профил|канал|сообществ)/iu;
+const CONTACT_INTENT_PATTERN = /(?<![\p{L}\p{N}_])(?:напишите|пишите|пиши|свяжитесь|связаться|обращайтесь|задать\s+вопрос|по\s+вопросам|прежде\s+чем\s+написать|перед\s+тем,?\s+как\s+писать|before\s+writing|contact\s+me)(?![\p{L}\p{N}_])/iu;
+const DIRECT_CONTACT_INVITATION_PATTERN = /(?<![\p{L}\p{N}_])(?:напишите|пишите|пиши|свяжитесь|связаться|обращайтесь|личн(?:ые|ое)\s+сообщени(?:я|е|ях)?|contact\s+me|private\s+messages?)(?![\p{L}\p{N}_])/iu;
 const CONTACT_DESTINATION_PATTERN = /(?:личн(?:ые|ое|ых)\s+сообщени|личк|личку|(?:^|[^\p{L}\p{N}_])(?:лс|тг)(?:$|[^\p{L}\p{N}_])|telegram|телеграм|discord|whatsapp|ватсап|viber|вайбер|вконтакте|\bvk\b|почт|e-?mail|телефон|phone|тут|здесь|private\s+messages?)/iu;
 const SOCIAL_PRESENCE_PATTERN = /(?:^|[^\p{L}\p{N}_])(?:я|мы)\s+(?:есть\s+)?в(?:$|[^\p{L}\p{N}_])/iu;
 const PHONE_CONTEXT_PATTERN = /(?:тел(?:ефон)?\.?|phone|whatsapp|ватсап|viber|вайбер|звон|связ)/iu;
@@ -295,21 +418,6 @@ function regexTest(pattern, value) {
 
 function isTechnicalDomainToken(value) {
   return TECHNICAL_DOMAIN_TOKENS.has(String(value || "").toLocaleLowerCase("en").replace(/\/$/u, ""));
-}
-
-function hasSocialHandleContext(value, offset, handle) {
-  const beforeWindow = value.slice(Math.max(0, offset - 72), offset);
-  const afterWindow = value.slice(offset + handle.length, offset + handle.length + 32);
-  const before = beforeWindow.slice(Math.max(
-    beforeWindow.lastIndexOf("."),
-    beforeWindow.lastIndexOf("!"),
-    beforeWindow.lastIndexOf("?"),
-    beforeWindow.lastIndexOf("\n"),
-  ) + 1);
-  const after = afterWindow.split(/[.!?\n]/u, 1)[0];
-  return CONTACT_CONTEXT_PATTERN.test(`${before} ${after}`) ||
-    /[\[(]\s*$/u.test(before) ||
-    /^\s*[\])]/u.test(after);
 }
 
 function phoneCandidateKind(value, offset, candidate) {
@@ -356,7 +464,7 @@ export function findPublicContactKinds(value) {
   }
 
   for (const match of text.matchAll(HANDLE_PATTERN)) {
-    if (hasSocialHandleContext(text, match.index, match[0])) kinds.add("social-handle");
+    if (match[0]) kinds.add("social-handle");
   }
   for (const match of text.matchAll(PHONE_CANDIDATE_PATTERN)) {
     const kind = phoneCandidateKind(text, match.index, match[0]);
@@ -383,9 +491,7 @@ export function sanitizePublicSummary(value) {
     .replace(SOCIAL_LINK_PATTERN, " ")
     .replace(BARE_URL_PATTERN, (url) => isTechnicalDomainToken(url) ? url : " ")
     .replace(CRYPTO_ADDRESS_PATTERN, " ")
-    .replace(HANDLE_PATTERN, (handle, offset, source) =>
-      hasSocialHandleContext(source, offset, handle) ? " " : handle
-    )
+    .replace(HANDLE_PATTERN, " ")
     .replace(PHONE_CANDIDATE_PATTERN, (candidate, offset, source) =>
       phoneCandidateKind(source, offset, candidate) ? " " : candidate
     )
@@ -597,13 +703,18 @@ export function assessBoostyBlog(blog) {
     blog?.title,
     descriptionText,
   ].filter(Boolean).join(" ").replace(/\s+/g, " ").toLowerCase();
-  const language = languageMetrics(combinedText);
+  const languageEvidence = assessRussianLanguage({
+    description: descriptionText,
+    ownerName: blog?.owner?.name,
+    channelTitle: blog?.title,
+  });
   return {
     descriptionText,
     combinedText,
     relevanceScore: countMatches(combinedText, ALL_RELEVANCE_TERMS),
-    language,
-    isRussian: language.cyrillic >= 12 && language.cyrillicShare >= 0.12,
+    language: languageEvidence.aggregate,
+    languageEvidence,
+    isRussian: languageEvidence.isRussian,
     hasPosts: Number(blog?.count?.posts ?? 0) > 0,
     notBanned: !/banned|заблокирован/i.test(`${blog?.owner?.name || ""} ${blog?.title || ""}`),
     hasAdultContent: Boolean(blog?.hasAdultContent || blog?.flags?.hasAdultContent),
@@ -647,16 +758,29 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
   const lastPost = posts[0] || null;
   const profileAssessment = assessBoostyBlog(blog);
   const descriptionText = profileAssessment.descriptionText;
-  const recentPostTitles = posts.slice(0, 12).map((post) => post.title || "").filter(Boolean);
+  const recentPosts = posts.slice(0, 12);
+  const recentPostTitles = recentPosts.map((post) => post.title || "").filter(Boolean);
+  const recentPostTexts = recentPosts
+    .map((post) => parseRichText([...(post.teaser || []), ...(post.data || [])]).slice(0, 2_000))
+    .filter(Boolean);
   const combinedText = [
     blog.owner?.name,
     blog.title,
     descriptionText,
     ...recentPostTitles,
+    ...recentPostTexts,
   ].filter(Boolean).join(" ").replace(/\s+/g, " ").toLowerCase();
 
   const relevanceScore = countMatches(combinedText, ALL_RELEVANCE_TERMS);
-  const language = languageMetrics(combinedText);
+  const languageEvidence = assessRussianLanguage({
+    description: descriptionText,
+    postTitles: recentPostTitles,
+    postTexts: recentPostTexts,
+    tierNames: tiers.map((tier) => tier.name),
+    oneOffTitles: oneOffItems.map((item) => item.title),
+    ownerName: blog.owner?.name,
+    channelTitle: blog.title,
+  });
   const classification = inferClassification(combinedText);
   const subscribers = Number(blog.count?.subscribers ?? 0);
   const historicalSubscribers = Number.isFinite(previous?.subscribers) ? previous.subscribers : null;
@@ -666,9 +790,10 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
   const oneOffPrices = oneOffItems.map((item) => item.priceRub).filter(Number.isFinite);
   const relevantPostCount = posts.filter((post) => countMatches([
     post.title,
+    parseRichText([...(post.teaser || []), ...(post.data || [])]),
     ...(post.tags || []).map((tag) => tag?.title),
   ].filter(Boolean).join(" "), ALL_RELEVANCE_TERMS) > 0).length;
-  const isRussian = language.cyrillic >= 12 && language.cyrillicShare >= 0.12;
+  const isRussian = languageEvidence.isRussian;
   const hasPosts = Number(blog.count?.posts ?? 0) > 0;
   const notBanned = !/banned|заблокирован/i.test(`${blog.owner?.name || ""} ${blog.title || ""}`);
   const hasAdultContent = profileAssessment.hasAdultContent;
@@ -714,6 +839,7 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     profileRelevanceScore: profileAssessment.relevanceScore,
     relevantPostCount,
     isRussian,
+    languageEvidence,
     hasPosts,
     hasPaidLevels: tiers.length > 0,
     hasOneOff: oneOffItems.length > 0,
@@ -769,6 +895,7 @@ export function toPublicChannel(row) {
   ];
   return {
     slug: String(row.slug).toLowerCase(),
+    language: "ru",
     name: String(row.name || row.slug).slice(0, 180),
     title: sanitizePublicSummary(row.title).slice(0, 220),
     boostyUrl: `https://boosty.to/${String(row.slug).toLowerCase()}`,

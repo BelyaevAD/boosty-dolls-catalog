@@ -65,7 +65,10 @@ function formatDate(value, options = {}) {
 function subscriptionPrice(channel) {
   const promo = Number(channel.minSubscriptionPromoPriceRub);
   const list = Number(channel.minSubscriptionPriceRub);
-  return Number.isFinite(promo) && promo > 0 ? Math.min(promo, list || promo) : list;
+  if (Number.isFinite(promo) && promo > 0) {
+    return Number.isFinite(list) && list > 0 ? Math.min(promo, list) : promo;
+  }
+  return Number.isFinite(list) && list > 0 ? list : Number.NaN;
 }
 
 function formatSubscriptionPrice(channel) {
@@ -562,7 +565,7 @@ const oneOffCount = channels.filter((channel) => paymentTypes(channel).includes(
 const bothCount = channels.filter((channel) => paymentTypes(channel).length === 2).length;
 const medianSubscriptionPrice = median(channels.map(subscriptionPrice));
 const medianOneOffPrice = median(channels.map(oneOffPrice));
-const description = `${channels.length} проверенных русскоязычных и двуязычных кукольных авторов на Boosty: подписки, мастер-классы, выкройки, курсы и коллекционные медиа.`;
+const description = `${channels.length} проверенных русскоязычных кукольных авторов на Boosty: подписки, мастер-классы, выкройки, курсы и коллекционные медиа.`;
 const jsonLd = safeJson(itemListJsonLd(sortedChannels, checkedAt));
 const cspHash = sha256(jsonLd);
 const [appSource, coreSource, stylesSource, iconsSource] = await Promise.all([
@@ -584,12 +587,16 @@ const categoryOptions = [...categories]
   .map(([category, count]) => `<option value="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}">${escapeHtml(category)} · ${count}</option>`)
   .join("\n              ");
 const mobileCategoryLabels = new Map([
-  ["Миниатюра и кукольные дома", "Миниатюра / дома"],
-  ["История, ремонт и реставрация", "История / ремонт"],
-  ["Коллекционирование и медиа", "Коллекции / медиа"],
+  ["Вязаные куклы и амигуруми", "Вязаные / амигуруми"],
+  ["Текстильные и интерьерные куклы", "Текстильные / интерьерные"],
+  ["BJD и шарнирные куклы", "BJD / шарнирные"],
+  ["Авторские и арт-куклы", "Авторские / арт"],
+  ["Аксессуары для кукол", "Аксессуары"],
+  ["Миниатюры и кукольные дома", "Миниатюры / дома"],
+  ["Ремонт, реставрация и история", "Ремонт / история"],
+  ["Коллекционирование и кукольные медиа", "Коллекции / медиа"],
 ]);
 const categoryChips = categories
-  .slice(0, 8)
   .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}" data-mobile-label="${escapeHtml(mobileCategoryLabels.get(category) || category)}" aria-label="${escapeHtml(`${category}: ${count} авторов`)}" aria-pressed="false"><span class="topic-label">${escapeHtml(category)}</span> <span data-topic-count aria-hidden="true">· ${count}</span></button>`)
   .join("\n          ");
 
@@ -700,4 +707,3 @@ await Promise.all([
 ]);
 
 console.log(`Built ${channels.length} author pages in ${output}`);
-

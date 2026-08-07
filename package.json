@@ -9,6 +9,7 @@
   },
   "scripts": {
     "update:data": "node scripts/update-data.mjs",
+    "update:data:full": "node scripts/full-refresh.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "validate:build": "node scripts/validate-build.mjs",
     "build": "node scripts/build-site.mjs",

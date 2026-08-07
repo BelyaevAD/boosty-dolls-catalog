@@ -37,8 +37,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           DISCOVERY_MAX_CHECKS: "250"
+          MAX_NEW_CHANNELS: "200"
           BOOSTY_SEARCH_MAX_PAGES: "2"
-          BOOSTY_SEARCH_MAX_QUERIES: "49"
+          BOOSTY_SEARCH_MAX_QUERIES: "75"
           BOOSTY_SEARCH_PAGE_SIZE: "40"
           COMMON_CRAWL_MAX_PAGES: "5"
         run: npm run update:data

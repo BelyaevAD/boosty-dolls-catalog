@@ -29,6 +29,7 @@ for (const channel of channels) {
   slugs.add(channel.slug);
 
   assert.equal(channel.boostyUrl, `https://boosty.to/${channel.slug}`, `Unexpected Boosty URL for ${channel.slug}`);
+  assert.equal(channel.language, "ru", `Only Russian-language channels may be published: ${channel.slug}`);
   assert.ok(!urls.has(channel.boostyUrl), `Duplicate URL: ${channel.boostyUrl}`);
   urls.add(channel.boostyUrl);
 
@@ -108,6 +109,11 @@ for (const entry of manualExclusions.exclusions) {
 }
 
 assert.equal(latestUpdate.schemaVersion, 2, "Unsupported update report schema.");
+assert.ok(Number.isInteger(latestUpdate.maxNewChannels), "Missing new-channel publication limit.");
+assert.ok(latestUpdate.maxNewChannels >= 0 && latestUpdate.maxNewChannels <= 200, "New-channel publication limit must stay between 0 and 200.");
+assert.equal(latestUpdate.hardNewChannelLimit, 200, "Hard publication limit must remain 200.");
+assert.ok(latestUpdate.added.length <= latestUpdate.maxNewChannels, "The update published more channels than allowed.");
+assert.equal(latestUpdate.qualifiedDeferredCount, latestUpdate.qualifiedDeferred.length, "Deferred qualified count mismatch.");
 assert.deepEqual(latestUpdate.errors, [], "The latest update has request errors.");
 assert.equal(latestUpdate.totalOutstandingFetchErrors, 0, "Outstanding fetch errors must be zero.");
 

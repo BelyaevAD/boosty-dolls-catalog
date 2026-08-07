@@ -19,14 +19,15 @@ import {
   findPublicContactKinds,
   inferClassification,
   languageMetrics,
+  assessRussianLanguage,
   sanitizePublicSummary,
 } from "../scripts/lib/catalog.mjs";
 
 function channel(overrides = {}) {
   return {
     name: "Мастерская кукол",
-    category: "Создание кукол",
-    topics: ["Создание кукол"],
+    category: "Авторские и арт-куклы",
+    topics: ["Авторские и арт-куклы"],
     paymentTypes: ["subscription"],
     activity: "fresh",
     subscriptionPrice: 200,
@@ -79,7 +80,7 @@ test("matchesFilters applies independent price limits", () => {
 
 test("matchesFilters supports text, topics, activity and growth", () => {
   const sample = channel({
-    topics: ["Создание кукол", "Одежда и выкройки"],
+    topics: ["BJD и шарнирные куклы", "Одежда и выкройки"],
     growth: 4,
   });
   assert.equal(matchesFilters(sample, { query: "BJD" }), true);
@@ -90,12 +91,12 @@ test("matchesFilters supports text, topics, activity and growth", () => {
 
 test("topic facets keep multi-label counts", () => {
   const items = [
-    channel({ topics: ["Создание кукол", "Одежда и выкройки"] }),
+    channel({ topics: ["BJD и шарнирные куклы", "Одежда и выкройки"] }),
     channel({ category: "Кастом и OOAK", topics: ["Кастом и OOAK"], paymentTypes: ["one-off"], subscriptionPrice: null, oneOffPrice: 300 }),
   ];
   const facet = topicFacetCounts(items, {}, CATEGORIES);
   assert.equal(facet.total, 2);
-  assert.equal(facet.counts.get("Создание кукол"), 1);
+  assert.equal(facet.counts.get("BJD и шарнирные куклы"), 1);
   assert.equal(facet.counts.get("Одежда и выкройки"), 1);
   assert.equal(facet.counts.get("Кастом и OOAK"), 1);
 });
@@ -119,16 +120,63 @@ test("resultLabel uses author forms", () => {
 });
 
 test("classification recognizes core doll categories", () => {
-  assert.equal(inferClassification("вязаная кукла крючком мастер класс").category, "Создание кукол");
+  assert.equal(inferClassification("вязаная кукла крючком мастер класс").category, "Вязаные куклы и амигуруми");
+  assert.equal(inferClassification("текстильная интерьерная кукла из ткани").category, "Текстильные и интерьерные куклы");
+  assert.equal(inferClassification("создание BJD шарнирной куклы").category, "BJD и шарнирные куклы");
+  assert.equal(inferClassification("авторская арт-кукла из полимерной глины").category, "Авторские и арт-куклы");
+  assert.equal(inferClassification("создание куклы реборн младенца").category, "Реборн-куклы");
+  assert.equal(inferClassification("создание куклы и курс реборн").category, "Реборн-куклы");
   assert.equal(inferClassification("кастом OOAK Blythe repaint").category, "Кастом и OOAK");
   assert.equal(inferClassification("выкройка одежды для куклы Barbie").category, "Одежда и выкройки");
-  assert.equal(inferClassification("кукольный домик миниатюра 1:12").category, "Миниатюра и кукольные дома");
+  assert.equal(inferClassification("кукольный домик миниатюра 1:12").category, "Миниатюры и кукольные дома");
 });
 
 test("language metrics recognize Russian and bilingual text", () => {
   const metrics = languageMetrics("Авторские куклы and doll making");
   assert.ok(metrics.cyrillic > 10);
   assert.ok(metrics.cyrillicShare > 0.4);
+});
+
+test("language qualification uses content rather than author or channel names", () => {
+  const russianPosts = assessRussianLanguage({
+    ownerName: "Doll Maker",
+    channelTitle: "Studio BJD",
+    description: "Авторская мастерская шарнирных кукол и аксессуаров. Показываю процесс создания и делюсь полезными материалами.",
+    postTitles: ["Как сделать шарниры для куклы", "Новая выкройка платья для BJD"],
+    tierNames: ["Поддержка мастерской", "Закрытые мастер-классы"],
+  });
+  assert.equal(russianPosts.isRussian, true);
+
+  const russianNameOnly = assessRussianLanguage({
+    ownerName: "Русская кукольница",
+    channelTitle: "Мастерская кукол",
+    description: "Doll artist and printable patterns for collectors.",
+    postTitles: ["New doll release", "BJD faceup tutorial"],
+    tierNames: ["Support", "Premium tutorials"],
+  });
+  assert.equal(russianNameOnly.isRussian, false);
+
+  const russianPostsWithoutDescription = assessRussianLanguage({
+    description: "",
+    postTitles: [
+      "Новая выкройка одежды для куклы",
+      "Разбираем посадку рукава и строим основу",
+      "Материалы для следующего мастер-класса",
+    ],
+    tierNames: ["Поддержать автора", "Все мастер-классы"],
+  });
+  assert.equal(russianPostsWithoutDescription.isRussian, true);
+
+  const russianTeasersWithLatinTitles = assessRussianLanguage({
+    description: "Doll studio",
+    postTitles: ["BJD WIP", "Faceup process"],
+    postTexts: [
+      "Показываю новый этап работы над шарнирной куклой и рассказываю о материалах.",
+      "В этом выпуске подробно разбираю роспись лица и закрепление результата.",
+    ],
+    tierNames: ["Support"],
+  });
+  assert.equal(russianTeasersWithLatinTitles.isRussian, true);
 });
 
 test("contact sanitizer removes public contact data", () => {
@@ -140,6 +188,14 @@ test("contact sanitizer removes public contact data", () => {
     "Здесь можно скачать выкройки. Всегда готова помочь, ответить на вопросы, пишите, обращайтесь.",
   );
   assert.deepEqual(findPublicContactKinds(invitation), []);
+  for (const contact of [
+    "Instagram @shashkina.dolls",
+    "Связаться тг. @Help_Hope или в личные сообщения",
+    "Напишите мне или в личные сообщения.",
+  ]) {
+    assert.notDeepEqual(findPublicContactKinds(contact), []);
+    assert.deepEqual(findPublicContactKinds(sanitizePublicSummary(contact)), []);
+  }
 });
 
 test("currentPromoPrice returns only active promotions", () => {

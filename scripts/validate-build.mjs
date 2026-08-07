@@ -31,6 +31,7 @@ assert.equal((index.match(/<col class="col-/g) || []).length, 6, "The comparison
 assert.ok(index.includes('data-payment-filter="subscription"'), "Subscription lane is missing.");
 assert.ok(index.includes('data-payment-filter="one-off"'), "One-off lane is missing.");
 assert.ok(index.includes('data-payment-filter="both"'), "Combined payment filter is missing.");
+assert.ok(!index.includes("медиана 0 ₽"), "Median price must ignore channels without that payment type.");
 assert.ok(index.includes('id="max-subscription-price"'), "Independent subscription price filter is missing.");
 assert.ok(index.includes('id="max-one-off-price"'), "Independent one-off price filter is missing.");
 assert.ok(index.includes('data-sort-key="subscriptionPrice"'), "Subscription sorting is missing.");
@@ -77,4 +78,3 @@ for (const icon of index.matchAll(/<svg\b[^>]*class="[^"]*\bicon\b[^"]*"[^>]*>/g
 }
 
 console.log(`Validated static site with ${catalog.channels.length} author pages.`);
-

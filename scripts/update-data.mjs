@@ -23,6 +23,7 @@ const reportPath = path.join(root, "data", "latest-update.json");
 const checkedAt = process.env.CATALOG_DATE || localIsoDate();
 const githubToken = process.env.GITHUB_TOKEN || "";
 const repositoryUrl = "https://github.com/BelyaevAD/boosty-dolls-catalog";
+const MAX_NEW_CHANNELS_HARD_LIMIT = 200;
 
 function integerEnvironment(name, fallback, { min = 0, max = Number.MAX_SAFE_INTEGER } = {}) {
   const raw = process.env[name];
@@ -32,9 +33,36 @@ function integerEnvironment(name, fallback, { min = 0, max = Number.MAX_SAFE_INT
   return Math.min(max, Math.max(min, parsed));
 }
 
+function languageEvidenceSummary(evidence) {
+  if (!evidence) return null;
+  const aggregate = evidence.aggregate || {};
+  return {
+    isRussian: Boolean(evidence.isRussian),
+    signals: {
+      description: Boolean(evidence.signals?.description),
+      posts: Boolean(evidence.signals?.posts),
+      commercial: Boolean(evidence.signals?.commercial),
+    },
+    strongSignalCount: Math.max(0, Number(evidence.strongSignalCount) || 0),
+    russianPostTitleCount: Math.max(0, Number(evidence.russianPostTitleCount) || 0),
+    russianPostTextCount: Math.max(0, Number(evidence.russianPostTextCount) || 0),
+    russianPostSampleCount: Math.max(0, Number(evidence.russianPostSampleCount) || 0),
+    russianCommercialTitleCount: Math.max(0, Number(evidence.russianCommercialTitleCount) || 0),
+    aggregate: {
+      cyrillic: Math.max(0, Number(aggregate.cyrillic) || 0),
+      latin: Math.max(0, Number(aggregate.latin) || 0),
+      cyrillicShare: Number((Number(aggregate.cyrillicShare) || 0).toFixed(6)),
+    },
+  };
+}
+
 const maxCandidateChecks = String(process.env.DISCOVERY_MAX_CHECKS || "").toLowerCase() === "all"
   ? Number.POSITIVE_INFINITY
   : integerEnvironment("DISCOVERY_MAX_CHECKS", 250, { min: 1 });
+const maxNewChannels = integerEnvironment("MAX_NEW_CHANNELS", MAX_NEW_CHANNELS_HARD_LIMIT, {
+  min: 0,
+  max: MAX_NEW_CHANNELS_HARD_LIMIT,
+});
 const commonCrawlMaxPages = integerEnvironment("COMMON_CRAWL_MAX_PAGES", 5, { min: 0 });
 const boostySearchMaxPages = integerEnvironment("BOOSTY_SEARCH_MAX_PAGES", 2, { min: 1 });
 const boostySearchMaxQueries = integerEnvironment("BOOSTY_SEARCH_MAX_QUERIES", BOOSTY_POST_SEARCH_QUERIES.length, { min: 1 });
@@ -571,7 +599,9 @@ for (const result of preflightResults) {
   const trustedDiscovery = result.info?.hints?.officialDolls ||
     result.info?.hints?.targetedPost ||
     (rawSlugsBeforeDiscovery.has(result.slug) && existing.reviewStatus !== "pending");
-  const hasLanguageEvidence = assessment.isRussian || result.info?.hints?.russian;
+  // Discovery text can justify the more expensive full check, but only the
+  // aggregate public Boosty content assessment may qualify a channel.
+  const hasLanguageEvidence = assessment.isRussian || result.info?.hints?.russian || trustedDiscovery;
   const hasTopicEvidence = assessment.relevanceScore >= 1 || trustedDiscovery;
   if (
     assessment.hasPosts &&
@@ -600,6 +630,7 @@ for (const result of preflightResults) {
     reviewStatus: "unqualified",
     reviewReason: reason,
     profileRelevanceScore: assessment.relevanceScore,
+    languageEvidence: languageEvidenceSummary(assessment.languageEvidence),
     fetchError: null,
     lastCheckedAt: checkedAt,
   });
@@ -680,13 +711,26 @@ for (const result of refreshResults) {
     !refreshed.hasAdultContent &&
     refreshed.notBanned
   ) {
+    const existingRaw = rawBySlug.get(previous.slug);
+    rawBySlug.set(previous.slug, {
+      ...existingRaw,
+      languageEvidence: languageEvidenceSummary(refreshed.languageEvidence),
+      reviewReason: null,
+    });
     published.push(toPublicChannel(refreshed));
   } else {
+    const existingRaw = rawBySlug.get(previous.slug);
+    rawBySlug.set(previous.slug, {
+      ...existingRaw,
+      languageEvidence: languageEvidenceSummary(refreshed.languageEvidence),
+      reviewReason: !refreshed.isRussian ? "language" : existingRaw?.reviewReason,
+    });
     removed.push(previous.slug);
   }
 }
 
 const added = [];
+const qualifiedDeferred = [];
 for (const result of candidateResults) {
   const slug = result.slug;
   const existing = rawBySlug.get(slug);
@@ -716,6 +760,7 @@ for (const result of candidateResults) {
 
   const channel = result.refreshed;
   const qualifiesForAutomaticPublication = channel.qualifies && channel.relevanceScore >= 2;
+  const publishWithinLimit = qualifiesForAutomaticPublication && added.length < maxNewChannels;
   rawBySlug.set(slug, {
     ...existing,
     slug,
@@ -723,17 +768,20 @@ for (const result of candidateResults) {
     boostyUrl: channel.boostyUrl,
     discoverySource: existing?.discoverySource || discoverySource(queries),
     discoveryQueries: queries,
-    reviewStatus: qualifiesForAutomaticPublication ? "published" : "unqualified",
-    reviewReason: qualifiesForAutomaticPublication ? null : "full-check",
+    reviewStatus: publishWithinLimit ? "published" : qualifiesForAutomaticPublication ? "pending" : "unqualified",
+    reviewReason: publishWithinLimit ? null : qualifiesForAutomaticPublication ? "publication-limit" : "full-check",
     profileRelevanceScore: result.profileRelevanceScore,
     relevanceScore: channel.relevanceScore,
+    languageEvidence: languageEvidenceSummary(channel.languageEvidence),
     fetchError: null,
     firstSeenAt: existing?.firstSeenAt || checkedAt,
     lastCheckedAt: checkedAt,
   });
-  if (qualifiesForAutomaticPublication) {
+  if (publishWithinLimit) {
     published.push(toPublicChannel(channel));
     added.push(slug);
+  } else if (qualifiesForAutomaticPublication) {
+    qualifiedDeferred.push(slug);
   }
 }
 
@@ -820,11 +868,15 @@ const report = {
   candidateCount: candidates.length,
   discoveredCount: newlyDiscovered.length,
   checkedCandidateCount: candidateQueue.length,
+  maxNewChannels,
+  hardNewChannelLimit: MAX_NEW_CHANNELS_HARD_LIMIT,
   prefilteredCount,
   pendingCount: candidates.filter((candidate) => candidate.reviewStatus === "pending").length,
   totalOutstandingFetchErrors: candidates.filter((candidate) => candidate.reviewStatus === "fetch-error").length,
   manualExclusionCount: exclusionBySlug.size,
   terminalNotFoundCount,
+  qualifiedDeferredCount: qualifiedDeferred.length,
+  qualifiedDeferred,
   added,
   removed,
   errors,

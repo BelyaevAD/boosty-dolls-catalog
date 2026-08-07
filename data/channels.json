@@ -3,19 +3,20 @@
     "schemaVersion": 2,
     "checkedAt": "2026-08-07",
     "generatedAt": "2026-08-07",
-    "channelCount": 97,
+    "channelCount": 138,
     "generatedBy": "Еженедельное автоматическое обновление"
   },
   "channels": [
     {
       "slug": "dools_toys_for_you",
+      "language": "ru",
       "name": "_dolls_toys_for_you",
       "title": "Сreative workshop of Irina Nikolaeva",
       "boostyUrl": "https://boosty.to/dools_toys_for_you",
-      "category": "Создание кукол",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Создание кукол",
-        "Коллекционирование и медиа"
+        "Текстильные и интерьерные куклы",
+        "Коллекционирование и кукольные медиа"
       ],
       "focus": "Текстильные куклы; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Коллекционирование / обзоры.",
@@ -53,21 +54,22 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "kuklymladentsy",
-      "name": "Анастасия Смирнова",
-      "title": "Создание кукол реборн",
-      "boostyUrl": "https://boosty.to/kuklymladentsy",
-      "category": "Создание кукол",
+      "slug": "_kukla_olya_handmade_",
+      "language": "ru",
+      "name": "_kukla_olya_handmade_",
+      "title": "",
+      "boostyUrl": "https://boosty.to/_kukla_olya_handmade_",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол"
+        "Вязаные куклы и амигуруми"
       ],
-      "focus": "Реборн",
-      "reason": "Профильный русскоязычный кукольный автор: Реборн.",
-      "summary": "Создание кукол реборн. Основные темы: Реборн.",
-      "subscribers": 0,
-      "postsCount": 1,
-      "lastPostAt": "2022-07-18T09:31:10.000Z",
-      "lastPostTitle": "кукла реборн бетти",
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Автор публикует материалы по темам: Вязаные куклы.",
+      "subscribers": 13,
+      "postsCount": 10,
+      "lastPostAt": "2024-01-12T18:06:44.000Z",
+      "lastPostTitle": "",
       "paymentTypes": [
         "one-off"
       ],
@@ -76,32 +78,250 @@
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 0,
       "tiers": [],
-      "minOneOffPriceRub": 10,
-      "maxOneOffPriceRub": 10,
-      "oneOffCountRecent": 1,
+      "minOneOffPriceRub": 200,
+      "maxOneOffPriceRub": 650,
+      "oneOffCountRecent": 10,
       "oneOffItems": [
         {
-          "title": "кукла реборн бетти",
-          "priceRub": 10,
-          "publishedAt": "2022-07-18T09:31:10.000Z"
+          "title": "Платный материал",
+          "priceRub": 650,
+          "publishedAt": "2024-01-12T18:06:44.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла «Ариша»",
+          "priceRub": 550,
+          "publishedAt": "2023-04-29T09:56:25.000Z"
+        },
+        {
+          "title": "Мастер-класс брошь «Мишка»",
+          "priceRub": 300,
+          "publishedAt": "2023-03-23T18:09:08.000Z"
+        },
+        {
+          "title": "Crochet doll, pattern PDF file.",
+          "priceRub": 500,
+          "publishedAt": "2023-01-25T10:20:53.000Z"
+        },
+        {
+          "title": "Мастер-класс «Поворотное тело»",
+          "priceRub": 270,
+          "publishedAt": "2022-09-26T07:19:15.000Z"
+        },
+        {
+          "title": "Мастер-класс «Ножки шарнирные»",
+          "priceRub": 200,
+          "publishedAt": "2022-09-13T14:58:15.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 0,
-      "growthSinceSnapshot": 0,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "gooddolls",
+      "language": "ru",
+      "name": "Александра Скачкова",
+      "title": "создаю кукол и МК по их изготовлению",
+      "boostyUrl": "https://boosty.to/gooddolls",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки",
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Текстильные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
+      "summary": "создаю кукол и МК по их изготовлению. Основные темы: Текстильные куклы; Одежда и выкройки.",
+      "subscribers": 3,
+      "postsCount": 25,
+      "lastPostAt": "2026-07-26T14:21:04.000Z",
+      "lastPostTitle": "Little Friend Doll - кукла маленький друг",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 275,
+      "maxOneOffPriceRub": 2400,
+      "oneOffCountRecent": 19,
+      "oneOffItems": [
+        {
+          "title": "Little Friend Doll - кукла маленький друг",
+          "priceRub": 1000,
+          "publishedAt": "2026-07-26T14:21:04.000Z"
+        },
+        {
+          "title": "Little Me Маленькая Я - твой внутренний ребенок",
+          "priceRub": 1400,
+          "publishedAt": "2026-06-14T06:24:44.000Z"
+        },
+        {
+          "title": "кукла Радость",
+          "priceRub": 500,
+          "publishedAt": "2024-11-23T14:44:45.000Z"
+        },
+        {
+          "title": "МК кукла Дура",
+          "priceRub": 750,
+          "publishedAt": "2024-11-23T14:31:56.000Z"
+        },
+        {
+          "title": "МК сумочка на фермуаре",
+          "priceRub": 600,
+          "publishedAt": "2024-11-23T14:12:26.000Z"
+        },
+        {
+          "title": "МК кукла перевертыш",
+          "priceRub": 600,
+          "publishedAt": "2024-11-23T14:00:46.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "lisika.doll",
+      "language": "ru",
+      "name": "Анастасия Козаченко",
+      "title": "Авторская, интерьерная, шарнирная кукла, BJD",
+      "boostyUrl": "https://boosty.to/lisika.doll",
+      "category": "BJD и шарнирные куклы",
+      "topics": [
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
+      "summary": "Моделю в Zbrush Печатаю на 3D принтере Авторские шарнирные куклы",
+      "subscribers": 0,
+      "postsCount": 2,
+      "lastPostAt": "2022-05-27T04:17:52.000Z",
+      "lastPostTitle": "Люси в образе",
+      "paymentTypes": [
+        "subscription"
+      ],
+      "minSubscriptionPriceRub": 50,
+      "maxSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Меценат",
+          "priceRub": 50,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": null,
+      "maxOneOffPriceRub": null,
+      "oneOffCountRecent": 0,
+      "oneOffItems": [],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "romanova.room",
+      "language": "ru",
+      "name": "Анастасия Романова",
+      "title": "Мастер-классы по миниатюре с нуля",
+      "boostyUrl": "https://boosty.to/romanova.room",
+      "category": "Миниатюры и кукольные дома",
+      "topics": [
+        "Миниатюры и кукольные дома"
+      ],
+      "focus": "Миниатюра 1:6",
+      "reason": "Профильный русскоязычный кукольный автор: Миниатюра 1:6.",
+      "summary": "Добро пожаловать в мой мир! Меня зовут Анастасия. Я создаю предметы интерьера с миниатюрой для украшения Ваших домов. Ночники, букнуки, адвент календари, мамины сокровища, шкафы, шкатулки и другое. А так же гримуары и ведьмины книги теней для ритуалов и практик. Уже более 5 лет провожу мастер классы и являюсь основателем школы миниатюры. Все мои мастер классы с поддержкой и обратной связью.",
+      "subscribers": 4,
+      "postsCount": 2,
+      "lastPostAt": "2024-05-09T08:53:29.000Z",
+      "lastPostTitle": "208 обложек для книг на разные темы.",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 60,
+      "maxOneOffPriceRub": 60,
+      "oneOffCountRecent": 1,
+      "oneOffItems": [
+        {
+          "title": "208 обложек для книг на разные темы.",
+          "priceRub": 60,
+          "publishedAt": "2024-05-09T08:53:29.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "anna_darling_dolls",
+      "language": "ru",
+      "name": "Анка Михеева",
+      "title": "Куклы ручной работы",
+      "boostyUrl": "https://boosty.to/anna_darling_dolls",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы"
+      ],
+      "focus": "Авторские и арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские и арт-куклы.",
+      "summary": "Куклы ручной работы. Основные темы: Авторские и арт-куклы.",
+      "subscribers": 3,
+      "postsCount": 2,
+      "lastPostAt": "2023-04-05T10:29:28.000Z",
+      "lastPostTitle": "Курс \"Неразлучники\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 4500,
+      "maxOneOffPriceRub": 4500,
+      "oneOffCountRecent": 2,
+      "oneOffItems": [
+        {
+          "title": "Курс \"Неразлучники\"",
+          "priceRub": 4500,
+          "publishedAt": "2023-04-05T10:29:28.000Z"
+        },
+        {
+          "title": "Курс \" Твой ангел\"",
+          "priceRub": 4500,
+          "publishedAt": "2023-03-30T12:47:47.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "annakorolevamk",
+      "language": "ru",
       "name": "Анна",
       "title": "Мастер-классы/ выкройки/ куклы/одежда для кукол",
       "boostyUrl": "https://boosty.to/annakorolevamk",
       "category": "Одежда и выкройки",
       "topics": [
-        "Одежда и выкройки"
+        "Одежда и выкройки",
+        "Текстильные и интерьерные куклы"
       ],
-      "focus": "Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "focus": "Текстильные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
       "summary": "✨ Выкройки – отличный вариант для тех, кто знает технологию пошива, но не хочет тратить время за построение выкройки или имеет желание расширить ассортимент одежды для своих кукол. ✨ Одежду для куколок заказывают как начинающие кукольницы, так и мастерицы с опытом, так как это существенно экономит время, когда заказов много.",
       "subscribers": 0,
       "postsCount": 3,
@@ -131,14 +351,80 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "annakuchina",
+      "language": "ru",
+      "name": "Анна Кучина",
+      "title": "Вязание для кукол Paola Reina",
+      "boostyUrl": "https://boosty.to/annakuchina",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки"
+      ],
+      "focus": "Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "summary": "Вязание для кукол Paola Reina. Основные темы: Одежда и выкройки.",
+      "subscribers": 44,
+      "postsCount": 18,
+      "lastPostAt": "2026-05-01T08:20:07.000Z",
+      "lastPostTitle": "Мастер-класс \"МАЙЯ\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 200,
+      "maxOneOffPriceRub": 400,
+      "oneOffCountRecent": 18,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс \"МАЙЯ\"",
+          "priceRub": 300,
+          "publishedAt": "2026-05-01T08:20:07.000Z"
+        },
+        {
+          "title": "Мастер-класс \"АДЕЛИНА\"",
+          "priceRub": 400,
+          "publishedAt": "2026-04-01T05:24:17.000Z"
+        },
+        {
+          "title": "Мастер-класс \"ЗЛАТА\" часть 2",
+          "priceRub": 400,
+          "publishedAt": "2026-02-20T07:00:04.000Z"
+        },
+        {
+          "title": "Мастер-класс \"ЗЛАТА\" часть 1",
+          "priceRub": 300,
+          "publishedAt": "2025-10-29T11:52:00.000Z"
+        },
+        {
+          "title": "МК \"ВИОЛЕТТА\" часть 3",
+          "priceRub": 400,
+          "publishedAt": "2025-06-29T09:19:09.000Z"
+        },
+        {
+          "title": "МК \"ВИОЛЕТТА\" часть 2",
+          "priceRub": 400,
+          "publishedAt": "2025-06-06T15:20:07.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "samanna",
+      "language": "ru",
       "name": "Анна Самофалова",
       "title": "Обувь для кукол и игрушек/МК/Колодки",
       "boostyUrl": "https://boosty.to/samanna",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
-        "Создание кукол"
+        "Аксессуары для кукол",
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Аксессуары",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Аксессуары.",
@@ -197,6 +483,7 @@
     },
     {
       "slug": "anna_utesheva",
+      "language": "ru",
       "name": "Аня Утешева",
       "title": "Уроки и МК по вязанию крючком и спицами",
       "boostyUrl": "https://boosty.to/anna_utesheva",
@@ -267,57 +554,14 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "alivedolls",
-      "name": "Аlivedolls",
-      "title": "porcelain and resin bjd",
-      "boostyUrl": "https://boosty.to/alivedolls",
-      "category": "Создание кукол",
-      "topics": [
-        "Создание кукол"
-      ],
-      "focus": "BJD / шарнирные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
-      "summary": "Художник - кукольник Юлия Зайцева - Пучкина. Авторские шарнирные куклы из фарфора и полиуретана. Doll artist. Original ball jointed dolls made of porcelain and resin by Julia Zaytseva - Puchkina",
-      "subscribers": 0,
-      "postsCount": 2,
-      "lastPostAt": "2023-01-29T12:10:40.000Z",
-      "lastPostTitle": "Angelina - bjd porcelain doll",
-      "paymentTypes": [
-        "one-off"
-      ],
-      "minSubscriptionPriceRub": null,
-      "maxSubscriptionPriceRub": null,
-      "minSubscriptionPromoPriceRub": null,
-      "tierCount": 0,
-      "tiers": [],
-      "minOneOffPriceRub": 50000,
-      "maxOneOffPriceRub": 99000,
-      "oneOffCountRecent": 2,
-      "oneOffItems": [
-        {
-          "title": "Angelina - bjd porcelain doll",
-          "priceRub": 50000,
-          "publishedAt": "2023-01-29T12:10:40.000Z"
-        },
-        {
-          "title": "Resin BJD by Julia Puchkina-Zaytseva",
-          "priceRub": 99000,
-          "publishedAt": "2022-03-24T12:05:49.000Z"
-        }
-      ],
-      "checkedAt": "2026-08-07",
-      "historicalSubscribers": 0,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
-    },
-    {
       "slug": "barbiejennylane",
+      "language": "ru",
       "name": "Барби Дженни Лейн",
       "title": "Коллекционер кукол",
       "boostyUrl": "https://boosty.to/barbiejennylane",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
@@ -394,13 +638,14 @@
     },
     {
       "slug": "mysweettoys",
+      "language": "ru",
       "name": "Варвара. Выкройки и мастер-классы игрушек.",
       "title": "шьем развивающие игрушки вместе.",
       "boostyUrl": "https://boosty.to/mysweettoys",
       "category": "Одежда и выкройки",
       "topics": [
         "Одежда и выкройки",
-        "Аксессуары"
+        "Аксессуары для кукол"
       ],
       "focus": "Одежда и выкройки; Аксессуары",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки; Аксессуары.",
@@ -465,7 +710,198 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "dolls_print",
+      "language": "ru",
+      "name": "Вера Усенкова (DOLLS PRINT)",
+      "title": "DOLLS PRINT - 3D печать для рукоделия",
+      "boostyUrl": "https://boosty.to/dolls_print",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки",
+        "BJD и шарнирные куклы",
+        "Кастом и OOAK"
+      ],
+      "focus": "BJD / шарнирные куклы; Blythe; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Blythe; Одежда и выкройки.",
+      "summary": "Всем привет! Мы небольшая команда единомышленников, которыми правит любовь к куклам и всему прекрасному!)) Dolls Print - это мастерская 3d печати для рукодельниц и кукольных мастеров! Мы поможем изготовить нужные, правильные колодки для обуви Ваших кукол, манекены тел и голов кукол! Исполним Ваши самые капризные идеи!",
+      "subscribers": 10,
+      "postsCount": 6,
+      "lastPostAt": "2025-03-26T08:45:24.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 10,
+      "maxOneOffPriceRub": 300,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 300,
+          "publishedAt": "2025-03-26T08:45:24.000Z"
+        },
+        {
+          "title": "DOLLS PRINT - это взаимная любовь!",
+          "priceRub": 10,
+          "publishedAt": "2024-02-23T07:11:16.000Z"
+        },
+        {
+          "title": "Колодки на милую подружку уже в продаже!",
+          "priceRub": 10,
+          "publishedAt": "2024-01-08T07:44:51.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "nikadolltoy",
+      "language": "ru",
+      "name": "Вероника Харьковская",
+      "title": "Amigurumi disigner NikaDolltoy",
+      "boostyUrl": "https://boosty.to/nikadolltoy",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "My name is Veronica. I am the disigner of unique crochet toys and the author of detailed crochet patterns.",
+      "subscribers": 45,
+      "postsCount": 44,
+      "lastPostAt": "2026-07-29T10:31:09.000Z",
+      "lastPostTitle": "Схема вязания крючком \"Кукла Ася\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 220,
+      "maxOneOffPriceRub": 1850,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "Схема вязания крючком \"Кукла Ася\"",
+          "priceRub": 380,
+          "publishedAt": "2026-07-29T10:31:09.000Z"
+        },
+        {
+          "title": "Схема вязания крючком \"Кукла Ася в новогоднем наряде\"",
+          "priceRub": 380,
+          "publishedAt": "2026-07-29T10:26:07.000Z"
+        },
+        {
+          "title": "Crochet Pattern \"Gnome Tobby\"",
+          "priceRub": 380,
+          "publishedAt": "2026-07-29T10:06:46.000Z"
+        },
+        {
+          "title": "Набор схем по вязанию крючком \"Игрушки\"",
+          "priceRub": 1850,
+          "publishedAt": "2026-07-29T09:58:16.000Z"
+        },
+        {
+          "title": "Набор схем по вязанию крючком\"Куклы\"",
+          "priceRub": 1850,
+          "publishedAt": "2026-07-29T09:55:13.000Z"
+        },
+        {
+          "title": "Схема вязания крючком Обезьянка Бруно",
+          "priceRub": 360,
+          "publishedAt": "2026-06-22T05:59:38.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "viktoriyalinskaya",
+      "language": "ru",
+      "name": "Виктория Линская",
+      "title": "Научу вязать красоту",
+      "boostyUrl": "https://boosty.to/viktoriyalinskaya",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
+      ],
+      "focus": "Вязаные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
+      "summary": "Научу вязать красоту. Основные темы: Вязаные куклы; Одежда и выкройки.",
+      "subscribers": 84,
+      "postsCount": 60,
+      "lastPostAt": "2024-12-11T05:16:50.000Z",
+      "lastPostTitle": "Мастеркласс наряда Зефирка.",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Подписка",
+          "priceRub": 200,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 400,
+      "maxOneOffPriceRub": 1300,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "Мастеркласс наряда Зефирка.",
+          "priceRub": 400,
+          "publishedAt": "2024-12-11T05:16:50.000Z"
+        },
+        {
+          "title": "СОВМЕСТНИК по кукле Капелька.",
+          "priceRub": 600,
+          "publishedAt": "2024-04-21T04:36:19.000Z"
+        },
+        {
+          "title": "Совместник по кукле Солнышко",
+          "priceRub": 600,
+          "publishedAt": "2024-04-01T01:20:01.000Z"
+        },
+        {
+          "title": "Совместник по кукле Василинка",
+          "priceRub": 700,
+          "publishedAt": "2024-02-20T08:00:29.000Z"
+        },
+        {
+          "title": "КОМПЛЕКТ ИЗ 4 МАСТЕР-КЛАССОВ.",
+          "priceRub": 1200,
+          "publishedAt": "2024-01-26T12:36:27.000Z"
+        },
+        {
+          "title": "Пять мастерклассов по одежде.",
+          "priceRub": 1200,
+          "publishedAt": "2024-01-05T11:52:00.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "tanty_dress",
+      "language": "ru",
       "name": "Волкова Татьяна",
       "title": "Выкройки одежды для кукол",
       "boostyUrl": "https://boosty.to/tanty_dress",
@@ -529,13 +965,71 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "butinenok",
+      "language": "ru",
+      "name": "Дарья Бутинова",
+      "title": "Reborn artist",
+      "boostyUrl": "https://boosty.to/butinenok",
+      "category": "Реборн-куклы",
+      "topics": [
+        "Реборн-куклы"
+      ],
+      "focus": "Реборн",
+      "reason": "Профильный русскоязычный кукольный автор: Реборн.",
+      "summary": "My name is Daria. I create reborn dolls and talked about how to create such beautiful ones, as well as write poems, songs and stories.",
+      "subscribers": 0,
+      "postsCount": 4,
+      "lastPostAt": "2022-05-10T07:40:10.000Z",
+      "lastPostTitle": "Лайфхаки и советы в реборнинге",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Реборнинг",
+          "priceRub": 200,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 300,
+      "maxOneOffPriceRub": 48368,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "Лайфхаки и советы в реборнинге",
+          "priceRub": 300,
+          "publishedAt": "2022-05-10T07:40:10.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 48368,
+          "publishedAt": "2022-05-09T17:22:01.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 500,
+          "publishedAt": "2022-05-09T17:18:17.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "d.rema",
+      "language": "ru",
       "name": "Дарья Ремизова",
       "title": "Мастер-классы по вязанию игрушек крючком",
       "boostyUrl": "https://boosty.to/d.rema",
-      "category": "Создание кукол",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол"
+        "Вязаные куклы и амигуруми"
       ],
       "focus": "Вязаные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
@@ -600,17 +1094,75 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "doll_shik",
+      "language": "ru",
+      "name": "Екатерина Шидловская",
+      "title": "",
+      "boostyUrl": "https://boosty.to/doll_shik",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "summary": "Автор публикует материалы по темам: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "subscribers": 2,
+      "postsCount": 5,
+      "lastPostAt": "2024-01-06T12:56:13.000Z",
+      "lastPostTitle": "Бумажные шарнирные куклы в электронном виде",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 2200,
+      "maxOneOffPriceRub": 6500,
+      "oneOffCountRecent": 4,
+      "oneOffItems": [
+        {
+          "title": "Бумажные шарнирные куклы в электронном виде",
+          "priceRub": 6500,
+          "publishedAt": "2024-01-06T12:56:13.000Z"
+        },
+        {
+          "title": "Русалочка",
+          "priceRub": 2200,
+          "publishedAt": "2023-12-25T05:54:34.000Z"
+        },
+        {
+          "title": "Бумажная кукла \"В светлице\".",
+          "priceRub": 2350,
+          "publishedAt": "2022-03-27T14:36:00.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 2670,
+          "publishedAt": "2022-03-11T20:06:22.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "lenkin_penkin_doll",
+      "language": "ru",
       "name": "Елена Головкина",
       "title": "создаю авторских кукол",
       "boostyUrl": "https://boosty.to/lenkin_penkin_doll",
-      "category": "Коллекционирование и медиа",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Коллекционирование и медиа",
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы",
+        "Коллекционирование и кукольные медиа"
       ],
-      "focus": "Авторские арт-куклы; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Коллекционирование / обзоры.",
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы; Коллекционирование / обзоры",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы; Коллекционирование / обзоры.",
       "summary": "Привет! меня зовут Лена, и я художник-кукольник) С недавних пор я являюсь членом творческого союза художников ДПИ секции авторской куклы. В 2010 м закончила художественно-графический факультет по специальности \"Изобразительное искусство\". Рисовала я сколько себя помню.",
       "subscribers": 0,
       "postsCount": 18,
@@ -641,6 +1193,7 @@
     },
     {
       "slug": "dollskorunova",
+      "language": "ru",
       "name": "Елена Корунова",
       "title": "Кукольный мастер",
       "boostyUrl": "https://boosty.to/dollskorunova",
@@ -705,6 +1258,7 @@
     },
     {
       "slug": "elena_kropo",
+      "language": "ru",
       "name": "Елена Кропочева",
       "title": "Выкройки одежды для кукол, пошив одежды для кукол",
       "boostyUrl": "https://boosty.to/elena_kropo",
@@ -749,13 +1303,14 @@
     },
     {
       "slug": "lena.seleniya",
+      "language": "ru",
       "name": "Елена Негороженко",
       "title": "Мастер по текстильной кукле",
       "boostyUrl": "https://boosty.to/lena.seleniya",
-      "category": "Одежда и выкройки",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Текстильные и интерьерные куклы",
+        "Одежда и выкройки"
       ],
       "focus": "Текстильные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
@@ -808,17 +1363,59 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "interior-dolls",
+      "language": "ru",
+      "name": "Елена Травина",
+      "title": "Куклы ручной работы",
+      "boostyUrl": "https://boosty.to/interior-dolls",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы",
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Текстильные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "summary": "Куклы ручной работы. Основные темы: Текстильные куклы.",
+      "subscribers": 1,
+      "postsCount": 2,
+      "lastPostAt": "2025-08-22T12:18:56.000Z",
+      "lastPostTitle": "Кукла ручной работы",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 13200,
+      "maxOneOffPriceRub": 13200,
+      "oneOffCountRecent": 1,
+      "oneOffItems": [
+        {
+          "title": "Кукла ручной работы",
+          "priceRub": 13200,
+          "publishedAt": "2025-08-22T12:18:56.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 1,
+      "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "jgri_dolls",
+      "language": "ru",
       "name": "Записки вредной, но талантливой",
       "title": "Уютные истории от куклы до декора",
       "boostyUrl": "https://boosty.to/jgri_dolls",
-      "category": "Миниатюра и кукольные дома",
+      "category": "Миниатюры и кукольные дома",
       "topics": [
-        "Миниатюра и кукольные дома",
-        "Создание кукол"
+        "Миниатюры и кукольные дома",
+        "Авторские и арт-куклы"
       ],
-      "focus": "Авторские арт-куклы",
-      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы.",
+      "focus": "Авторские арт-куклы; Миниатюра 1:6",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Миниатюра 1:6.",
       "summary": "Всем привет! Меня зовут Евгения, и я приветствую Вас в нашей семейной мастерской JGri Art. Я художник по куклам и декоратор, а мой супруг занимается лазерной резкой фанеры и не только. Наша маленькая, уютная мастерская предлагает: ⚜️ Заготовки для декора и любого вида творчества. ⚜️ Ёлочные игрушки и новогодний декор. ⚜️ Авторские куклы и эксклюзивный декор для интерьера.",
       "subscribers": 1,
       "postsCount": 78,
@@ -889,13 +1486,14 @@
     },
     {
       "slug": "cucla_v_radost",
+      "language": "ru",
       "name": "Ирина",
       "title": "Я мастер текстильных коллекционных кукол",
       "boostyUrl": "https://boosty.to/cucla_v_radost",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
-        "Создание кукол"
+        "Коллекционирование и кукольные медиа",
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Коллекционирование / обзоры.",
@@ -943,7 +1541,133 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "kuklalubimaya",
+      "language": "ru",
+      "name": "Ирина Лосева",
+      "title": "Мaster classes on crocheting toys.",
+      "boostyUrl": "https://boosty.to/kuklalubimaya",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Hi all. My name is Irina. I really love knitting amigurumi toys. I will be happy to share my master classes with you. Всем привет. Меня зовут Ирина. Я очень люблю вязать игрушки-амигуруми. С удовольствием буду делиться своими мастер-классами с Вами.",
+      "subscribers": 4,
+      "postsCount": 10,
+      "lastPostAt": "2025-10-09T11:55:37.000Z",
+      "lastPostTitle": "Master class \"Женечка\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 400,
+      "maxOneOffPriceRub": 450,
+      "oneOffCountRecent": 5,
+      "oneOffItems": [
+        {
+          "title": "Master class \"Женечка\"",
+          "priceRub": 450,
+          "publishedAt": "2025-10-09T11:55:37.000Z"
+        },
+        {
+          "title": "Master class on crocheting a doll “Boy”",
+          "priceRub": 400,
+          "publishedAt": "2024-08-15T12:12:29.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию куклы крючком \"Соня\".",
+          "priceRub": 400,
+          "publishedAt": "2024-03-09T13:21:15.000Z"
+        },
+        {
+          "title": "Pirate doll / Кукла Пиратка",
+          "priceRub": 450,
+          "publishedAt": "2023-11-19T11:31:08.000Z"
+        },
+        {
+          "title": "Dragon doll / Кукла-дракончик.",
+          "priceRub": 450,
+          "publishedAt": "2023-11-19T11:26:08.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "ira_ulianova",
+      "language": "ru",
+      "name": "Ирина Ульянова",
+      "title": "Авторские мастер - классы по вязанию кукол.",
+      "boostyUrl": "https://boosty.to/ira_ulianova",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Приветствую! Меня зовут Ирина. Я вяжу крючком кукол и пишу мастер-классы.",
+      "subscribers": 44,
+      "postsCount": 10,
+      "lastPostAt": "2025-09-12T14:11:24.000Z",
+      "lastPostTitle": "\"Ромка Ромашка\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 250,
+      "maxOneOffPriceRub": 600,
+      "oneOffCountRecent": 10,
+      "oneOffItems": [
+        {
+          "title": "\"Ромка Ромашка\"",
+          "priceRub": 600,
+          "publishedAt": "2025-09-12T14:11:24.000Z"
+        },
+        {
+          "title": "МК/pdf \"Волна\" для куклы Оленька.",
+          "priceRub": 250,
+          "publishedAt": "2025-04-06T11:22:28.000Z"
+        },
+        {
+          "title": "Кукла Оленька. МК/pdf.(на русском языке)",
+          "priceRub": 370,
+          "publishedAt": "2025-02-03T05:25:30.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 320,
+          "publishedAt": "2025-01-24T09:14:49.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 250,
+          "publishedAt": "2024-12-27T09:53:37.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 570,
+          "publishedAt": "2024-12-27T09:37:34.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "ya13",
+      "language": "ru",
       "name": "Иринушка Фомичева",
       "title": "Мастер кукольной одежды.",
       "boostyUrl": "https://boosty.to/ya13",
@@ -1005,13 +1729,14 @@
     },
     {
       "slug": "bykatushkamorozova",
+      "language": "ru",
       "name": "Катюша Морозова",
       "title": "Crochet dolls, patterns ♥ by Katushka Morozova",
       "boostyUrl": "https://boosty.to/bykatushkamorozova",
-      "category": "Одежда и выкройки",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
@@ -1069,14 +1794,87 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "kristinka_toys_patterns",
+      "language": "ru",
+      "name": "Кристина Качехина",
+      "title": "Пишу мастер-классы по вязанию кукол крючком",
+      "boostyUrl": "https://boosty.to/kristinka_toys_patterns",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Привет, друзья! Добро пожаловать на мою страницу! Меня зовут Кристина. Здесь Вы найдете мои мастер-классы по вязанию кукол крючком.",
+      "subscribers": 3,
+      "postsCount": 24,
+      "lastPostAt": "2024-08-07T19:13:54.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 400,
+      "maxSubscriptionPriceRub": 400,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Клуб \"Время вязать\"",
+          "priceRub": 400,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 150,
+      "maxOneOffPriceRub": 750,
+      "oneOffCountRecent": 19,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс \"Пасхальная куколка\".",
+          "priceRub": 300,
+          "publishedAt": "2023-03-24T16:52:21.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 150,
+          "publishedAt": "2023-02-27T04:04:27.000Z"
+        },
+        {
+          "title": "Мастер-класс \"Пупсик Сёма\"",
+          "priceRub": 320,
+          "publishedAt": "2023-02-21T07:03:04.000Z"
+        },
+        {
+          "title": "Мастер-класс куколка Лили",
+          "priceRub": 180,
+          "publishedAt": "2023-02-12T06:09:03.000Z"
+        },
+        {
+          "title": "Набор из 2 мастер-классов \"Оливер\" и \"Оливия\"",
+          "priceRub": 550,
+          "publishedAt": "2023-02-12T05:34:04.000Z"
+        },
+        {
+          "title": "Набор из 2 мастер-классов \"Рождественские эльфы Иви и Руди",
+          "priceRub": 550,
+          "publishedAt": "2023-02-12T05:29:27.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "s.v_dolls_",
+      "language": "ru",
       "name": "Крошки из тканюшки",
       "title": "",
       "boostyUrl": "https://boosty.to/s.v_dolls_",
-      "category": "Создание кукол",
+      "category": "Одежда и выкройки",
       "topics": [
-        "Создание кукол",
-        "Одежда и выкройки"
+        "Одежда и выкройки",
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
@@ -1125,17 +1923,18 @@
     },
     {
       "slug": "yunonochca",
+      "language": "ru",
       "name": "Кукла Маша",
       "title": "Коллекционер кукол и фигурок",
       "boostyUrl": "https://boosty.to/yunonochca",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
-        "Кастом и OOAK",
-        "Аксессуары"
+        "Коллекционирование и кукольные медиа",
+        "BJD и шарнирные куклы",
+        "Кастом и OOAK"
       ],
-      "focus": "Barbie / Fashion dolls; Monster High; Аксессуары",
-      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Monster High; Аксессуары.",
+      "focus": "BJD / шарнирные куклы; Кастом / OOAK; Barbie / Fashion dolls",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Кастом / OOAK; Barbie / Fashion dolls.",
       "summary": "Меня зовут Мари и всю свою сознательную жизнь я что-то коллекционировала. Книги, машинки, фигурки, и, конечно же, куклы. Ооо, куклы это отдельная тема. Я - дитя советского времени, потому любимой игрушкой был большой пупс из Германии Кэтрин и советский железный конструктор (после сборки пальцы целый день пахли металлом). Ни о каких барби речи не шло, у меня были подделки на них.",
       "subscribers": 1,
       "postsCount": 53,
@@ -1175,7 +1974,134 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "kukladomia2",
+      "language": "ru",
+      "name": "КуклаДОМиЯ",
+      "title": "Привет! Я кукольный блогер",
+      "boostyUrl": "https://boosty.to/kukladomia2",
+      "category": "Коллекционирование и кукольные медиа",
+      "topics": [
+        "Коллекционирование и кукольные медиа",
+        "Кастом и OOAK"
+      ],
+      "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
+      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Коллекционирование / обзоры.",
+      "summary": "Всем привет! Вы на нашем кукольном, уютном канале КуклаДОМиЯ! Я снимаю обзоры на кукол разных форматов. Так же я показываю подписчикам свои творческие покупки и рукоделие! Будем очень, очень рады вашей поддержке. Комментируйте, лайкайте!⭐ Поддержите канал подпиской на Boosty. На каждом уровне подписки, (а их пока 2), я буду радовать вас всякими приятными штучками💕 Подписывайся;-) Люблю))) Ваша К.",
+      "subscribers": 2,
+      "postsCount": 10,
+      "lastPostAt": "2024-12-15T14:30:00.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "subscription"
+      ],
+      "minSubscriptionPriceRub": 50,
+      "maxSubscriptionPriceRub": 450,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 5,
+      "tiers": [
+        {
+          "name": "Просто кукла!",
+          "priceRub": 50,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Я - Куклена из Fix Prise",
+          "priceRub": 150,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Приличная аналоговая кукла!",
+          "priceRub": 250,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Я - Fashon кукла!",
+          "priceRub": 350,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Я - ЛИМИТКА!",
+          "priceRub": 450,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": null,
+      "maxOneOffPriceRub": null,
+      "oneOffCountRecent": 0,
+      "oneOffItems": [],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "kukolka.adelka",
+      "language": "ru",
+      "name": "Куколка Аделька",
+      "title": "Мастер-классы по вязанию кукол!",
+      "boostyUrl": "https://boosty.to/kukolka.adelka",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Ищешь понятные и простые мастер-классы по вязанию кукол крючком? Тогда тебе ко мне! 🤩 Меня зовут Виолетта и я с радостью научу тебя создавать прекрасных кукол своими руками 🤗",
+      "subscribers": 34,
+      "postsCount": 34,
+      "lastPostAt": "2026-07-30T10:14:00.000Z",
+      "lastPostTitle": "Мк брелок-подвеска “Десантник ВДВ”",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 290,
+      "maxOneOffPriceRub": 640,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "Мк брелок-подвеска “Десантник ВДВ”",
+          "priceRub": 480,
+          "publishedAt": "2026-07-30T10:14:00.000Z"
+        },
+        {
+          "title": "МК брелок «Инспектор ГИБДД»",
+          "priceRub": 480,
+          "publishedAt": "2026-07-27T16:59:29.000Z"
+        },
+        {
+          "title": "Мк «Малыши пингвины»",
+          "priceRub": 440,
+          "publishedAt": "2025-11-15T18:56:37.000Z"
+        },
+        {
+          "title": "Мк «Новогодний Гном»",
+          "priceRub": 290,
+          "publishedAt": "2025-10-29T16:40:47.000Z"
+        },
+        {
+          "title": "Мк по вязанию «Злодеи» Пеннивайз, кукла Чаки, Кукла Билли, Фредди Крюгер",
+          "priceRub": 570,
+          "publishedAt": "2025-10-14T06:58:14.000Z"
+        },
+        {
+          "title": "Мк по вязанию брелочка Пеннивайз (Оно)",
+          "priceRub": 420,
+          "publishedAt": "2025-10-14T06:53:59.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "blueberrydollstudio",
+      "language": "ru",
       "name": "Кукольная мастерская \"Черника\"",
       "title": "Вязание, пошив кукольной одежды, кастом кукол",
       "boostyUrl": "https://boosty.to/blueberrydollstudio",
@@ -1221,12 +2147,13 @@
     },
     {
       "slug": "narniya_kukol",
+      "language": "ru",
       "name": "Кукольная Нарния 🎀",
       "title": "Мир кукольного коллекционера",
       "boostyUrl": "https://boosty.to/narniya_kukol",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа"
+        "Коллекционирование и кукольные медиа"
       ],
       "focus": "Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Коллекционирование / обзоры.",
@@ -1260,15 +2187,17 @@
     },
     {
       "slug": "kamberlana",
+      "language": "ru",
       "name": "Лана Камбер",
       "title": "Я обучаю созданию авторской текстильной куклы",
       "boostyUrl": "https://boosty.to/kamberlana",
-      "category": "Создание кукол",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Создание кукол"
+        "Текстильные и интерьерные куклы",
+        "Одежда и выкройки"
       ],
-      "focus": "Текстильные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "focus": "Текстильные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
       "summary": "Меня зовут Лана Камбер. Я креативный дизайнер авторской текстильной куклы в разных техниках и основатель онлайн школы. Мое призвание-помогать людям. Когда была моложе, помогала облегчить страдания из-за болезней или избавиться от них. Сейчас помогаю найти душевный покой и реализоваться через творчество. Я очень люблю людей и искренне хочу помочь им стать счастливыми.",
       "subscribers": 1,
       "postsCount": 3,
@@ -1314,6 +2243,7 @@
     },
     {
       "slug": "vyazemdlyakukol",
+      "language": "ru",
       "name": "Лариса Пронина Одежда для кукол и детей",
       "title": "Мастер классы по вязанию для кукол",
       "boostyUrl": "https://boosty.to/vyazemdlyakukol",
@@ -1390,17 +2320,84 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "lelena",
+      "language": "ru",
+      "name": "ЛЕлена вязаные игрушки",
+      "title": "Пишу МК на вязаные игрушки и интерьерные предметы",
+      "boostyUrl": "https://boosty.to/lelena",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Рукодельный привет. Меня зовут Елена. Увлечена рукоделием. Особенно вязанием и придумыванием кукол. Пишу мастер-классы.",
+      "subscribers": 26,
+      "postsCount": 32,
+      "lastPostAt": "2025-10-07T04:20:52.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 250,
+      "maxOneOffPriceRub": 500,
+      "oneOffCountRecent": 14,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 410,
+          "publishedAt": "2025-10-07T04:20:52.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 400,
+          "publishedAt": "2025-08-21T12:09:52.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 400,
+          "publishedAt": "2025-08-21T11:59:45.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 400,
+          "publishedAt": "2025-08-21T11:57:37.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию Кофейной куклы",
+          "priceRub": 400,
+          "publishedAt": "2025-08-21T11:50:41.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 400,
+          "publishedAt": "2024-07-29T21:08:53.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "vivedoll",
+      "language": "ru",
       "name": "ЛельМОДЕЛЬ 1:6 (ViVeDoll)",
       "title": "Мини-вязание с Лелей Григорьевой, кукольная одежда",
       "boostyUrl": "https://boosty.to/vivedoll",
-      "category": "Создание кукол",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол",
-        "Одежда и выкройки"
+        "Вязаные куклы и амигуруми",
+        "Авторские и арт-куклы",
+        "Кастом и OOAK"
       ],
-      "focus": "Вязаные куклы; Авторские арт-куклы; Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Авторские арт-куклы; Одежда и выкройки.",
+      "focus": "Вязаные куклы; Авторские арт-куклы; Barbie / Fashion dolls",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Авторские арт-куклы; Barbie / Fashion dolls.",
       "summary": "Привет! Рада Вас приветствовать! Я - Леля Григорьева. Официально, по паспорту и без двух точек над «Е»)) Вяжу для кукол 1:6 реалистичную одежду и кружевное бельё. Разрабатываю новые авторские модели, пишу МК и рисую схемы.",
       "subscribers": 113,
       "postsCount": 157,
@@ -1443,14 +2440,15 @@
     },
     {
       "slug": "lyubava_kukla",
+      "language": "ru",
       "name": "Любовь к куклам и мелочам",
       "title": "Я автор собственных кукол, кукольной одежды и т.п.",
       "boostyUrl": "https://boosty.to/lyubava_kukla",
-      "category": "Коллекционирование и медиа",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Коллекционирование и медиа",
-        "Создание кукол",
-        "Одежда и выкройки"
+        "Авторские и арт-куклы",
+        "Одежда и выкройки",
+        "Коллекционирование и кукольные медиа"
       ],
       "focus": "Авторские арт-куклы; Одежда и выкройки; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Одежда и выкройки; Коллекционирование / обзоры.",
@@ -1508,13 +2506,135 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "lubavacrochet",
+      "language": "ru",
+      "name": "Любовь Холкина",
+      "title": "Amigurumi designer",
+      "boostyUrl": "https://boosty.to/lubavacrochet",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
+      ],
+      "focus": "Вязаные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
+      "summary": "Hi, my name is Luba. I'm an amigurumi toy designer. I am crocheting since I was 13, and I am creating amigurumi patterns for almost 3 years. All my toys were inspired by my precious children. I want them to have kind and cute toys. That's why i am trying to create new cute characters for their games. I hope you find your inspiration here!",
+      "subscribers": 25,
+      "postsCount": 12,
+      "lastPostAt": "2025-12-11T09:03:50.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 165,
+      "maxOneOffPriceRub": 1499,
+      "oneOffCountRecent": 12,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 200,
+          "publishedAt": "2025-12-11T09:03:50.000Z"
+        },
+        {
+          "title": "Доступ в телеграм канал с описаниями утят",
+          "priceRub": 990,
+          "publishedAt": "2025-05-17T13:34:55.000Z"
+        },
+        {
+          "title": "Мастер-класс \"Лисенок\" + \"Лисичка\"",
+          "priceRub": 499,
+          "publishedAt": "2024-03-24T06:25:13.000Z"
+        },
+        {
+          "title": "ДОСТУП В ТЕЛЕГРАМ КАНАЛ",
+          "priceRub": 1499,
+          "publishedAt": "2023-12-06T09:11:53.000Z"
+        },
+        {
+          "title": "МК Новогодние пухляши 4в1 + Зимняя куколка",
+          "priceRub": 449,
+          "publishedAt": "2022-11-27T12:45:26.000Z"
+        },
+        {
+          "title": "МК Тигрёнок + МК Зайка",
+          "priceRub": 220,
+          "publishedAt": "2022-10-03T17:23:49.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "miladolls_waldorf",
+      "language": "ru",
+      "name": "Людмила Макеева",
+      "title": "Шью вальдорфских кукол",
+      "boostyUrl": "https://boosty.to/miladolls_waldorf",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки"
+      ],
+      "focus": "Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "summary": "Шью вальдорфских кукол. Основные темы: Одежда и выкройки.",
+      "subscribers": 1,
+      "postsCount": 4,
+      "lastPostAt": "2025-05-16T19:04:05.000Z",
+      "lastPostTitle": "Башмачки для вальдорфской куклы",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 1000,
+      "maxOneOffPriceRub": 3000,
+      "oneOffCountRecent": 4,
+      "oneOffItems": [
+        {
+          "title": "Башмачки для вальдорфской куклы",
+          "priceRub": 1000,
+          "publishedAt": "2025-05-16T19:04:05.000Z"
+        },
+        {
+          "title": "Выкройки одежды для вальдорфской куклы",
+          "priceRub": 1000,
+          "publishedAt": "2025-05-16T19:01:34.000Z"
+        },
+        {
+          "title": "Мастер-класс по пошиву вальдорфской куклы. Часть 2",
+          "priceRub": 3000,
+          "publishedAt": "2025-05-06T18:45:59.000Z"
+        },
+        {
+          "title": "Мастер-класс по пошиву вальдорфской куклы",
+          "priceRub": 3000,
+          "publishedAt": "2025-05-06T11:53:53.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "lildreamers",
+      "language": "ru",
       "name": "Маленькие мечтатели ",
       "title": "Творческий канал о куклах и не только)",
       "boostyUrl": "https://boosty.to/lildreamers",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
@@ -1553,59 +2673,15 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "mariyaartdolls",
-      "name": "Мария Ивлиева",
-      "title": "OOAK Paola Reina and BJD doll",
-      "boostyUrl": "https://boosty.to/mariyaartdolls",
-      "category": "Кастом и OOAK",
-      "topics": [
-        "Кастом и OOAK",
-        "Создание кукол"
-      ],
-      "focus": "BJD / шарнирные куклы; Кастом / OOAK",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Кастом / OOAK.",
-      "summary": "OOAK Paola Reina and BJD doll. Основные темы: BJD / шарнирные куклы; Кастом / OOAK.",
-      "subscribers": 0,
-      "postsCount": 2,
-      "lastPostAt": "2022-06-12T14:33:40.000Z",
-      "lastPostTitle": "",
-      "paymentTypes": [
-        "one-off"
-      ],
-      "minSubscriptionPriceRub": null,
-      "maxSubscriptionPriceRub": null,
-      "minSubscriptionPromoPriceRub": null,
-      "tierCount": 0,
-      "tiers": [],
-      "minOneOffPriceRub": 14500,
-      "maxOneOffPriceRub": 35900,
-      "oneOffCountRecent": 2,
-      "oneOffItems": [
-        {
-          "title": "Платный материал",
-          "priceRub": 14500,
-          "publishedAt": "2022-06-12T14:33:40.000Z"
-        },
-        {
-          "title": "for Irina. BJD doll Minifee Chloe. Pink steampunk. Full set.",
-          "priceRub": 35900,
-          "publishedAt": "2022-04-05T12:37:38.000Z"
-        }
-      ],
-      "checkedAt": "2026-08-07",
-      "historicalSubscribers": 0,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
-    },
-    {
       "slug": "my_fancy_toy",
+      "language": "ru",
       "name": "Мария Орлова",
       "title": "Clothes and shoes for dolls, handmade",
       "boostyUrl": "https://boosty.to/my_fancy_toy",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
-        "Создание кукол",
+        "Аксессуары для кукол",
+        "BJD и шарнирные куклы",
         "Одежда и выкройки"
       ],
       "focus": "BJD / шарнирные куклы; Одежда и выкройки; Аксессуары",
@@ -1665,18 +2741,19 @@
     },
     {
       "slug": "barbimk",
+      "language": "ru",
       "name": "Мастерская вязаной одежды формата 1:6, 1:4",
       "title": "Мастер-классы по вязанию кукольной одежды",
       "boostyUrl": "https://boosty.to/barbimk",
-      "category": "Одежда и выкройки",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
       "summary": "Мастер-классы по вязанию кукольной одежды. Основные темы: Вязаные куклы; Одежда и выкройки.",
-      "subscribers": 174,
+      "subscribers": 173,
       "postsCount": 67,
       "lastPostAt": "2026-07-31T10:02:52.000Z",
       "lastPostTitle": "",
@@ -1725,18 +2802,19 @@
       ],
       "checkedAt": "2026-08-07",
       "historicalSubscribers": 174,
-      "growthSinceSnapshot": 0,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "milaamanova",
+      "language": "ru",
       "name": "Мила Аманова",
       "title": "Custom Dolls Кастом коллекционных авторских кукол",
       "boostyUrl": "https://boosty.to/milaamanova",
       "category": "Кастом и OOAK",
       "topics": [
         "Кастом и OOAK",
-        "Создание кукол"
+        "Авторские и арт-куклы"
       ],
       "focus": "Авторские арт-куклы; Кастом / OOAK; Blythe",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Кастом / OOAK; Blythe.",
@@ -1769,15 +2847,81 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "nkochergina",
+      "language": "ru",
+      "name": "Надежда Бучина",
+      "title": "",
+      "boostyUrl": "https://boosty.to/nkochergina",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Автор публикует материалы по темам: Вязаные куклы.",
+      "subscribers": 17,
+      "postsCount": 16,
+      "lastPostAt": "2026-08-05T06:53:58.000Z",
+      "lastPostTitle": "МК Зефирки",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 400,
+      "maxOneOffPriceRub": 1400,
+      "oneOffCountRecent": 16,
+      "oneOffItems": [
+        {
+          "title": "МК Зефирки",
+          "priceRub": 1200,
+          "publishedAt": "2026-08-05T06:53:58.000Z"
+        },
+        {
+          "title": "Мк Верные друзья",
+          "priceRub": 700,
+          "publishedAt": "2026-08-05T06:49:22.000Z"
+        },
+        {
+          "title": "МК Подружки",
+          "priceRub": 700,
+          "publishedAt": "2026-08-05T06:47:58.000Z"
+        },
+        {
+          "title": "МК Карапузики",
+          "priceRub": 650,
+          "publishedAt": "2026-08-05T06:46:48.000Z"
+        },
+        {
+          "title": "МК Фрося",
+          "priceRub": 650,
+          "publishedAt": "2026-08-05T06:45:36.000Z"
+        },
+        {
+          "title": "МК Ангел",
+          "priceRub": 1000,
+          "publishedAt": "2023-04-07T09:38:38.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 17,
+      "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "nadinandolls",
+      "language": "ru",
       "name": "Надежда Новицкая",
       "title": "Создаю кукольную одежду, мк одежды и кукол",
       "boostyUrl": "https://boosty.to/nadinandolls",
-      "category": "Одежда и выкройки",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол",
-        "Кастом и OOAK"
+        "Вязаные куклы и амигуруми",
+        "Кастом и OOAK",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Blythe; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Blythe; Одежда и выкройки.",
@@ -1842,18 +2986,84 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "lorin_toys",
+      "language": "ru",
+      "name": "Наталья Елезова",
+      "title": "",
+      "boostyUrl": "https://boosty.to/lorin_toys",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Автор публикует материалы по темам: Вязаные куклы.",
+      "subscribers": 8,
+      "postsCount": 7,
+      "lastPostAt": "2024-06-05T17:29:27.000Z",
+      "lastPostTitle": "МК \"Кролик Джекс\" на русском языке",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 180,
+      "maxOneOffPriceRub": 600,
+      "oneOffCountRecent": 7,
+      "oneOffItems": [
+        {
+          "title": "МК \"Кролик Джекс\" на русском языке",
+          "priceRub": 430,
+          "publishedAt": "2024-06-05T17:29:27.000Z"
+        },
+        {
+          "title": "МК \"Кукла Помни\" на русском языке",
+          "priceRub": 430,
+          "publishedAt": "2024-03-15T11:34:40.000Z"
+        },
+        {
+          "title": "МК \"Дракоша Тоша\" на русском языке",
+          "priceRub": 180,
+          "publishedAt": "2023-12-12T13:55:04.000Z"
+        },
+        {
+          "title": "МК Балерина Роза",
+          "priceRub": 600,
+          "publishedAt": "2023-11-01T15:34:35.000Z"
+        },
+        {
+          "title": "МК \"Кот Фибби\"",
+          "priceRub": 300,
+          "publishedAt": "2023-08-05T19:31:02.000Z"
+        },
+        {
+          "title": "МК \"Фибби и Полли\" на русском языке",
+          "priceRub": 350,
+          "publishedAt": "2023-07-12T18:02:58.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "irni_dolls",
+      "language": "ru",
       "name": "Нина Шишкина",
       "title": "artist BJD and art dolls",
       "boostyUrl": "https://boosty.to/irni_dolls",
-      "category": "Создание кукол",
+      "category": "BJD и шарнирные куклы",
       "topics": [
-        "Создание кукол",
-        "Одежда и выкройки",
-        "Коллекционирование и медиа"
+        "BJD и шарнирные куклы",
+        "Авторские и арт-куклы",
+        "Одежда и выкройки"
       ],
-      "focus": "BJD / шарнирные куклы; Одежда и выкройки; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Одежда и выкройки; Коллекционирование / обзоры.",
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы; Одежда и выкройки.",
       "summary": "❤️ Доброго времени суток, давайте знакомиться! Меня зовут Нина Шишкина, я кукольный мастер. Создаю авторских шарнирных(БЖД), а так же статичных и будуарных коллекционных кукол из разных материалов. Тут вы сможете посмотреть мои готовые работы, а так же понаблюдать за процессами их создания. Люблю создавать кукол вашей мечты! 💚 Good day, let's get acquainted! My name is Nina Shishkina, I am dollsmaker.",
       "subscribers": 3,
       "postsCount": 11,
@@ -1893,21 +3103,22 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "olegradolls",
-      "name": "ОЛегра",
-      "title": "Здесь можно скачать файлы бжд кукол для 3д печати!",
-      "boostyUrl": "https://boosty.to/olegradolls",
-      "category": "Создание кукол",
+      "slug": "sewing-school-pollyanna",
+      "language": "ru",
+      "name": "Оксана Дубова",
+      "title": "Влюбляю в шитье кукольной одежды.",
+      "boostyUrl": "https://boosty.to/sewing-school-pollyanna",
+      "category": "Одежда и выкройки",
       "topics": [
-        "Создание кукол"
+        "Одежда и выкройки"
       ],
-      "focus": "BJD / шарнирные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
-      "summary": "Привет, Друзья! Почувствуйте в своих руках волшебство наших живых кукол! С 2013 года мы создавали БЖД куклы под именем Elleo Dolls. C 2023 года мы продолжили делать БЖД куклы под именем OLegra Dolls Используя 3D-программное обеспечение, мы создаем дизайн шарнирной куклы и воплощаем его в жизнь с помощью 3D-печати. Каждая деталь куклы тщательно расписана вручную профессиональными красками и стянута на резинку.",
-      "subscribers": 44,
-      "postsCount": 26,
-      "lastPostAt": "2026-04-11T16:19:52.000Z",
-      "lastPostTitle": "3D STL Ferret bjd doll",
+      "focus": "Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "summary": "Влюбляю в шитье кукольной одежды. Основные темы: Одежда и выкройки.",
+      "subscribers": 50,
+      "postsCount": 1,
+      "lastPostAt": "2022-11-22T05:53:32.000Z",
+      "lastPostTitle": "Серия мастер-классов \"Соломенная шляпка\"",
       "paymentTypes": [
         "one-off"
       ],
@@ -1916,56 +3127,32 @@
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 0,
       "tiers": [],
-      "minOneOffPriceRub": 100,
-      "maxOneOffPriceRub": 11600,
-      "oneOffCountRecent": 17,
+      "minOneOffPriceRub": 3700,
+      "maxOneOffPriceRub": 3700,
+      "oneOffCountRecent": 1,
       "oneOffItems": [
         {
-          "title": "3D STL Ferret bjd doll",
-          "priceRub": 2500,
-          "publishedAt": "2026-04-11T16:19:52.000Z"
-        },
-        {
-          "title": "3D STL Horse bjd doll",
-          "priceRub": 5700,
-          "publishedAt": "2026-03-06T18:25:45.000Z"
-        },
-        {
-          "title": "3D STL set Skeleton bjd doll",
-          "priceRub": 2500,
-          "publishedAt": "2026-02-19T16:25:03.000Z"
-        },
-        {
-          "title": "3D STL set elf child bjd doll",
-          "priceRub": 2200,
-          "publishedAt": "2026-02-19T16:03:10.000Z"
-        },
-        {
-          "title": "Bjd doll SangToare Dragon (stl file).",
-          "priceRub": 2200,
-          "publishedAt": "2026-02-16T07:07:30.000Z"
-        },
-        {
-          "title": "Платный материал",
-          "priceRub": 2200,
-          "publishedAt": "2025-11-19T17:23:16.000Z"
+          "title": "Серия мастер-классов \"Соломенная шляпка\"",
+          "priceRub": 3700,
+          "publishedAt": "2022-11-22T05:53:32.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 44,
-      "growthSinceSnapshot": 0,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "plasticdreams",
+      "language": "ru",
       "name": "Олеся Аркс",
       "title": "Коллекционер кукол Барби",
       "boostyUrl": "https://boosty.to/plasticdreams",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK",
-        "Миниатюра и кукольные дома"
+        "Миниатюры и кукольные дома"
       ],
       "focus": "Barbie / Fashion dolls; Миниатюра 1:6; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Миниатюра 1:6; Коллекционирование / обзоры.",
@@ -1998,14 +3185,145 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "crochetpatterndoll",
+      "language": "ru",
+      "name": "Ольга Неретина",
+      "title": "Amigurumi toy and doll crochet patterns (pdf)",
+      "boostyUrl": "https://boosty.to/crochetpatterndoll",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки"
+      ],
+      "focus": "Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "summary": "Welcome to my creative studio! 🧶✨ I am so glad you're here! Since Etsy is currently unavailable in my region, I use Boosty to share my patterns with the world. It’s a safe and easy-to-use platform. Why buy this pattern? ✅ Very detailed: I've included a huge number of step-by-step photos (the most detailed guide you've ever seen!). ✅ Language: Clear instructions that are easy to follow.",
+      "subscribers": 27,
+      "postsCount": 37,
+      "lastPostAt": "2025-12-13T10:10:20.000Z",
+      "lastPostTitle": "МК по вязанию \"Маленькая пони с нарядами\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 400,
+      "maxOneOffPriceRub": 750,
+      "oneOffCountRecent": 18,
+      "oneOffItems": [
+        {
+          "title": "МК по вязанию \"Маленькая пони с нарядами\"",
+          "priceRub": 550,
+          "publishedAt": "2025-12-13T10:10:20.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию крючком \"Теленок Гаврюша\" (русский язык)",
+          "priceRub": 550,
+          "publishedAt": "2025-08-24T11:01:27.000Z"
+        },
+        {
+          "title": "МК одежда для куклы спицами (подходит для кукол 37-40 см) (русский язык)",
+          "priceRub": 400,
+          "publishedAt": "2023-09-10T21:37:32.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию: \"Одежда для куклы Лолы\" (русский язык)",
+          "priceRub": 500,
+          "publishedAt": "2023-09-05T18:22:37.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию \"Куклы с нарядами\" (русский язык)",
+          "priceRub": 650,
+          "publishedAt": "2022-12-29T21:20:04.000Z"
+        },
+        {
+          "title": "Doll & 10 Outfits - Amigurumi Crochet Pattern (PDF in English) Price: 750 RUB (approx. $10)",
+          "priceRub": 750,
+          "publishedAt": "2022-12-29T21:09:15.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 27,
+      "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "olinimk",
+      "language": "ru",
+      "name": "Оля Плетнева",
+      "title": "Мастер-классы по вязанию спицами для кукол",
+      "boostyUrl": "https://boosty.to/olinimk",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "ДОБРЫЙ ДЕНЬ! Меня зовут Оля и я рада приветствовать Вас в нашем творческом сообществе! Каждый МК представляет собой текстовый PDF-журнал формата А4.",
+      "subscribers": 166,
+      "postsCount": 29,
+      "lastPostAt": "2026-05-27T03:22:09.000Z",
+      "lastPostTitle": "УЧАСТИЕ В СП \"6 в 1\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 360,
+      "maxOneOffPriceRub": 1090,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "УЧАСТИЕ В СП \"6 в 1\"",
+          "priceRub": 680,
+          "publishedAt": "2026-05-27T03:22:09.000Z"
+        },
+        {
+          "title": "МК \"Мишель\" 5 в 1 для кукол Paola Reina",
+          "priceRub": 650,
+          "publishedAt": "2026-01-14T09:21:30.000Z"
+        },
+        {
+          "title": "МК \"Богемия\"",
+          "priceRub": 440,
+          "publishedAt": "2025-09-23T10:41:26.000Z"
+        },
+        {
+          "title": "МК \"Гламур\"",
+          "priceRub": 450,
+          "publishedAt": "2025-04-02T06:23:29.000Z"
+        },
+        {
+          "title": "МК \"Тиффани\"",
+          "priceRub": 450,
+          "publishedAt": "2024-12-22T11:07:09.000Z"
+        },
+        {
+          "title": "МК \"Уютный\"",
+          "priceRub": 400,
+          "publishedAt": "2024-09-13T08:09:30.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "natali-cotton-dolls",
+      "language": "ru",
       "name": "Первалова Наталья",
       "title": "КУКЛЫ ИЗ ТКАНИ • ПРОСТЫЕ ВЫКРОЙКИ ОДЕЖДЫ ДЛЯ КУКОЛ",
       "boostyUrl": "https://boosty.to/natali-cotton-dolls",
       "category": "Одежда и выкройки",
       "topics": [
         "Одежда и выкройки",
-        "Создание кукол"
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
@@ -2063,67 +3381,14 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "mylittlemuses",
-      "name": "Полина Бочкарева",
-      "title": "",
-      "boostyUrl": "https://boosty.to/mylittlemuses",
-      "category": "Кастом и OOAK",
-      "topics": [
-        "Кастом и OOAK"
-      ],
-      "focus": "Кастом / OOAK; Blythe",
-      "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Blythe.",
-      "summary": "Автор публикует материалы по темам: Кастом / OOAK; Blythe.",
-      "subscribers": 1,
-      "postsCount": 5,
-      "lastPostAt": "2022-04-26T00:04:49.000Z",
-      "lastPostTitle": "Blythe custom doll,5th payment",
-      "paymentTypes": [
-        "one-off"
-      ],
-      "minSubscriptionPriceRub": null,
-      "maxSubscriptionPriceRub": null,
-      "minSubscriptionPromoPriceRub": null,
-      "tierCount": 0,
-      "tiers": [],
-      "minOneOffPriceRub": 5000,
-      "maxOneOffPriceRub": 5000,
-      "oneOffCountRecent": 4,
-      "oneOffItems": [
-        {
-          "title": "Blythe custom doll,5th payment",
-          "priceRub": 5000,
-          "publishedAt": "2022-04-26T00:04:49.000Z"
-        },
-        {
-          "title": "Кастомная кукла Блайз,4й платеж",
-          "priceRub": 5000,
-          "publishedAt": "2022-04-26T00:02:23.000Z"
-        },
-        {
-          "title": "OOAK Custom Blythe doll,3d payment",
-          "priceRub": 5000,
-          "publishedAt": "2022-04-25T23:57:10.000Z"
-        },
-        {
-          "title": "Custom Blythe doll,2st payment",
-          "priceRub": 5000,
-          "publishedAt": "2022-04-25T23:22:33.000Z"
-        }
-      ],
-      "checkedAt": "2026-08-07",
-      "historicalSubscribers": 1,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
-    },
-    {
       "slug": "rumbox-miniatura",
+      "language": "ru",
       "name": "РУМБОКСЫ И МИНИАТЮРЫ",
       "title": "МК по созданию румбоксов, миниатюр, игрушек",
       "boostyUrl": "https://boosty.to/rumbox-miniatura",
-      "category": "Миниатюра и кукольные дома",
+      "category": "Миниатюры и кукольные дома",
       "topics": [
-        "Миниатюра и кукольные дома"
+        "Миниатюры и кукольные дома"
       ],
       "focus": "Миниатюра 1:6",
       "reason": "Профильный русскоязычный кукольный автор: Миниатюра 1:6.",
@@ -2171,7 +3436,80 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "rizhik_toys",
+      "language": "ru",
+      "name": "Рыжик_вяжет (Rizhik_toys)",
+      "title": "Амигуруми мастер-классы по вязанию игрушек",
+      "boostyUrl": "https://boosty.to/rizhik_toys",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Привет! Меня зовут Ульяна, я мастер амигуруми и здесь вы найдете все мои мастер-классы и сможете приобрести их быстро и бесконтактно) Приятного вязания!",
+      "subscribers": 61,
+      "postsCount": 72,
+      "lastPostAt": "2026-03-24T09:52:47.000Z",
+      "lastPostTitle": "Мастер-класс по вязанию мешка для хранения в виде опоссума",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 50,
+      "maxSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": 30,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Просто поддержка",
+          "priceRub": 50,
+          "promoPriceRub": 30
+        }
+      ],
+      "minOneOffPriceRub": 99,
+      "maxOneOffPriceRub": 350,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс по вязанию мешка для хранения в виде опоссума",
+          "priceRub": 310,
+          "publishedAt": "2026-03-24T09:52:47.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию Стича крючком. Амигуруми описание Стич",
+          "priceRub": 300,
+          "publishedAt": "2025-07-14T02:23:39.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию Лабубу (пушистый монстр)",
+          "priceRub": 300,
+          "publishedAt": "2025-06-21T07:11:04.000Z"
+        },
+        {
+          "title": "Мастер-класс \"Спящий котенок\" вязаный крючком амигуруми.",
+          "priceRub": 330,
+          "publishedAt": "2024-09-13T06:10:48.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию Спанч-Боба, Патрика и Планктона крючком.",
+          "priceRub": 330,
+          "publishedAt": "2024-08-01T05:07:12.000Z"
+        },
+        {
+          "title": "Мастер-класс Уолтер Уайт вязаный крючком амигуруми",
+          "priceRub": 300,
+          "publishedAt": "2024-06-24T05:29:51.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "kuklatyliya",
+      "language": "ru",
       "name": "Светлана Власова-Тихонова",
       "title": "Мастерская вязанной одежды для кукол Паола Рейна",
       "boostyUrl": "https://boosty.to/kuklatyliya",
@@ -2221,13 +3559,14 @@
     },
     {
       "slug": "svetlana.meshenko",
+      "language": "ru",
       "name": "Светлана Мещенко",
       "title": "",
       "boostyUrl": "https://boosty.to/svetlana.meshenko",
       "category": "Одежда и выкройки",
       "topics": [
         "Одежда и выкройки",
-        "Создание кукол"
+        "BJD и шарнирные куклы"
       ],
       "focus": "BJD / шарнирные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Одежда и выкройки.",
@@ -2273,6 +3612,7 @@
     },
     {
       "slug": "t.chelnokova83",
+      "language": "ru",
       "name": "Татьяна Челнокова",
       "title": "Вязание для кукол спицами и крючком, мастер-классы",
       "boostyUrl": "https://boosty.to/t.chelnokova83",
@@ -2337,16 +3677,17 @@
     },
     {
       "slug": "liya_interior_toys",
+      "language": "ru",
       "name": "Туфельки для куколки",
       "title": "Обувь для кукол ручной работы",
       "boostyUrl": "https://boosty.to/liya_interior_toys",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
-        "Создание кукол"
+        "Аксессуары для кукол",
+        "Текстильные и интерьерные куклы"
       ],
-      "focus": "Текстильные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "focus": "Текстильные куклы; Аксессуары",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Аксессуары.",
       "summary": "Дорогие друзья, рада приветствовать вас в моей маленькой творческой мастерской. Давайте знакомиться. Я - Юля и я… сапожник🙂 Изготовлением обуви для кукол я занимаюсь уже более четырёх лет. Я сама шила текстильных кукол и интерьерные игрушки, но мне сложно было найти обувь которая устраивала бы меня по качеству и цене. И тогда я начала мастерить туфельки сама.",
       "subscribers": 5,
       "postsCount": 5,
@@ -2392,13 +3733,14 @@
     },
     {
       "slug": "kozina_toys",
+      "language": "ru",
       "name": "Юлия Козина ",
       "title": "Текстильные куклы и мастер-классы",
       "boostyUrl": "https://boosty.to/kozina_toys",
       "category": "Одежда и выкройки",
       "topics": [
         "Одежда и выкройки",
-        "Создание кукол"
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
@@ -2456,16 +3798,73 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "shellydolls",
+      "language": "ru",
+      "name": "ЮляБЖД",
+      "title": "Скульптура, 3D-моделирование, фотография, БЖД",
+      "boostyUrl": "https://boosty.to/shellydolls",
+      "category": "BJD и шарнирные куклы",
+      "topics": [
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
+      "summary": "Привет! Как нетрудно догадаться, меня зовут Юля. По образованию лингвист, по работе журналист и редактор, но эта страница о другом. Здесь я рассказываю, как делаю шарнирных кукол - моделю, печатаю, леплю и даже режу из дерева. Если есть вопросы - спрашивайте, не стесняйтесь, опыта у меня с избытком. Я, страшно сказать, 10 лет в этой теме.",
+      "subscribers": 12,
+      "postsCount": 10,
+      "lastPostAt": "2023-04-30T18:24:57.000Z",
+      "lastPostTitle": "Чутка подправила",
+      "paymentTypes": [
+        "subscription"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 1000,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 4,
+      "tiers": [
+        {
+          "name": "Поддержка автора",
+          "priceRub": 200,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Увидеть пост на один день раньше",
+          "priceRub": 500,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Получить развернутую консультацию по 3D",
+          "priceRub": 700,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Получить скидку на куклу или распечатку",
+          "priceRub": 1000,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": null,
+      "maxOneOffPriceRub": null,
+      "oneOffCountRecent": 0,
+      "oneOffItems": [],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "yana.kozlova.dolls",
+      "language": "ru",
       "name": "Янина Козлова",
       "title": "Дизайнер, иллюстратор и художник по куклам",
       "boostyUrl": "https://boosty.to/yana.kozlova.dolls",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "Текстильные и интерьерные куклы"
       ],
-      "focus": "Авторские арт-куклы",
-      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы.",
+      "focus": "Текстильные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы.",
       "summary": "Яна Козлова, дизайнер, художник по куклам и иллюстратор. Провожу индивидуальные и групповые мастер-классы по рисованию и по созданию кукол для детей и взрослых. Продаю акварельные картины и авторских кукол. Состою в творческом союзе художников ТСХ ДПИ. #мастерская_яны_козловой",
       "subscribers": 0,
       "postsCount": 9,
@@ -2500,22 +3899,23 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "teryele",
-      "name": "Alyona Vasile",
-      "title": "Restoration and recreation of antique doll outfits",
-      "boostyUrl": "https://boosty.to/teryele",
-      "category": "Аксессуары",
+      "slug": "aksamit",
+      "language": "ru",
+      "name": "Aksamit doll",
+      "title": "авторская шарнирная кукла",
+      "boostyUrl": "https://boosty.to/aksamit",
+      "category": "Миниатюры и кукольные дома",
       "topics": [
-        "Аксессуары",
-        "История, ремонт и реставрация"
+        "Миниатюры и кукольные дома",
+        "BJD и шарнирные куклы"
       ],
-      "focus": "История / реставрация",
-      "reason": "Профильный русскоязычный кукольный автор: История / реставрация.",
-      "summary": "Restorer and technologist of antique doll costumes. Author of the reconstruction project for the Romanov children's dolls at Tsarskoe Selo Museum. Here I share my professional patterns, unique historical research, and restoration secrets. Реставратор и технолог костюма антикварных кукол. Автор проекта реконструкции кукол детей семьи Романовых для музея в Царском Селе.",
-      "subscribers": 0,
-      "postsCount": 12,
-      "lastPostAt": "2026-05-05T10:37:59.000Z",
-      "lastPostTitle": "CATALOGUE: Antique Doll Shoes Patterns & Instructions",
+      "focus": "BJD / шарнирные куклы; Миниатюра 1:6",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Миниатюра 1:6.",
+      "summary": "Hi my name is Tatyana I am the author of the jointed doll Aksamit.here you can see photos and videos of my work",
+      "subscribers": 22,
+      "postsCount": 4,
+      "lastPostAt": "2024-01-24T18:55:50.000Z",
+      "lastPostTitle": "prepayment",
       "paymentTypes": [
         "one-off"
       ],
@@ -2524,58 +3924,130 @@
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 0,
       "tiers": [],
-      "minOneOffPriceRub": 2500,
-      "maxOneOffPriceRub": 5000,
-      "oneOffCountRecent": 7,
+      "minOneOffPriceRub": 10000,
+      "maxOneOffPriceRub": 10000,
+      "oneOffCountRecent": 1,
       "oneOffItems": [
         {
-          "title": "Workshop Vol.5: Kestner Antique Doll Shoes (English PDF)",
-          "priceRub": 2500,
-          "publishedAt": "2026-05-05T04:30:27.000Z"
-        },
-        {
-          "title": "Workshop Vol.4: German Antique Doll Shoes (English PDF)",
-          "priceRub": 2500,
-          "publishedAt": "2026-05-04T23:28:14.000Z"
-        },
-        {
-          "title": "Workshop (Vol. 14): Beige Silk & Lace Dress",
-          "priceRub": 5000,
-          "publishedAt": "2026-05-04T21:00:27.000Z"
-        },
-        {
-          "title": "Workshop (Vol. 1): Pink Lace Dress",
-          "priceRub": 2500,
-          "publishedAt": "2026-05-04T20:39:25.000Z"
-        },
-        {
-          "title": "Workshop (Vol. 11): Lilac Dress Reproduction ✨The Romanov Collection✨",
-          "priceRub": 2500,
-          "publishedAt": "2026-05-04T20:11:07.000Z"
-        },
-        {
-          "title": "Workshop (Vol. 2-3): Sailor Suits Reproduction ✨The Romanov Collection✨",
-          "priceRub": 5000,
-          "publishedAt": "2026-05-01T00:49:46.000Z"
+          "title": "prepayment",
+          "priceRub": 10000,
+          "publishedAt": "2024-01-24T18:55:50.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 0,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "alenkina_kukla",
+      "language": "ru",
+      "name": "alenkina_kukla",
+      "title": "Создаю кукол Блайз и шью одежду для них",
+      "boostyUrl": "https://boosty.to/alenkina_kukla",
+      "category": "Кастом и OOAK",
+      "topics": [
+        "Кастом и OOAK"
+      ],
+      "focus": "Кастом / OOAK; Blythe",
+      "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Blythe.",
+      "summary": "Приветствую всех влюбленных в кукол Блайз! Я занимаюсь кастомом кукол с 2018 года.Еще шью одежду для этих чудесных крошек.",
+      "subscribers": 0,
+      "postsCount": 2,
+      "lastPostAt": "2022-04-02T10:17:05.000Z",
+      "lastPostTitle": "Blythe doll",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 20000,
+      "maxOneOffPriceRub": 23000,
+      "oneOffCountRecent": 2,
+      "oneOffItems": [
+        {
+          "title": "Blythe doll",
+          "priceRub": 23000,
+          "publishedAt": "2022-04-02T10:17:05.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 20000,
+          "publishedAt": "2022-03-28T18:34:08.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "helphope",
+      "language": "ru",
+      "name": "AmiHope",
+      "title": "Интерьерные куклы и мк",
+      "boostyUrl": "https://boosty.to/helphope",
+      "category": "Текстильные и интерьерные куклы",
+      "topics": [
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Текстильные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "summary": "Привет! Что я могу для вас сделать на заказ ❔ 🌸любую фандомную игрушку из игр, книг, аниме и т.д. 🌸Оригинального персонажа по вашему эскизу/запросу 🌸МК по оригинальным персонажам Hi! What can I order for you? 🌸Any fandom toy from games, books, anime, etc. 🌸An original character according to your sketch/request 🌸Pattern based on the original characters",
+      "subscribers": 1,
+      "postsCount": 6,
+      "lastPostAt": "2026-02-08T13:18:15.000Z",
+      "lastPostTitle": "МК \"Jack in the box\" (RU/EN)",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 550,
+      "maxOneOffPriceRub": 550,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "МК \"Jack in the box\" (RU/EN)",
+          "priceRub": 550,
+          "publishedAt": "2026-02-08T13:18:15.000Z"
+        },
+        {
+          "title": "Crochet pattern Sukuna chibi",
+          "priceRub": 550,
+          "publishedAt": "2026-02-08T12:52:52.000Z"
+        },
+        {
+          "title": "МК \"Сукуна\" в стиле чиби (RU)",
+          "priceRub": 550,
+          "publishedAt": "2026-02-08T12:43:52.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "anfisatoys",
+      "language": "ru",
       "name": "AnfisaToys ",
       "title": "Я художница, автор кукол.",
       "boostyUrl": "https://boosty.to/anfisatoys",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы"
       ],
-      "focus": "BJD / шарнирные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
-      "summary": "Я художница, автор кукол. Основные темы: BJD / шарнирные куклы.",
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "summary": "Я художница, автор кукол. Основные темы: BJD / шарнирные куклы; Авторские арт-куклы.",
       "subscribers": 10,
       "postsCount": 9,
       "lastPostAt": "2023-10-01T13:32:06.000Z",
@@ -2630,6 +4102,7 @@
     },
     {
       "slug": "anittamaltseva",
+      "language": "ru",
       "name": "Anitta Maltseva",
       "title": "Вдыхаю жизнь в заводских кукол!",
       "boostyUrl": "https://boosty.to/anittamaltseva",
@@ -2686,12 +4159,13 @@
     },
     {
       "slug": "annsherann",
+      "language": "ru",
       "name": "Ann Sherann",
       "title": "Обзоры и распаковка кукол за кружкой чая",
       "boostyUrl": "https://boosty.to/annsherann",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Monster High; Коллекционирование / обзоры",
@@ -2725,14 +4199,55 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "annakorolleva",
+      "language": "ru",
+      "name": "Anna Koroleva ",
+      "title": "",
+      "boostyUrl": "https://boosty.to/annakorolleva",
+      "category": "Текстильные и интерьерные куклы",
+      "topics": [
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Текстильные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "summary": "Автор публикует материалы по темам: Текстильные куклы.",
+      "subscribers": 1,
+      "postsCount": 3,
+      "lastPostAt": "2022-07-30T12:44:47.000Z",
+      "lastPostTitle": "Силиконовый Молд для изготовления лица Текстильной куклы.",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 2700,
+      "maxOneOffPriceRub": 2700,
+      "oneOffCountRecent": 1,
+      "oneOffItems": [
+        {
+          "title": "Силиконовый Молд для изготовления лица Текстильной куклы.",
+          "priceRub": 2700,
+          "publishedAt": "2022-07-30T12:44:47.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 1,
+      "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "annadolls6",
+      "language": "ru",
       "name": "annadolls6",
       "title": "Изготовление одежды и обуви для шарнирных кукол",
       "boostyUrl": "https://boosty.to/annadolls6",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
-        "Создание кукол",
+        "Аксессуары для кукол",
+        "BJD и шарнирные куклы",
         "Одежда и выкройки"
       ],
       "focus": "BJD / шарнирные куклы; Одежда и выкройки; Аксессуары",
@@ -2772,6 +4287,7 @@
     },
     {
       "slug": "atelierdoll",
+      "language": "ru",
       "name": "Atelierdoll",
       "title": "",
       "boostyUrl": "https://boosty.to/atelierdoll",
@@ -2844,12 +4360,13 @@
     },
     {
       "slug": "bersreview",
+      "language": "ru",
       "name": "BersReview",
       "title": "YouTube блогер и коллекционер кукол",
       "boostyUrl": "https://boosty.to/bersreview",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Barbie / Fashion dolls; Monster High; Коллекционирование / обзоры",
@@ -2905,84 +4422,21 @@
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 2279,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 2280,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-07"
     },
     {
-      "slug": "bjd_style",
-      "name": "BJD_Style",
-      "title": "Clothes for MCD Minifee /BJD Dolls",
-      "boostyUrl": "https://boosty.to/bjd_style",
-      "category": "Одежда и выкройки",
-      "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
-      ],
-      "focus": "BJD / шарнирные куклы; Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Одежда и выкройки.",
-      "summary": "Всем привет! Меня зовут Ольга. Я создаю одежду для кукол Minifee. Буду рада сотрудничеству! Hello! My name is Olga! I make clothes for Minifee / BJD Dolls I will be glad to cooperate!",
-      "subscribers": 3,
-      "postsCount": 7,
-      "lastPostAt": "2022-12-27T03:59:15.000Z",
-      "lastPostTitle": "🛍SOLD/Set for Tina",
-      "paymentTypes": [
-        "one-off"
-      ],
-      "minSubscriptionPriceRub": null,
-      "maxSubscriptionPriceRub": null,
-      "minSubscriptionPromoPriceRub": null,
-      "tierCount": 0,
-      "tiers": [],
-      "minOneOffPriceRub": 3300,
-      "maxOneOffPriceRub": 6200,
-      "oneOffCountRecent": 7,
-      "oneOffItems": [
-        {
-          "title": "🛍SOLD/Set for Tina",
-          "priceRub": 3600,
-          "publishedAt": "2022-12-27T03:59:15.000Z"
-        },
-        {
-          "title": "Sets for Madlen) SOLD",
-          "priceRub": 4300,
-          "publishedAt": "2022-11-23T07:51:03.000Z"
-        },
-        {
-          "title": "🛍SALE/ Clothes for MCD Minifee doll",
-          "priceRub": 3300,
-          "publishedAt": "2022-11-23T05:19:35.000Z"
-        },
-        {
-          "title": "🛍SALE/ Clothes for Minifee doll/ MCD",
-          "priceRub": 3300,
-          "publishedAt": "2022-11-23T05:06:08.000Z"
-        },
-        {
-          "title": "🛍SALE/ Clothes for Minifee doll MCD",
-          "priceRub": 3300,
-          "publishedAt": "2022-11-23T04:51:32.000Z"
-        },
-        {
-          "title": "Set for Tina) SOLD",
-          "priceRub": 5000,
-          "publishedAt": "2022-11-22T16:22:13.000Z"
-        }
-      ],
-      "checkedAt": "2026-08-07",
-      "historicalSubscribers": 3,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
-    },
-    {
       "slug": "bosonozhkadolls",
+      "language": "ru",
       "name": "Bosonozhkadolls",
       "title": "Авторские текстильные куклы, шерстяные зверята.",
       "boostyUrl": "https://boosty.to/bosonozhkadolls",
-      "category": "Создание кукол",
+      "category": "Одежда и выкройки",
       "topics": [
-        "Создание кукол",
-        "Одежда и выкройки"
+        "Одежда и выкройки",
+        "Текстильные и интерьерные куклы",
+        "BJD и шарнирные куклы"
       ],
       "focus": "Текстильные куклы; BJD / шарнирные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; BJD / шарнирные куклы; Одежда и выкройки.",
@@ -3048,12 +4502,14 @@
     },
     {
       "slug": "chydiki",
+      "language": "ru",
       "name": "Chydiki",
       "title": "феи - авторские куклы ручной работы",
       "boostyUrl": "https://boosty.to/chydiki",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы; Авторские арт-куклы",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы.",
@@ -3102,12 +4558,13 @@
     },
     {
       "slug": "miniaturediylife",
+      "language": "ru",
       "name": "DIY_miniature_life",
       "title": "Создаю миниатюрные домики, диорамы и локации.",
       "boostyUrl": "https://boosty.to/miniaturediylife",
-      "category": "Миниатюра и кукольные дома",
+      "category": "Миниатюры и кукольные дома",
       "topics": [
-        "Миниатюра и кукольные дома"
+        "Миниатюры и кукольные дома"
       ],
       "focus": "Миниатюра 1:6",
       "reason": "Профильный русскоязычный кукольный автор: Миниатюра 1:6.",
@@ -3168,12 +4625,13 @@
     },
     {
       "slug": "doll_charm",
+      "language": "ru",
       "name": "Doll_Charm",
       "title": "Коллекционер кукол Barbie, а также Sindy, Mizi, IT",
       "boostyUrl": "https://boosty.to/doll_charm",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
@@ -3207,14 +4665,81 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "doll_katt",
+      "language": "ru",
+      "name": "Doll_katt",
+      "title": "",
+      "boostyUrl": "https://boosty.to/doll_katt",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "summary": "Автор публикует материалы по темам: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "subscribers": 7,
+      "postsCount": 6,
+      "lastPostAt": "2023-07-19T08:17:03.000Z",
+      "lastPostTitle": "Post for sale",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 1500,
+      "maxOneOffPriceRub": 50000,
+      "oneOffCountRecent": 6,
+      "oneOffItems": [
+        {
+          "title": "Post for sale",
+          "priceRub": 45120,
+          "publishedAt": "2023-07-19T08:17:03.000Z"
+        },
+        {
+          "title": "МАСТЕР КЛАСС 3 часть шарнирный кролик из ladoll",
+          "priceRub": 1500,
+          "publishedAt": "2022-03-23T06:16:59.000Z"
+        },
+        {
+          "title": "МАСТЕР КЛАСС 2 часть шарнирный кролик из ladoll",
+          "priceRub": 1500,
+          "publishedAt": "2022-03-23T05:54:25.000Z"
+        },
+        {
+          "title": "МАСТЕР КЛАСС 1 часть шарнирный кролик из ladoll",
+          "priceRub": 1500,
+          "publishedAt": "2022-03-23T05:28:22.000Z"
+        },
+        {
+          "title": "Chocolate Bear Шоколадный медведь",
+          "priceRub": 4500,
+          "publishedAt": "2022-03-20T17:28:30.000Z"
+        },
+        {
+          "title": "Art doll Микки Маус авторская кукла",
+          "priceRub": 50000,
+          "publishedAt": "2022-03-20T14:25:20.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "dollaland",
+      "language": "ru",
       "name": "Dollaland",
       "title": "Custom Blythe doll | Кастом кукол Блайз |Обучение",
       "boostyUrl": "https://boosty.to/dollaland",
       "category": "Кастом и OOAK",
       "topics": [
         "Кастом и OOAK",
-        "Создание кукол"
+        "Авторские и арт-куклы"
       ],
       "focus": "Авторские арт-куклы; Кастом / OOAK; Blythe",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Кастом / OOAK; Blythe.",
@@ -3273,13 +4798,14 @@
     },
     {
       "slug": "dollversediaries",
+      "language": "ru",
       "name": "Dollverse Diaries",
       "title": "Дневники кукольной вселенной",
       "boostyUrl": "https://boosty.to/dollversediaries",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
-        "Миниатюра и кукольные дома"
+        "Коллекционирование и кукольные медиа",
+        "Миниатюры и кукольные дома"
       ],
       "focus": "Миниатюра 1:6; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Миниатюра 1:6; Коллекционирование / обзоры.",
@@ -3350,12 +4876,13 @@
     },
     {
       "slug": "dolly_game",
+      "language": "ru",
       "name": "Dolly Game",
       "title": "МК и процессы создания кукол Obitsu и игрушек",
       "boostyUrl": "https://boosty.to/dolly_game",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы"
       ],
       "focus": "Авторские арт-куклы",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы.",
@@ -3388,7 +4915,190 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "dreamdollspace",
+      "language": "ru",
+      "name": "DREAMDOLLSPACE",
+      "title": "маленький мир большой мечты",
+      "boostyUrl": "https://boosty.to/dreamdollspace",
+      "category": "Кастом и OOAK",
+      "topics": [
+        "Кастом и OOAK",
+        "Аксессуары для кукол"
+      ],
+      "focus": "Кастом / OOAK; Аксессуары",
+      "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Аксессуары.",
+      "summary": "маленький мир большой мечты. Основные темы: Кастом / OOAK; Аксессуары.",
+      "subscribers": 8,
+      "postsCount": 7,
+      "lastPostAt": "2024-09-05T10:59:50.000Z",
+      "lastPostTitle": "Body for doll (pattern and master class in english)",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 590,
+      "maxOneOffPriceRub": 14900,
+      "oneOffCountRecent": 6,
+      "oneOffItems": [
+        {
+          "title": "Body for doll (pattern and master class in english)",
+          "priceRub": 2000,
+          "publishedAt": "2024-09-05T10:59:50.000Z"
+        },
+        {
+          "title": "Master class COAT for Paola Reina",
+          "priceRub": 590,
+          "publishedAt": "2023-12-03T10:49:15.000Z"
+        },
+        {
+          "title": "Полный курс по кукле",
+          "priceRub": 14900,
+          "publishedAt": "2022-06-02T08:20:07.000Z"
+        },
+        {
+          "title": "Мастер-класс КАРВИНГ",
+          "priceRub": 3000,
+          "publishedAt": "2022-06-02T08:01:00.000Z"
+        },
+        {
+          "title": "Мастер-класс ПАРИК для куклы",
+          "priceRub": 2000,
+          "publishedAt": "2022-06-02T07:55:01.000Z"
+        },
+        {
+          "title": "Мастер-класс ТЕЛО ДЛЯ КУКЛЫ Paola Reina (на русском языке)",
+          "priceRub": 2000,
+          "publishedAt": "2022-06-02T07:45:06.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "danilova77",
+      "language": "ru",
+      "name": "Ekaterina Danilova",
+      "title": "",
+      "boostyUrl": "https://boosty.to/danilova77",
+      "category": "Аксессуары для кукол",
+      "topics": [
+        "Аксессуары для кукол",
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
+      "summary": "Автор публикует материалы по темам: BJD / шарнирные куклы.",
+      "subscribers": 1,
+      "postsCount": 14,
+      "lastPostAt": "2023-06-02T06:17:10.000Z",
+      "lastPostTitle": "Куклы шарнирные. Рост 21 и 23 см. Фимо.",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 1000,
+      "maxOneOffPriceRub": 7476,
+      "oneOffCountRecent": 9,
+      "oneOffItems": [
+        {
+          "title": "Куклы шарнирные. Рост 21 и 23 см. Фимо.",
+          "priceRub": 7476,
+          "publishedAt": "2023-06-02T06:17:10.000Z"
+        },
+        {
+          "title": "Ботиночки состаренные на ножку 3,3 см. Выполнены на заказ.",
+          "priceRub": 7000,
+          "publishedAt": "2023-06-01T04:38:06.000Z"
+        },
+        {
+          "title": "Ботиночки на ножку 8см.",
+          "priceRub": 7000,
+          "publishedAt": "2023-05-31T05:09:22.000Z"
+        },
+        {
+          "title": "Обувь для кукол на заказ.",
+          "priceRub": 4800,
+          "publishedAt": "2022-11-09T18:46:59.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 4400,
+          "publishedAt": "2022-08-02T05:56:26.000Z"
+        },
+        {
+          "title": "Сандалики на ножку 6 см.",
+          "priceRub": 4800,
+          "publishedAt": "2022-07-29T15:42:33.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "floria_elena",
+      "language": "ru",
+      "name": "Elena Floria",
+      "title": "Художник по куклам",
+      "boostyUrl": "https://boosty.to/floria_elena",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы"
+      ],
+      "focus": "Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы.",
+      "summary": "Художник по куклам. Основные темы: Авторские арт-куклы.",
+      "subscribers": 4,
+      "postsCount": 5,
+      "lastPostAt": "2023-03-28T11:07:42.000Z",
+      "lastPostTitle": "ПОЛУЧИТЬ ДОСТУП: ЭЛЕКТРОННЫЕ ВЫКРОЙКИ И ВИДЕО-УРОКИ ПО СОЗДАНИЮ КУКЛЫ \"Горошинка\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 700,
+      "maxOneOffPriceRub": 4100,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "ПОЛУЧИТЬ ДОСТУП: ЭЛЕКТРОННЫЕ ВЫКРОЙКИ И ВИДЕО-УРОКИ ПО СОЗДАНИЮ КУКЛЫ \"Горошинка\"",
+          "priceRub": 2850,
+          "publishedAt": "2023-03-28T11:07:42.000Z"
+        },
+        {
+          "title": "ПОЛУЧИТЬ: МАСТЕР-КЛАСС по созданию куклы «Горошинка» + выкройки+ готовое личико",
+          "priceRub": 4100,
+          "publishedAt": "2023-03-28T10:20:49.000Z"
+        },
+        {
+          "title": "ПОЛУЧИТЬ ДОСТУП: Авторская ВЫКРОЙКА текстильного тела куклы-ребёнка «ШКОДА» + текстовые и видео-подсказки",
+          "priceRub": 700,
+          "publishedAt": "2023-03-24T22:35:07.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "elena.niyazova",
+      "language": "ru",
       "name": "Elena Niyazova",
       "title": "Dolls, pattern",
       "boostyUrl": "https://boosty.to/elena.niyazova",
@@ -3398,7 +5108,7 @@
       ],
       "focus": "Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
-      "summary": "Привет! Меня зовут Елена, я творческая личность. Обожаю шить, рисовать, творить) Создаю кукол и игрушки из ткани своими руками с 2017 года. Предлагаю к покупке свои мастер-классы и выкройки. Со мной всегда можно связаться в личных сообщениях или других социальных сетях!",
+      "summary": "Привет! Меня зовут Елена, я творческая личность. Обожаю шить, рисовать, творить) Создаю кукол и игрушки из ткани своими руками с 2017 года. Предлагаю к покупке свои мастер-классы и выкройки.",
       "subscribers": 7,
       "postsCount": 6,
       "lastPostAt": "2024-11-13T08:01:30.000Z",
@@ -3452,21 +5162,22 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "elenalis2011",
-      "name": "Elena!Lis",
-      "title": "Мастер классы по вязанию кукол, зверюшек амигуруми",
-      "boostyUrl": "https://boosty.to/elenalis2011",
-      "category": "Создание кукол",
+      "slug": "elenashmidt_crochet.toys",
+      "language": "ru",
+      "name": "ELENA SHMIDT",
+      "title": "amigurumi designer",
+      "boostyUrl": "https://boosty.to/elenashmidt_crochet.toys",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол"
+        "Вязаные куклы и амигуруми"
       ],
       "focus": "Вязаные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
-      "summary": "Мастер классы по вязанию кукол, зверюшек амигуруми. Основные темы: Вязаные куклы.",
-      "subscribers": 0,
-      "postsCount": 1,
-      "lastPostAt": "2025-09-07T10:47:11.000Z",
-      "lastPostTitle": "Кукла крючком",
+      "summary": "Доброе пожаловать! меня зовут Елена Шмидт, вяжу игрушки и куклы, пишу МК обратите внимание! все МК на русском языке! Игрушка — это лучший подарок ко дню рождения и любому празднику не только ребенку, но и взрослому! Кукла может быть игровая или интерьерная. Цвет одежды, волосы, тело - все по вашим предпочтениям! Все мои игрушки выполнены из безопасных для детей материалов!",
+      "subscribers": 51,
+      "postsCount": 20,
+      "lastPostAt": "2025-07-25T10:18:00.000Z",
+      "lastPostTitle": "Мастер-Класс пляжные аксессуары",
       "paymentTypes": [
         "one-off"
       ],
@@ -3475,29 +5186,56 @@
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 0,
       "tiers": [],
-      "minOneOffPriceRub": 24000,
-      "maxOneOffPriceRub": 24000,
-      "oneOffCountRecent": 1,
+      "minOneOffPriceRub": 300,
+      "maxOneOffPriceRub": 900,
+      "oneOffCountRecent": 20,
       "oneOffItems": [
         {
-          "title": "Кукла крючком",
-          "priceRub": 24000,
-          "publishedAt": "2025-09-07T10:47:11.000Z"
+          "title": "Мастер-Класс пляжные аксессуары",
+          "priceRub": 350,
+          "publishedAt": "2025-07-25T10:18:00.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла Саша",
+          "priceRub": 550,
+          "publishedAt": "2025-07-01T07:31:27.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла Розалия",
+          "priceRub": 550,
+          "publishedAt": "2025-05-12T08:04:41.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла Вероника (Чирлидерша Ника)",
+          "priceRub": 650,
+          "publishedAt": "2025-04-27T09:23:17.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла Элли",
+          "priceRub": 600,
+          "publishedAt": "2025-03-25T12:05:16.000Z"
+        },
+        {
+          "title": "Мастер-класс кукла Маргарита",
+          "priceRub": 550,
+          "publishedAt": "2025-02-25T10:05:39.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 0,
-      "growthSinceSnapshot": 0,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "enivaqueen",
+      "language": "ru",
       "name": "Enivaqueen ",
       "title": "Кукольный мастер. Создаю кукол, игрушки и одежду",
       "boostyUrl": "https://boosty.to/enivaqueen",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол",
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы",
         "Кастом и OOAK"
       ],
       "focus": "BJD / шарнирные куклы; Авторские арт-куклы; Кастом / OOAK",
@@ -3569,12 +5307,13 @@
     },
     {
       "slug": "flori_dolls",
+      "language": "ru",
       "name": "flori_dolls ",
       "title": "Куклы ручной работы",
       "boostyUrl": "https://boosty.to/flori_dolls",
-      "category": "Создание кукол",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол"
+        "Вязаные куклы и амигуруми"
       ],
       "focus": "Вязаные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
@@ -3607,95 +5346,14 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "fortuna_ooak",
-      "name": "Fortuna OOAK Dolls",
-      "title": "Doll repaint artist. Unique dolls and magic photos",
-      "boostyUrl": "https://boosty.to/fortuna_ooak",
-      "category": "Кастом и OOAK",
-      "topics": [
-        "Кастом и OOAK",
-        "Коллекционирование и медиа"
-      ],
-      "focus": "Кастом / OOAK; Monster High; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Monster High; Коллекционирование / обзоры.",
-      "summary": "Hello, my friend! My name is Alice, I'm from Russia, Veliky Novgorod. Perhaps we are already familiar - since 2018 I`m creating dolls as Fortuna OOAK Dolls. I am doll repaint artist based on Monster High. More than 800 unique dolls have been created by me over the years. Without stopping, I continue to create unique dolls, making magical photos of them and am happy to share my creativity with you.",
-      "subscribers": 14,
-      "postsCount": 55,
-      "lastPostAt": "2024-03-11T06:14:49.000Z",
-      "lastPostTitle": "Куклы \"Страшные сказки\". Часть 1",
-      "paymentTypes": [
-        "subscription",
-        "one-off"
-      ],
-      "minSubscriptionPriceRub": 100,
-      "maxSubscriptionPriceRub": 1000,
-      "minSubscriptionPromoPriceRub": null,
-      "tierCount": 3,
-      "tiers": [
-        {
-          "name": "Базовый уровень",
-          "priceRub": 100,
-          "promoPriceRub": null
-        },
-        {
-          "name": "Продвинутый уровень",
-          "priceRub": 500,
-          "promoPriceRub": null
-        },
-        {
-          "name": "Люкс уровень",
-          "priceRub": 1000,
-          "promoPriceRub": null
-        }
-      ],
-      "minOneOffPriceRub": 7900,
-      "maxOneOffPriceRub": 8600,
-      "oneOffCountRecent": 12,
-      "oneOffItems": [
-        {
-          "title": "Vampire Queen for April. First part",
-          "priceRub": 8200,
-          "publishedAt": "2024-02-08T08:51:00.000Z"
-        },
-        {
-          "title": "Green Witch for April. First part",
-          "priceRub": 8200,
-          "publishedAt": "2024-02-08T08:48:17.000Z"
-        },
-        {
-          "title": "Pretty Clown of Thea. Part 3",
-          "priceRub": 8450,
-          "publishedAt": "2024-02-06T07:32:44.000Z"
-        },
-        {
-          "title": "Pretty Clown of Thea. Part 2",
-          "priceRub": 8550,
-          "publishedAt": "2024-02-06T07:30:23.000Z"
-        },
-        {
-          "title": "Pretty Clown of Thea. Part 1",
-          "priceRub": 8550,
-          "publishedAt": "2024-02-06T07:26:25.000Z"
-        },
-        {
-          "title": "Celtic Shaman for April. Third post.",
-          "priceRub": 8350,
-          "publishedAt": "2024-01-10T15:04:51.000Z"
-        }
-      ],
-      "checkedAt": "2026-08-07",
-      "historicalSubscribers": 14,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
-    },
-    {
       "slug": "froliki_dolls",
+      "language": "ru",
       "name": "froliki_dolls",
       "title": "",
       "boostyUrl": "https://boosty.to/froliki_dolls",
-      "category": "Создание кукол",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Создание кукол"
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
@@ -3728,17 +5386,73 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "guru_amiguru",
+      "language": "ru",
+      "name": "GuruAmiguru",
+      "title": "Вяжу игрушки крючком и пишу по ним мастер-классы.",
+      "boostyUrl": "https://boosty.to/guru_amiguru",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Друзья, добро пожаловать на мою страничку! Она посвящена вязанию кукол, игрушек и брошек в технике Амигуруми и созданию мастер-классов по вязанию игрушек крючком. Тем, кто предпочитает создавать игрушки своими руками, я предлагаю готовые мастер-классы по вязанию крючком. Моим вдохновителем, критиком и просто спутником является мой сын - Тимур. Всё, что я делаю - это для него и ради него.",
+      "subscribers": 14,
+      "postsCount": 5,
+      "lastPostAt": "2024-02-17T05:00:36.000Z",
+      "lastPostTitle": "Мастер-класс по вязанию крючком \"Кукла Кристина\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 450,
+      "maxOneOffPriceRub": 650,
+      "oneOffCountRecent": 4,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс по вязанию крючком \"Кукла Кристина\"",
+          "priceRub": 650,
+          "publishedAt": "2024-02-17T05:00:36.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию крючком \" Кукла Ведьмочка\"",
+          "priceRub": 650,
+          "publishedAt": "2024-02-17T04:38:46.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию крючком \" Кукла Катя - школьница\"",
+          "priceRub": 650,
+          "publishedAt": "2024-02-17T04:27:01.000Z"
+        },
+        {
+          "title": "Мастер-класс по вязанию крючком - куклы Вовка и Соня (дошколята)",
+          "priceRub": 450,
+          "publishedAt": "2024-02-16T06:12:44.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "handmadegu.ru",
+      "language": "ru",
       "name": "HANDMADEGURU",
       "title": "Рукодельный архив, мастер-классы, консультации.",
       "boostyUrl": "https://boosty.to/handmadegu.ru",
-      "category": "Миниатюра и кукольные дома",
+      "category": "Миниатюры и кукольные дома",
       "topics": [
-        "Миниатюра и кукольные дома",
-        "Создание кукол"
+        "Миниатюры и кукольные дома",
+        "Текстильные и интерьерные куклы"
       ],
-      "focus": "Текстильные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
+      "focus": "Текстильные куклы; Миниатюра 1:6",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Миниатюра 1:6.",
       "summary": "Здравствуйте, уважаемый читатель! Благодарю Вас за сделанный выбор. Я занимаюсь популяризацией рукоделия. Создаю текстильные и ватные игрушки, шью, вяжу спицами и крючком, делаю брошки и украшения, рисую. Веду канал на Яндекс Дзене, где делюсь материалами по рукодельной тематике. Имею очень большой рукодельный архив с массой старинных журналов, книг, схем и выкроек.",
       "subscribers": 15,
       "postsCount": 404,
@@ -3784,13 +5498,14 @@
     },
     {
       "slug": "hiodollhouse",
+      "language": "ru",
       "name": "Hio DollHouse",
       "title": "",
       "boostyUrl": "https://boosty.to/hiodollhouse",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
-        "Миниатюра и кукольные дома"
+        "Аксессуары для кукол",
+        "Миниатюры и кукольные дома"
       ],
       "focus": "Аксессуары; Миниатюра 1:12",
       "reason": "Профильный русскоязычный кукольный автор: Аксессуары; Миниатюра 1:12.",
@@ -3846,13 +5561,14 @@
     },
     {
       "slug": "ilka_bukinist",
+      "language": "ru",
       "name": "ILKA Bukinist",
       "title": "Винтажные книги на английском языке",
       "boostyUrl": "https://boosty.to/ilka_bukinist",
-      "category": "История, ремонт и реставрация",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "История, ремонт и реставрация",
-        "Создание кукол"
+        "Текстильные и интерьерные куклы",
+        "Ремонт, реставрация и история"
       ],
       "focus": "Текстильные куклы; История / реставрация",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; История / реставрация.",
@@ -3912,14 +5628,92 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "razdolle_by_inna",
+      "language": "ru",
+      "name": "Inna Razuvaeva",
+      "title": "Кукольный мастер",
+      "boostyUrl": "https://boosty.to/razdolle_by_inna",
+      "category": "Аксессуары для кукол",
+      "topics": [
+        "Аксессуары для кукол"
+      ],
+      "focus": "Аксессуары",
+      "reason": "Профильный русскоязычный кукольный автор: Аксессуары.",
+      "summary": "Приветствую всех! Меня зовут Инна Разуваева и я профессионально занимаюсь изготовлением кукол с 2009 года. Давно хотела найти место, где я смогла бы делится с вами своими выкройками и наработками. Здесь вы сможете найти выкройки и самостоятельно шить дома игрушки для своих детей или аксессуары для кукол. Это новый для меня опыт, поэтому буду рада любой вашей поддержке или конструктивной критике)) Greetings!",
+      "subscribers": 5,
+      "postsCount": 35,
+      "lastPostAt": "2026-06-02T12:59:36.000Z",
+      "lastPostTitle": "Последняя из первого набора",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 850,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 2,
+      "tiers": [
+        {
+          "name": "Искра творчества",
+          "priceRub": 200,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Безграничные возможности",
+          "priceRub": 850,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 300,
+      "maxOneOffPriceRub": 800,
+      "oneOffCountRecent": 6,
+      "oneOffItems": [
+        {
+          "title": "Выкройка тела Rohmer 40см (16 дюймов)",
+          "priceRub": 800,
+          "publishedAt": "2026-05-12T11:33:00.000Z"
+        },
+        {
+          "title": "Rohmer. Часть 3. Материалы и инструменты для изготовления тела.",
+          "priceRub": 300,
+          "publishedAt": "2026-04-21T08:01:00.000Z"
+        },
+        {
+          "title": "Rohmer. Часть 2. Моделирую тело.",
+          "priceRub": 300,
+          "publishedAt": "2025-04-23T09:14:18.000Z"
+        },
+        {
+          "title": "Тело для Rohmer. Немного истории прежде чем начать работу.",
+          "priceRub": 300,
+          "publishedAt": "2025-04-17T07:31:29.000Z"
+        },
+        {
+          "title": "Rohmer, реплика. Сборка головы и плечевой пластины.",
+          "priceRub": 300,
+          "publishedAt": "2025-02-04T08:54:07.000Z"
+        },
+        {
+          "title": "Сумка-кот. Видео -инструкция и PDF выкройки.",
+          "priceRub": 350,
+          "publishedAt": "2025-01-30T12:30:02.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "irina_sai",
+      "language": "ru",
       "name": "Irina Sai",
       "title": "Тедди * Интерьерные куклы * Витражи *",
       "boostyUrl": "https://boosty.to/irina_sai",
-      "category": "Создание кукол",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Создание кукол",
-        "История, ремонт и реставрация"
+        "Текстильные и интерьерные куклы",
+        "Ремонт, реставрация и история"
       ],
       "focus": "Текстильные куклы; История / реставрация",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; История / реставрация.",
@@ -3953,12 +5747,13 @@
     },
     {
       "slug": "iriska_spb",
+      "language": "ru",
       "name": "Iriska_spb",
       "title": "коллекционер кукол",
       "boostyUrl": "https://boosty.to/iriska_spb",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
         "Кастом и OOAK"
       ],
       "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
@@ -3992,13 +5787,55 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "juliola",
+      "language": "ru",
+      "name": "Juliola",
+      "title": "Создаю кукол, миниатюру, а теперь еще и керамику)",
+      "boostyUrl": "https://boosty.to/juliola",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы"
+      ],
+      "focus": "Авторские и арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские и арт-куклы.",
+      "summary": "Всем привет! Спасибо, что зашли! Меня зовут Юлия. Здесь я буду публиковать свои работы, поэтапные процессы и мастер-классы по созданию кукол и миниатюры.",
+      "subscribers": 0,
+      "postsCount": 3,
+      "lastPostAt": "2025-03-27T12:28:21.000Z",
+      "lastPostTitle": "Малыш (1/12)",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 10,
+      "maxOneOffPriceRub": 10,
+      "oneOffCountRecent": 1,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс (Видео) Ботинки для Гномика",
+          "priceRub": 10,
+          "publishedAt": "2022-03-21T11:31:32.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "kateohara",
+      "language": "ru",
       "name": "Kate O'Hara",
       "title": "Blythe doll custom",
       "boostyUrl": "https://boosty.to/kateohara",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол",
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы",
         "Кастом и OOAK"
       ],
       "focus": "BJD / шарнирные куклы; Авторские арт-куклы; Blythe",
@@ -4038,12 +5875,15 @@
     },
     {
       "slug": "kukolki",
+      "language": "ru",
       "name": "knitworkanet",
       "title": "𝑀𝒦 Handmade dolls: textile and knitted.",
       "boostyUrl": "https://boosty.to/kukolki",
-      "category": "Создание кукол",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Создание кукол"
+        "Вязаные куклы и амигуруми",
+        "Текстильные и интерьерные куклы",
+        "Авторские и арт-куклы"
       ],
       "focus": "Вязаные куклы; Текстильные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Текстильные куклы.",
@@ -4097,13 +5937,14 @@
     },
     {
       "slug": "knopka.doll",
+      "language": "ru",
       "name": "knopka.doll",
       "title": "Автор МК и курсов по интерьерным вязаным куклам",
       "boostyUrl": "https://boosty.to/knopka.doll",
-      "category": "Одежда и выкройки",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
@@ -4162,12 +6003,13 @@
     },
     {
       "slug": "koritsa_art",
+      "language": "ru",
       "name": "Koritsa Art",
       "title": "Авторские куклы ручной работы",
       "boostyUrl": "https://boosty.to/koritsa_art",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы"
       ],
       "focus": "Авторские арт-куклы",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы.",
@@ -4205,13 +6047,54 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "cozy.dolls.spb",
+      "language": "ru",
+      "name": "Kseniia Shashkina",
+      "title": "",
+      "boostyUrl": "https://boosty.to/cozy.dolls.spb",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Автор публикует материалы по темам: Вязаные куклы.",
+      "subscribers": 16,
+      "postsCount": 2,
+      "lastPostAt": "2022-12-24T20:25:30.000Z",
+      "lastPostTitle": "Купить доступ к мастер-классу «Вязаная кукла» в группе ВK",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 1000,
+      "maxOneOffPriceRub": 1000,
+      "oneOffCountRecent": 1,
+      "oneOffItems": [
+        {
+          "title": "Купить доступ к мастер-классу «Вязаная кукла» в группе ВK",
+          "priceRub": 1000,
+          "publishedAt": "2022-12-24T20:25:30.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 16,
+      "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "kukly_iri",
+      "language": "ru",
       "name": "kukly_iri",
       "title": "\"Играем в Куклы\" МК и авторские выкройки",
       "boostyUrl": "https://boosty.to/kukly_iri",
-      "category": "Создание кукол",
+      "category": "Текстильные и интерьерные куклы",
       "topics": [
-        "Создание кукол"
+        "Текстильные и интерьерные куклы"
       ],
       "focus": "Текстильные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
@@ -4277,13 +6160,14 @@
     },
     {
       "slug": "lesnoykompot",
+      "language": "ru",
       "name": "Lesnoy Kompot ",
       "title": "учусь скульптуре и анатомии",
       "boostyUrl": "https://boosty.to/lesnoykompot",
-      "category": "Кастом и OOAK",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Кастом и OOAK",
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "Кастом и OOAK"
       ],
       "focus": "Авторские арт-куклы; Кастом / OOAK; Blythe",
       "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Кастом / OOAK; Blythe.",
@@ -4327,16 +6211,18 @@
     },
     {
       "slug": "linenelfstudio",
+      "language": "ru",
       "name": "Linen Elf Studio",
       "title": "Dollmaker",
       "boostyUrl": "https://boosty.to/linenelfstudio",
-      "category": "Создание кукол",
+      "category": "BJD и шарнирные куклы",
       "topics": [
-        "Создание кукол",
+        "BJD и шарнирные куклы",
+        "Текстильные и интерьерные куклы",
         "Одежда и выкройки"
       ],
-      "focus": "Текстильные куклы; Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Одежда и выкройки.",
+      "focus": "Текстильные куклы; BJD / шарнирные куклы; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; BJD / шарнирные куклы; Одежда и выкройки.",
       "summary": "Здравствуйте! В реальной жизни меня зовут Ирина Матвеева, я конструктор- модельер детской и женской одежды. В этой группе вы можете видеть процесс создания моих кукол. Иногда я делаю Мастер Классы по созданию кукол из ткани (простые или шарнирные), а также из папьемаше.",
       "subscribers": 37,
       "postsCount": 30,
@@ -4392,6 +6278,7 @@
     },
     {
       "slug": "lorenssia",
+      "language": "ru",
       "name": "Lorenssia",
       "title": "Кастомизация кукол Blythe",
       "boostyUrl": "https://boosty.to/lorenssia",
@@ -4438,12 +6325,13 @@
     },
     {
       "slug": "luda_doll_",
+      "language": "ru",
       "name": "Luda_doll_",
       "title": "Делаю обувь на разных кукол и вяжу им одежду",
       "boostyUrl": "https://boosty.to/luda_doll_",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
+        "Аксессуары для кукол",
         "Кастом и OOAK",
         "Одежда и выкройки"
       ],
@@ -4503,60 +6391,86 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "magicinscale",
-      "name": "Magicinscale",
-      "title": "Авторская миниатюра/ Author's miniature",
-      "boostyUrl": "https://boosty.to/magicinscale",
-      "category": "Миниатюра и кукольные дома",
+      "slug": "lumianade",
+      "language": "ru",
+      "name": "Lumia Nade",
+      "title": "Шью кукол, создаю выкройки, создаю аромасвечи",
+      "boostyUrl": "https://boosty.to/lumianade",
+      "category": "Одежда и выкройки",
       "topics": [
-        "Миниатюра и кукольные дома",
-        "Создание кукол"
+        "Одежда и выкройки"
       ],
-      "focus": "BJD / шарнирные куклы; Миниатюра 1:6",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Миниатюра 1:6.",
-      "summary": "Всем привет! Нас зовут Кирилл и Ольга. Мы муж и жена, но скреплены мы не только брачными узами и порчей паспортов, но и нашим любимым делом, а именно, созданием различных предметов для микро мира. Проще говоря мы создаём миниатюры. Занимались мы этим не всегда, и хотя у нас нет художественного образования, в душе мы всегда были художниками. Мы оба всю жизнь любили что-то создавать своими руками.",
-      "subscribers": 7,
-      "postsCount": 11,
-      "lastPostAt": "2022-12-14T12:45:15.000Z",
-      "lastPostTitle": "Для любителей вселенной Дж. Р. Р. Толкина!",
+      "focus": "Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
+      "summary": "Привет! Меня зовут Надя. Я мама двоих детей и мастер, который создает кукол, выкройки и ароматические свечи. Началось всё с желания делать для своих детей игрушки, которые хранят тепло. А потом оказалось, что это хочется и другим. Для кого этот блог?",
+      "subscribers": 0,
+      "postsCount": 6,
+      "lastPostAt": "2026-07-30T14:59:52.000Z",
+      "lastPostTitle": "Сегодня заливаю свечу в стекле. Аромат — кокос и сандал. Соевый воск. Тёплый, уютный, чуть сладкий, с древесной глубиной. Это тестовый вариант — смотрю, как ведёт себя воск, как горит хлопковый фитиль, как раскрывается аромат в стекле. Но уже сейчас чувствую, что он будет жить долго ✨ Если понрав",
       "paymentTypes": [
         "subscription",
         "one-off"
       ],
-      "minSubscriptionPriceRub": 300,
-      "maxSubscriptionPriceRub": 300,
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 750,
       "minSubscriptionPromoPriceRub": null,
-      "tierCount": 1,
+      "tierCount": 3,
       "tiers": [
         {
-          "name": "Миниатюрист/Miniaturist",
-          "priceRub": 300,
+          "name": "Базовый уровень. Поддержка",
+          "priceRub": 200,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Мастерская",
+          "priceRub": 450,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Премиум",
+          "priceRub": 750,
           "promoPriceRub": null
         }
       ],
-      "minOneOffPriceRub": 100,
-      "maxOneOffPriceRub": 100,
-      "oneOffCountRecent": 1,
+      "minOneOffPriceRub": 150,
+      "maxOneOffPriceRub": 650,
+      "oneOffCountRecent": 4,
       "oneOffItems": [
         {
-          "title": "Миниатюрная Sony PlayStation 4: Легко или сложно?",
-          "priceRub": 100,
-          "publishedAt": "2022-05-15T18:55:10.000Z"
+          "title": "🎨 2 готовых PDF-шаблона лиц для кукол — распечатай и используй",
+          "priceRub": 250,
+          "publishedAt": "2026-07-21T16:17:00.000Z"
+        },
+        {
+          "title": "Индивидуальная консультация (по шагам)",
+          "priceRub": 150,
+          "publishedAt": "2026-07-21T14:11:52.000Z"
+        },
+        {
+          "title": "2 PDF шаблона лиц куклы + мастер - класс по рисованию лица",
+          "priceRub": 650,
+          "publishedAt": "2026-07-14T19:05:53.000Z"
+        },
+        {
+          "title": "Электронная выкройка куклы \"Мила\".pdf",
+          "priceRub": 600,
+          "publishedAt": "2026-03-22T15:46:07.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 7,
+      "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "mama_paulita",
+      "language": "ru",
       "name": "Mama Paulita",
       "title": "Создаю кукольную обувь и одежду",
       "boostyUrl": "https://boosty.to/mama_paulita",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары"
+        "Аксессуары для кукол"
       ],
       "focus": "Аксессуары",
       "reason": "Профильный русскоязычный кукольный автор: Аксессуары.",
@@ -4621,16 +6535,77 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "mariannaknit",
+      "language": "ru",
+      "name": "Mari",
+      "title": "Создаю одежду и аксессуары для кукол и людей.",
+      "boostyUrl": "https://boosty.to/mariannaknit",
+      "category": "Аксессуары для кукол",
+      "topics": [
+        "Аксессуары для кукол",
+        "Кастом и OOAK",
+        "Одежда и выкройки"
+      ],
+      "focus": "Barbie / Fashion dolls; Одежда и выкройки; Аксессуары",
+      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Одежда и выкройки; Аксессуары.",
+      "summary": "Мне нравится создавать одежду людям и куклам, предметы интерьера.",
+      "subscribers": 0,
+      "postsCount": 6,
+      "lastPostAt": "2023-07-29T16:23:54.000Z",
+      "lastPostTitle": "Лягушонок ростом 9 см",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Подписка на месяц",
+          "priceRub": 200,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 100,
+      "maxOneOffPriceRub": 200,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "Лягушонок ростом 9 см",
+          "priceRub": 100,
+          "publishedAt": "2023-07-29T16:23:54.000Z"
+        },
+        {
+          "title": "Спортивный костюм : Худи и штанишки",
+          "priceRub": 200,
+          "publishedAt": "2023-04-11T11:29:36.000Z"
+        },
+        {
+          "title": "Костюм для Барби",
+          "priceRub": 200,
+          "publishedAt": "2023-04-11T11:24:57.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "ds_doll",
+      "language": "ru",
       "name": "Marina Balagur",
       "title": "BJD-dolls creator, artist, sculptor, krafter",
       "boostyUrl": "https://boosty.to/ds_doll",
-      "category": "Создание кукол",
+      "category": "BJD и шарнирные куклы",
       "topics": [
-        "Создание кукол"
+        "BJD и шарнирные куклы",
+        "Кастом и OOAK"
       ],
-      "focus": "BJD / шарнирные куклы",
-      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
+      "focus": "BJD / шарнирные куклы; Barbie / Fashion dolls",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Barbie / Fashion dolls.",
       "summary": "DS doll or Dragon’s Shell Doll is the brand under which I create heads for articulated dolls in original images, 1/3 and 1/4 sizes, as well as animal masks and original luminous swords for articulated dolls Diverse and interesting faces of DS doll are united by a single recognizable style on the verge of realism and stylization.",
       "subscribers": 15,
       "postsCount": 33,
@@ -4661,13 +6636,14 @@
     },
     {
       "slug": "maluk_dolls",
+      "language": "ru",
       "name": "MARINA LUKASHENKO",
       "title": "Добро пожаловать🤗",
       "boostyUrl": "https://boosty.to/maluk_dolls",
-      "category": "Одежда и выкройки",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
@@ -4726,6 +6702,7 @@
     },
     {
       "slug": "milamar77",
+      "language": "ru",
       "name": "Milamar",
       "title": "Создаю красивые наряды для кукол.",
       "boostyUrl": "https://boosty.to/milamar77",
@@ -4789,89 +6766,315 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "milli_ni",
-      "name": "Milli_ni",
-      "title": "Amigurumi crochet doll pattern Milli By Irina",
-      "boostyUrl": "https://boosty.to/milli_ni",
-      "category": "Одежда и выкройки",
+      "slug": "natvyazanie",
+      "language": "ru",
+      "name": "Morkovka",
+      "title": "Вязание и интересные МК.",
+      "boostyUrl": "https://boosty.to/natvyazanie",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки",
-        "Создание кукол"
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Здесь интересные статьи и мастер-классы по теме вязания.",
+      "subscribers": 1,
+      "postsCount": 2,
+      "lastPostAt": "2023-02-26T12:24:03.000Z",
+      "lastPostTitle": "Вяжем куколку Коко крючком",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 150,
+      "maxOneOffPriceRub": 350,
+      "oneOffCountRecent": 2,
+      "oneOffItems": [
+        {
+          "title": "Вяжем куколку Коко крючком",
+          "priceRub": 350,
+          "publishedAt": "2023-02-26T12:24:03.000Z"
+        },
+        {
+          "title": "Игрушка \"Весенний росток\" крючком (мастер-класс)",
+          "priceRub": 150,
+          "publishedAt": "2023-02-15T15:47:05.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "nikukla",
+      "language": "ru",
+      "name": "niku_kla Вязаные крючком куклы",
+      "title": "Мастер-классы по вязанию",
+      "boostyUrl": "https://boosty.to/nikukla",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки"
       ],
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
-      "summary": "Всем привет! Мое имя Ирина (Milli by Irina) я создаю авторские мастер классы по вязанию крючком и делюсь ими с вами) рада знакомству с каждым из вас!",
-      "subscribers": 32,
-      "postsCount": 78,
-      "lastPostAt": "2025-08-02T14:32:22.000Z",
+      "summary": "Мастер-классы по вязанию. Основные темы: Вязаные куклы; Одежда и выкройки.",
+      "subscribers": 35,
+      "postsCount": 17,
+      "lastPostAt": "2026-07-26T17:18:06.000Z",
+      "lastPostTitle": "МК Холанд",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 310,
+      "maxOneOffPriceRub": 590,
+      "oneOffCountRecent": 17,
+      "oneOffItems": [
+        {
+          "title": "МК Холанд",
+          "priceRub": 450,
+          "publishedAt": "2026-07-26T17:18:06.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 480,
+          "publishedAt": "2026-07-13T11:04:28.000Z"
+        },
+        {
+          "title": "Мастер-класс «Гимнастка»",
+          "priceRub": 470,
+          "publishedAt": "2026-05-28T17:28:24.000Z"
+        },
+        {
+          "title": "Мастер-класс «Балерина»",
+          "priceRub": 480,
+          "publishedAt": "2026-05-16T05:42:46.000Z"
+        },
+        {
+          "title": "МК комплект одежды для Элис",
+          "priceRub": 310,
+          "publishedAt": "2026-02-06T14:02:10.000Z"
+        },
+        {
+          "title": "МК комплект одежды для Элис",
+          "priceRub": 310,
+          "publishedAt": "2026-01-15T06:59:50.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "oksanakleninadolls",
+      "language": "ru",
+      "name": "OksanaK",
+      "title": "Blythe doll 💖Textile doll",
+      "boostyUrl": "https://boosty.to/oksanakleninadolls",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы",
+        "Текстильные и интерьерные куклы",
+        "Кастом и OOAK"
+      ],
+      "focus": "Текстильные куклы; Авторские арт-куклы; Blythe",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы; Blythe.",
+      "summary": "Привет! Меня зовут, Оксана. Я создаю текстильных кукол и кукол блайз",
+      "subscribers": 0,
+      "postsCount": 2,
+      "lastPostAt": "2024-09-28T15:08:53.000Z",
       "lastPostTitle": "",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 17000,
+      "maxOneOffPriceRub": 17000,
+      "oneOffCountRecent": 2,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 17000,
+          "publishedAt": "2024-09-28T15:08:53.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 17000,
+          "publishedAt": "2022-12-20T07:56:46.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "olga.norviliene",
+      "language": "ru",
+      "name": "Olga Norviliene",
+      "title": "Авторские куклы и их создание",
+      "boostyUrl": "https://boosty.to/olga.norviliene",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы",
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Текстильные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы.",
+      "summary": "‌ Здесь про то, как создаются куклы. Подписывайтесь на мой блог и вы узнаете о том, как я придумываю новых кукольных персонажей. Как я воплощаю свои идеи технически, какие материалы использую. Можно ли зарабатывать «куклением»? И где искать источник вдохновения? Обо всём буду говорить здесь.",
+      "subscribers": 354,
+      "postsCount": 152,
+      "lastPostAt": "2026-08-02T16:45:23.000Z",
+      "lastPostTitle": "Видеокурс Рыбонька",
       "paymentTypes": [
         "subscription",
         "one-off"
       ],
-      "minSubscriptionPriceRub": 15000,
-      "maxSubscriptionPriceRub": 15000,
+      "minSubscriptionPriceRub": 300,
+      "maxSubscriptionPriceRub": 3300,
       "minSubscriptionPromoPriceRub": null,
-      "tierCount": 1,
+      "tierCount": 3,
       "tiers": [
         {
-          "name": "базовый уровень",
-          "priceRub": 15000,
+          "name": "Любимый подписчик",
+          "priceRub": 300,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Инвестор",
+          "priceRub": 1500,
+          "promoPriceRub": null
+        },
+        {
+          "name": "Меценат",
+          "priceRub": 3300,
           "promoPriceRub": null
         }
       ],
-      "minOneOffPriceRub": 150,
-      "maxOneOffPriceRub": 2900,
-      "oneOffCountRecent": 7,
+      "minOneOffPriceRub": 500,
+      "maxOneOffPriceRub": 3500,
+      "oneOffCountRecent": 6,
       "oneOffItems": [
         {
-          "title": "Платный материал",
-          "priceRub": 200,
-          "publishedAt": "2025-08-02T14:32:22.000Z"
+          "title": "Видеокурс Рыбонька",
+          "priceRub": 2500,
+          "publishedAt": "2026-08-02T16:45:23.000Z"
         },
         {
-          "title": "платье спицами для RH на русском / knitting dress for RH in English",
-          "priceRub": 150,
-          "publishedAt": "2025-04-12T12:06:35.000Z"
+          "title": "Видеокурс «Улитка»",
+          "priceRub": 1000,
+          "publishedAt": "2026-06-05T22:52:45.000Z"
         },
         {
-          "title": "платье спицами для RH на русском / knitting dress for RH in English",
-          "priceRub": 150,
-          "publishedAt": "2024-08-26T19:46:32.000Z"
+          "title": "Видеокурс \"Ведьмочка\"",
+          "priceRub": 1500,
+          "publishedAt": "2026-04-28T06:07:10.000Z"
         },
         {
-          "title": "платье спицами для RH на русском / knitting dress for RH in English",
-          "priceRub": 150,
-          "publishedAt": "2024-03-31T19:00:30.000Z"
+          "title": "Видеокурс «Скоро лето!»☀️",
+          "priceRub": 2500,
+          "publishedAt": "2026-03-30T08:05:16.000Z"
         },
         {
-          "title": "платье спицами для RH на русском / knitting dress for RH in English",
-          "priceRub": 150,
-          "publishedAt": "2024-03-24T14:22:34.000Z"
+          "title": "Весна пришла!",
+          "priceRub": 500,
+          "publishedAt": "2026-03-02T21:15:58.000Z"
         },
         {
-          "title": "платье спицами для RH / knitting dress for RH",
-          "priceRub": 150,
-          "publishedAt": "2024-03-24T14:19:06.000Z"
+          "title": "Видеокурс \"Сёмочка\"",
+          "priceRub": 3500,
+          "publishedAt": "2025-05-14T17:54:15.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 32,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "re_born.baby",
+      "language": "ru",
+      "name": "re_born.baby",
+      "title": "",
+      "boostyUrl": "https://boosty.to/re_born.baby",
+      "category": "Реборн-куклы",
+      "topics": [
+        "Реборн-куклы"
+      ],
+      "focus": "Реборн",
+      "reason": "Профильный русскоязычный кукольный автор: Реборн.",
+      "summary": "Автор публикует материалы по темам: Реборн.",
+      "subscribers": 46,
+      "postsCount": 5,
+      "lastPostAt": "2024-01-20T16:14:35.000Z",
+      "lastPostTitle": "КУРС ПО СОЗДАНИЮ РЕБОРН",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 350,
+      "maxOneOffPriceRub": 30000,
+      "oneOffCountRecent": 4,
+      "oneOffItems": [
+        {
+          "title": "КУРС ПО СОЗДАНИЮ РЕБОРН",
+          "priceRub": 30000,
+          "publishedAt": "2024-01-20T16:14:35.000Z"
+        },
+        {
+          "title": "Амелия body",
+          "priceRub": 750,
+          "publishedAt": "2024-01-20T12:52:20.000Z"
+        },
+        {
+          "title": "Купить сейчас",
+          "priceRub": 350,
+          "publishedAt": "2024-01-20T12:08:52.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 350,
+          "publishedAt": "2024-01-04T20:26:52.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": 46,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "rycreator",
+      "language": "ru",
       "name": "Ryoko Creator",
       "title": "Дневник косплеера и коллекционера кукол 💜",
       "boostyUrl": "https://boosty.to/rycreator",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
+        "BJD и шарнирные куклы",
         "Кастом и OOAK"
       ],
-      "focus": "Barbie / Fashion dolls; Monster High; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Monster High; Коллекционирование / обзоры.",
+      "focus": "BJD / шарнирные куклы; Barbie / Fashion dolls; Monster High",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Barbie / Fashion dolls; Monster High.",
       "summary": "Привет! Меня зовут Риоко и это мой блог. Тут мы про творчество и вдохновение, присоединяйся 🧚‍♂✨ ⭐ Я рассказываю о создании костюмов, париков, о подготовке к фотосессиям. Косплею кукольные фендомы, Дисней, игры, DC, Marvel, аниме, ориджинал и др. немного Barbie и др.).",
       "subscribers": 193,
       "postsCount": 329,
@@ -4959,16 +7162,18 @@
     },
     {
       "slug": "shoniestyledoll",
+      "language": "ru",
       "name": "ShonieStyle Doll",
       "title": "Ольга 💛 Куклы, Выкройки, Вязание крючком",
       "boostyUrl": "https://boosty.to/shoniestyledoll",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
+        "Коллекционирование и кукольные медиа",
+        "Кастом и OOAK",
         "Одежда и выкройки"
       ],
-      "focus": "Одежда и выкройки; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки; Коллекционирование / обзоры.",
+      "focus": "Barbie / Fashion dolls; Одежда и выкройки; Коллекционирование / обзоры",
+      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Одежда и выкройки; Коллекционирование / обзоры.",
       "summary": "Привет! Я Ольга, и коллекционирование кукол стало моим любимым увлечением. На моём канале Ютуб я делюсь всем, что делает этот мир таким удивительным. Здесь вы найдёте обзоры кукол, мастер-классы по созданию одежды и аксессуаров, а также советы для взрослых коллекционеров. Многие считают, что куклы — это только для детей, но я хочу показать, что это хобби подходит для всех возрастов.",
       "subscribers": 0,
       "postsCount": 4,
@@ -5009,13 +7214,14 @@
     },
     {
       "slug": "skvorkadolls",
+      "language": "ru",
       "name": "Skvorkadolls",
       "title": "porcelain BJD dolls and art illustrations",
       "boostyUrl": "https://boosty.to/skvorkadolls",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа",
-        "Создание кукол"
+        "Коллекционирование и кукольные медиа",
+        "BJD и шарнирные куклы"
       ],
       "focus": "BJD / шарнирные куклы; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Коллекционирование / обзоры.",
@@ -5080,7 +7286,73 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "tomamota",
+      "language": "ru",
+      "name": "Tamara Bogdanova",
+      "title": "Художник по куклам, дизайнер",
+      "boostyUrl": "https://boosty.to/tomamota",
+      "category": "Авторские и арт-куклы",
+      "topics": [
+        "Авторские и арт-куклы"
+      ],
+      "focus": "Авторские и арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские и арт-куклы.",
+      "summary": "Художник по куклам, дизайнер. Основные темы: Авторские и арт-куклы.",
+      "subscribers": 4,
+      "postsCount": 8,
+      "lastPostAt": "2023-11-15T22:43:23.000Z",
+      "lastPostTitle": "Элли7",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 7500,
+      "maxOneOffPriceRub": 9300,
+      "oneOffCountRecent": 8,
+      "oneOffItems": [
+        {
+          "title": "Элли7",
+          "priceRub": 8800,
+          "publishedAt": "2023-11-15T22:43:23.000Z"
+        },
+        {
+          "title": "Элли 6",
+          "priceRub": 8900,
+          "publishedAt": "2023-11-07T23:32:03.000Z"
+        },
+        {
+          "title": "Элли5",
+          "priceRub": 8900,
+          "publishedAt": "2023-11-03T09:48:06.000Z"
+        },
+        {
+          "title": "Элли4",
+          "priceRub": 8900,
+          "publishedAt": "2023-10-31T13:46:09.000Z"
+        },
+        {
+          "title": "Элли3",
+          "priceRub": 8900,
+          "publishedAt": "2023-10-29T21:50:00.000Z"
+        },
+        {
+          "title": "Элли 2",
+          "priceRub": 8900,
+          "publishedAt": "2023-10-28T18:41:24.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "tanya88",
+      "language": "ru",
       "name": "Tanya_s_dolls",
       "title": "Куклы ручной работы, кастомные куклы.",
       "boostyUrl": "https://boosty.to/tanya88",
@@ -5119,14 +7391,80 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "amiguroom",
+      "language": "ru",
+      "name": "Tasha Kalasha",
+      "title": "Amigurumi designer",
+      "boostyUrl": "https://boosty.to/amiguroom",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Amigurumi designer. Основные темы: Вязаные куклы.",
+      "subscribers": 47,
+      "postsCount": 15,
+      "lastPostAt": "2024-12-18T09:13:53.000Z",
+      "lastPostTitle": "МК Снеговик",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 250,
+      "maxOneOffPriceRub": 3480,
+      "oneOffCountRecent": 15,
+      "oneOffItems": [
+        {
+          "title": "МК Снеговик",
+          "priceRub": 300,
+          "publishedAt": "2024-12-18T09:13:53.000Z"
+        },
+        {
+          "title": "МК \"Крошка Лу\" + наряд \"Ведьмочка\"",
+          "priceRub": 1300,
+          "publishedAt": "2023-10-29T12:24:22.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 750,
+          "publishedAt": "2023-08-31T16:25:50.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 750,
+          "publishedAt": "2023-08-31T15:32:09.000Z"
+        },
+        {
+          "title": "Комплект одежды «Зайка» для куклы Лиля",
+          "priceRub": 450,
+          "publishedAt": "2023-04-09T21:11:43.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 450,
+          "publishedAt": "2023-04-09T21:04:46.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "bushick",
+      "language": "ru",
       "name": "Tatiana Bushueva",
       "title": "About images for dolls, мастер аутфитов для кукол",
       "boostyUrl": "https://boosty.to/bushick",
       "category": "Одежда и выкройки",
       "topics": [
         "Одежда и выкройки",
-        "Создание кукол"
+        "BJD и шарнирные куклы"
       ],
       "focus": "BJD / шарнирные куклы",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
@@ -5191,13 +7529,142 @@
       "lastObservedGrowthDate": null
     },
     {
+      "slug": "tatiday",
+      "language": "ru",
+      "name": "Tatjana Ritter",
+      "title": "Заходите! Завяжу и наваляю!",
+      "boostyUrl": "https://boosty.to/tatiday",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми"
+      ],
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Добрый день! Меня зовут Татьяна. Опыт моего вязания исчисляется примерно с 1969 года. C 11 марта 2011 года я делюсь накопленным опытом со своими подписчиками на моём YouTube-канале \"Тепло Ваших рук\" Один раз в день я непременно читаю все комментарии и отвечаю на них. На канале Вы найдёте множество различных изделий, связанных крючком или спицами. Весь процесс вязания я подробно показываю и рассказываю.",
+      "subscribers": 77,
+      "postsCount": 28,
+      "lastPostAt": "2026-01-18T15:02:05.000Z",
+      "lastPostTitle": "Колодки для детской обуви.",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 100,
+      "maxOneOffPriceRub": 1000,
+      "oneOffCountRecent": 15,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 300,
+          "publishedAt": "2024-08-26T09:03:03.000Z"
+        },
+        {
+          "title": "Непременно познакомьтесь с этим методом вязания",
+          "priceRub": 330,
+          "publishedAt": "2024-04-03T17:31:38.000Z"
+        },
+        {
+          "title": "#452. Чепчик с ушками",
+          "priceRub": 600,
+          "publishedAt": "2024-01-13T13:40:47.000Z"
+        },
+        {
+          "title": "#451. Описание модной шапочки с ушками. Модель Бэтмен",
+          "priceRub": 600,
+          "publishedAt": "2023-12-17T16:39:21.000Z"
+        },
+        {
+          "title": "6 разных моделей вязанной обуви из мотивов от 1-го до 8-ми",
+          "priceRub": 1000,
+          "publishedAt": "2023-12-11T14:55:41.000Z"
+        },
+        {
+          "title": "#450. Шапочка бини с модной макушкой",
+          "priceRub": 600,
+          "publishedAt": "2023-12-11T14:18:55.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "tatyanalevchenko",
+      "language": "ru",
+      "name": "Tatyana Levchenko",
+      "title": "outfitforbjd",
+      "boostyUrl": "https://boosty.to/tatyanalevchenko",
+      "category": "BJD и шарнирные куклы",
+      "topics": [
+        "BJD и шарнирные куклы",
+        "Авторские и арт-куклы"
+      ],
+      "focus": "BJD / шарнирные куклы; Авторские арт-куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "summary": "outfitforbjd. Основные темы: BJD / шарнирные куклы; Авторские арт-куклы.",
+      "subscribers": 1,
+      "postsCount": 5,
+      "lastPostAt": "2023-05-08T13:08:52.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Татьяна",
+          "priceRub": 200,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 1200,
+      "maxOneOffPriceRub": 22000,
+      "oneOffCountRecent": 4,
+      "oneOffItems": [
+        {
+          "title": "Платный материал",
+          "priceRub": 22000,
+          "publishedAt": "2023-05-08T13:08:52.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 13000,
+          "publishedAt": "2023-05-07T20:06:51.000Z"
+        },
+        {
+          "title": "Платный материал",
+          "priceRub": 1200,
+          "publishedAt": "2023-02-07T18:10:09.000Z"
+        },
+        {
+          "title": "Аутфит для БЖД. Девы",
+          "priceRub": 18000,
+          "publishedAt": "2023-02-07T17:45:14.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
       "slug": "trudigrad",
+      "language": "ru",
       "name": "TRUDOGRAD",
       "title": "Я 3D художник. Специализируюсь на шарнирных куклах",
       "boostyUrl": "https://boosty.to/trudigrad",
-      "category": "Создание кукол",
+      "category": "BJD и шарнирные куклы",
       "topics": [
-        "Создание кукол"
+        "BJD и шарнирные куклы"
       ],
       "focus": "BJD / шарнирные куклы",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
@@ -5231,12 +7698,13 @@
     },
     {
       "slug": "ulyanabarbie",
+      "language": "ru",
       "name": "Ulyana ",
       "title": "",
       "boostyUrl": "https://boosty.to/ulyanabarbie",
-      "category": "Аксессуары",
+      "category": "Аксессуары для кукол",
       "topics": [
-        "Аксессуары",
+        "Аксессуары для кукол",
         "Кастом и OOAK",
         "Одежда и выкройки"
       ],
@@ -5284,12 +7752,13 @@
     },
     {
       "slug": "valeraastafeva",
+      "language": "ru",
       "name": "Valera_Astafeva",
       "title": "Эко-лоза. I sell wicker products, I teach you.",
       "boostyUrl": "https://boosty.to/valeraastafeva",
-      "category": "Коллекционирование и медиа",
+      "category": "Коллекционирование и кукольные медиа",
       "topics": [
-        "Коллекционирование и медиа"
+        "Коллекционирование и кукольные медиа"
       ],
       "focus": "Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Коллекционирование / обзоры.",
@@ -5355,6 +7824,7 @@
     },
     {
       "slug": "varvadoll",
+      "language": "ru",
       "name": "varva",
       "title": "Вальдорфские куклы и мастер-классы",
       "boostyUrl": "https://boosty.to/varvadoll",
@@ -5419,18 +7889,18 @@
     },
     {
       "slug": "vlyamina",
+      "language": "ru",
       "name": "Victoria Lyamina",
       "title": "Текстильные куклы и игрушки",
       "boostyUrl": "https://boosty.to/vlyamina",
-      "category": "Коллекционирование и медиа",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Коллекционирование и медиа",
-        "Создание кукол",
-        "Кастом и OOAK",
-        "Одежда и выкройки"
+        "Вязаные куклы и амигуруми",
+        "Текстильные и интерьерные куклы",
+        "Кастом и OOAK"
       ],
-      "focus": "Текстильные куклы; Blythe; Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Blythe; Одежда и выкройки.",
+      "focus": "Вязаные куклы; Текстильные куклы; Blythe",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Текстильные куклы; Blythe.",
       "summary": "Здравствуйте дорогие друзья! Меня зовут Виктория и я рада приветствовать Вас в своём кукольном мире! Я просто без ума от кукол. Я шью кукол, создаю мастер-классы по их изготовлению. Шью одежду для коллекционных кукол, создаю миниатюру и ещё очень много всего. Я играла в куклы сколько себя помню, создавала настоящие кукольные миры, стоила дома, шила, вязала, лепила.",
       "subscribers": 0,
       "postsCount": 3,
@@ -5472,84 +7942,153 @@
       "lastObservedGrowthDate": null
     },
     {
-      "slug": "yumistudio",
-      "name": "YumiStudio",
-      "title": "Clothes and Patterns for dolls",
-      "boostyUrl": "https://boosty.to/yumistudio",
-      "category": "Одежда и выкройки",
+      "slug": "vooot_takoi",
+      "language": "ru",
+      "name": "vooot_takoi",
+      "title": "Crochet patterns | Amiurumi | МК амигуруми",
+      "boostyUrl": "https://boosty.to/vooot_takoi",
+      "category": "Вязаные куклы и амигуруми",
       "topics": [
-        "Одежда и выкройки"
+        "Вязаные куклы и амигуруми"
       ],
-      "focus": "Одежда и выкройки",
-      "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
-      "summary": "Добро пожаловать в Мастерскую Yumi. Мастерская образовалась в 2009 году. В основном занимаюсь индивидуальным пошивом для кукол на заказ, а так же иногда делаю комплекты на продажу. Параллельно изучаю академический рисунок и живопись. Welcome to my Studio^^ It started in 2009. I do customs outfits for dolls. Also I learn Academic drawing. Here you can find PDF patterns fo your dolls.",
-      "subscribers": 7,
-      "postsCount": 26,
-      "lastPostAt": "2024-02-14T06:58:40.000Z",
-      "lastPostTitle": "2020",
+      "focus": "Вязаные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
+      "summary": "Всем привет! Меня зовут Ксюша и я придумываю и вяжу игрушки крючком и ооочень люблю это дело! Так люблю, что иногда забываю поесть (вязальщицы поймут). Здесь вы найдете бесплатные описания игрушек, мастер-классы по вязанию кукол и других интересных персонажей. В подписке \"Поддержать творчество\" также доступны эксклюзивные мастер-классы и новые МК месяца!",
+      "subscribers": 78,
+      "postsCount": 66,
+      "lastPostAt": "2026-07-07T17:42:30.000Z",
+      "lastPostTitle": "Мастер-класс \"Арнольд\"",
       "paymentTypes": [
         "subscription",
         "one-off"
       ],
-      "minSubscriptionPriceRub": 50,
-      "maxSubscriptionPriceRub": 50,
+      "minSubscriptionPriceRub": 330,
+      "maxSubscriptionPriceRub": 330,
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 1,
       "tiers": [
         {
-          "name": "Новости мастерской",
-          "priceRub": 50,
+          "name": "Поддержать творчество!",
+          "priceRub": 330,
           "promoPriceRub": null
         }
       ],
-      "minOneOffPriceRub": 300,
-      "maxOneOffPriceRub": 600,
-      "oneOffCountRecent": 9,
+      "minOneOffPriceRub": 340,
+      "maxOneOffPriceRub": 510,
+      "oneOffCountRecent": 11,
       "oneOffItems": [
         {
-          "title": "Выкройка летнего платья для MiniFee - RU",
-          "priceRub": 600,
-          "publishedAt": "2024-01-26T08:22:28.000Z"
+          "title": "Мастер-класс \"Арнольд\"",
+          "priceRub": 510,
+          "publishedAt": "2026-07-07T17:42:30.000Z"
         },
         {
-          "title": "PDF Pattern Jersey Loose Dress for MSD",
+          "title": "Мастер-класс «Гортензия»",
           "priceRub": 350,
-          "publishedAt": "2024-01-10T10:14:46.000Z"
+          "publishedAt": "2026-05-24T14:07:17.000Z"
         },
         {
-          "title": "PDF Pattern Jersey tunic for Minifee (Ru/EN)",
-          "priceRub": 300,
-          "publishedAt": "2024-01-10T09:01:05.000Z"
+          "title": "«Миммо - маленький артист» • Мастер-класс в формате PDF",
+          "priceRub": 400,
+          "publishedAt": "2026-03-19T17:55:56.000Z"
         },
         {
-          "title": "PDF Pattern Underwear for Minifee",
-          "priceRub": 350,
-          "publishedAt": "2024-01-10T08:47:18.000Z"
+          "title": "МК Домовой эльф 🧦",
+          "priceRub": 360,
+          "publishedAt": "2026-02-16T14:50:57.000Z"
         },
         {
-          "title": "PDF Pattern Summer set for MiniFee doll",
+          "title": "МК Юный маг 🧶",
           "priceRub": 500,
-          "publishedAt": "2024-01-10T08:23:20.000Z"
+          "publishedAt": "2026-01-23T09:47:43.000Z"
         },
         {
-          "title": "PDF Pattern Gatsby Dress For MiniFee",
-          "priceRub": 600,
-          "publishedAt": "2024-01-10T08:04:53.000Z"
+          "title": "Мастер-класс по вязанию игрушки крючком «Зелёный Ворчун»🎄",
+          "priceRub": 340,
+          "publishedAt": "2025-12-18T05:00:03.000Z"
         }
       ],
       "checkedAt": "2026-08-07",
-      "historicalSubscribers": 7,
-      "growthSinceSnapshot": 0,
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "zhannaknit39",
+      "language": "ru",
+      "name": "zhannaknit39",
+      "title": "Мастер-классы вязаных игрушек на русском языке.",
+      "boostyUrl": "https://boosty.to/zhannaknit39",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми",
+        "Текстильные и интерьерные куклы"
+      ],
+      "focus": "Вязаные куклы; Текстильные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Текстильные куклы.",
+      "summary": "Здравствуйте! Меня зовут Жанна. Я создаю авторские игрушки амигуруми, пишу по ним подробные мастер-классы. Люблю свою работу! Все мастер-классы только на русском языке.",
+      "subscribers": 45,
+      "postsCount": 29,
+      "lastPostAt": "2026-05-06T12:24:29.000Z",
+      "lastPostTitle": "Мастер-класс на русском языке кукла \"Русская красавица\"",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 250,
+      "maxOneOffPriceRub": 750,
+      "oneOffCountRecent": 20,
+      "oneOffItems": [
+        {
+          "title": "Мастер-класс на русском языке кукла \"Русская красавица\"",
+          "priceRub": 530,
+          "publishedAt": "2026-05-06T12:24:29.000Z"
+        },
+        {
+          "title": "Мастер-класс на русском языке кукла \"Карамелька\"",
+          "priceRub": 600,
+          "publishedAt": "2026-03-05T12:00:33.000Z"
+        },
+        {
+          "title": "Мастер-класс на русском языке \"Эльфочка Лапушка\"",
+          "priceRub": 550,
+          "publishedAt": "2026-02-26T10:39:54.000Z"
+        },
+        {
+          "title": "Мастер-класс на русском языке \"Ежата Ваня и Маня\"",
+          "priceRub": 460,
+          "publishedAt": "2025-06-28T07:29:28.000Z"
+        },
+        {
+          "title": "Мастер-класс на русском языке \"Россияночка Алёнка\"",
+          "priceRub": 650,
+          "publishedAt": "2025-06-27T11:33:06.000Z"
+        },
+        {
+          "title": "Мастер-класс \"Домовой Афанасий\" на русском языке!",
+          "priceRub": 530,
+          "publishedAt": "2025-02-26T15:51:35.000Z"
+        }
+      ],
+      "checkedAt": "2026-08-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
       "lastObservedGrowthDate": null
     },
     {
       "slug": "fdzlata",
+      "language": "ru",
       "name": "Zlata's fantasy dolls",
       "title": "Dollmaker Artist and Writer",
       "boostyUrl": "https://boosty.to/fdzlata",
-      "category": "Создание кукол",
+      "category": "Авторские и арт-куклы",
       "topics": [
-        "Создание кукол"
+        "Авторские и арт-куклы",
+        "BJD и шарнирные куклы"
       ],
       "focus": "BJD / шарнирные куклы; Авторские арт-куклы",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы.",
