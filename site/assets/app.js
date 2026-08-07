@@ -295,6 +295,9 @@ function setView(view) {
 
 function resetFilters() {
   form.reset();
+}
+
+function applyResetState() {
   sortDirection = defaultSortDirection(sortInput.value);
   applyFilters();
 }
@@ -346,7 +349,7 @@ form.addEventListener("change", (event) => {
   if (event.target === sortInput) sortDirection = defaultSortDirection(sortInput.value);
   applyFilters();
 });
-form.addEventListener("reset", () => queueMicrotask(resetFilters));
+form.addEventListener("reset", () => queueMicrotask(applyResetState));
 
 for (const button of paymentButtons) {
   button.addEventListener("click", () => {
@@ -418,4 +421,3 @@ channelDialog?.addEventListener("close", () => {
 
 restoreFromUrl();
 applyFilters({ resetLimit: false });
-

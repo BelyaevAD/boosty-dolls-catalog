@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import test from "node:test";
 import {
   clampPrice,
@@ -37,6 +38,15 @@ function channel(overrides = {}) {
     ...overrides,
   };
 }
+
+test("filter reset handler cannot recursively reset the form", () => {
+  const appSource = readFileSync(new URL("../site/assets/app.js", import.meta.url), "utf8");
+  const resetFiltersBody = appSource.match(/function resetFilters\(\) \{([\s\S]*?)\n\}/)?.[1] || "";
+
+  assert.match(resetFiltersBody, /form\.reset\(\)/);
+  assert.doesNotMatch(resetFiltersBody, /applyFilters|resetFilters/);
+  assert.match(appSource, /form\.addEventListener\("reset", \(\) => queueMicrotask\(applyResetState\)\)/);
+});
 
 test("normalizeText handles Russian text and whitespace", () => {
   assert.equal(normalizeText("  Ёлка\nКУКЛА  "), "елка кукла");
