@@ -270,7 +270,7 @@ function channelDetailTemplate(channel, checkedAt) {
     ? `<section class="payment-detail payment-detail-one-off">
         <h3><span aria-hidden="true">◇</span> Разовые материалы</h3>
         <ul class="tier-list tier-list-dialog">${oneOffItems}</ul>
-        <p class="payment-sample-note">Показаны платные материалы среди последних 20 публикаций.</p>
+        <p class="payment-sample-note">Показаны платные материалы среди проверенных публикаций (до 60).</p>
       </section>`
     : "";
   const recentPost = channel.lastPostTitle
@@ -337,7 +337,7 @@ function channelRow(channel, checkedAt) {
       : tierLevelLabel(channel.tierCount))
     : "нет";
   const oneOffRange = channel.oneOffCountRecent
-    ? `${channel.oneOffCountRecent} в последних 20 постах${channel.maxOneOffPriceRub > oneOffPrice(channel)
+    ? `${channel.oneOffCountRecent} среди проверенных постов (до 60)${channel.maxOneOffPriceRub > oneOffPrice(channel)
       ? ` · до ${formatNumber(channel.maxOneOffPriceRub)} ₽`
       : ""}`
     : "нет";
@@ -452,7 +452,7 @@ function channelPage(channel, checkedAt) {
     ? `<section class="payment-detail payment-detail-subscription"><h2><span aria-hidden="true">↻</span> Уровни подписки</h2><ul class="tier-list">${tiers}</ul></section>`
     : "";
   const oneOffSection = oneOffItems
-    ? `<section class="payment-detail payment-detail-one-off"><h2><span aria-hidden="true">◇</span> Разовые материалы</h2><ul class="tier-list">${oneOffItems}</ul><p class="payment-sample-note">Показаны платные материалы среди последних 20 публикаций.</p></section>`
+    ? `<section class="payment-detail payment-detail-one-off"><h2><span aria-hidden="true">◇</span> Разовые материалы</h2><ul class="tier-list">${oneOffItems}</ul><p class="payment-sample-note">Показаны платные материалы среди проверенных публикаций (до 60).</p></section>`
     : "";
   const jsonLd = safeJson({
     "@context": "https://schema.org",
@@ -595,6 +595,8 @@ const mobileCategoryLabels = new Map([
   ["Миниатюры и кукольные дома", "Миниатюры / дома"],
   ["Ремонт, реставрация и история", "Ремонт / история"],
   ["Коллекционирование и кукольные медиа", "Коллекции / медиа"],
+  ["Народные, обрядовые и обережные куклы", "Народные / обережные"],
+  ["Театральные куклы и марионетки", "Театральные / марионетки"],
 ]);
 const categoryChips = categories
   .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}" data-mobile-label="${escapeHtml(mobileCategoryLabels.get(category) || category)}" aria-label="${escapeHtml(`${category}: ${count} авторов`)}" aria-pressed="false"><span class="topic-label">${escapeHtml(category)}</span> <span data-topic-count aria-hidden="true">· ${count}</span></button>`)

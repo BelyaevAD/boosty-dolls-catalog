@@ -63,6 +63,7 @@ const maxNewChannels = integerEnvironment("MAX_NEW_CHANNELS", MAX_NEW_CHANNELS_H
   min: 0,
   max: MAX_NEW_CHANNELS_HARD_LIMIT,
 });
+const deepRecheckMax = integerEnvironment("DEEP_RECHECK_MAX", 0, { min: 0, max: 250 });
 const commonCrawlMaxPages = integerEnvironment("COMMON_CRAWL_MAX_PAGES", 5, { min: 0 });
 const boostySearchMaxPages = integerEnvironment("BOOSTY_SEARCH_MAX_PAGES", 2, { min: 1 });
 const boostySearchMaxQueries = integerEnvironment("BOOSTY_SEARCH_MAX_QUERIES", BOOSTY_POST_SEARCH_QUERIES.length, { min: 1 });
@@ -363,6 +364,7 @@ function addDiscovery(discovered, slug, evidence, preview = {}) {
       russian: existing.hints.russian || preview.russian === true,
       officialDolls: existing.hints.officialDolls || preview.officialDolls === true,
       targetedPost: existing.hints.targetedPost || preview.targetedPost === true,
+      forceFullCheck: existing.hints.forceFullCheck || preview.forceFullCheck === true,
       hasPaidLevels: existing.hints.hasPaidLevels || preview.hasPaidLevels === true,
       hasOneOff: existing.hints.hasOneOff || preview.hasOneOff === true,
     },
@@ -375,7 +377,7 @@ async function discoverCandidates(rawMeta = {}) {
   let commonCrawlProgress = rawMeta.commonCrawlProgress || null;
   for (const slug of explicitSeedSlugs) {
     addDiscovery(discovered, slug, "Явная очередь проверки", {
-      targetedPost: true,
+      forceFullCheck: true,
     });
   }
   if (discoverySeedsOnly) return { discovered, commonCrawlCollectionId, commonCrawlProgress };
@@ -470,6 +472,7 @@ function daysSince(value) {
 
 function candidateIsDue(candidate) {
   if (candidate.reviewStatus === "pending") return true;
+  if (deepRecheckSlugs.has(candidate.slug)) return true;
   if (recheckAll && ["fetch-error", "unqualified", "removed"].includes(candidate.reviewStatus)) return true;
   if (candidate.reviewStatus === "fetch-error") return daysSince(candidate.lastCheckedAt) >= 7;
   if (candidate.reviewStatus === "removed") return daysSince(candidate.lastCheckedAt) >= 28;
@@ -531,6 +534,23 @@ for (const [slug, exclusion] of exclusionBySlug) {
   });
 }
 
+const deepRecheckSlugs = new Set(
+  [...rawBySlug.values()]
+    .filter((candidate) =>
+      !exclusionBySlug.has(candidate.slug) &&
+      !previousPublishedSlugSet.has(candidate.slug) &&
+      candidate.reviewStatus === "unqualified" &&
+      candidate.reviewReason === "topic" &&
+      !Number.isFinite(Number(candidate.relevanceScore))
+    )
+    .sort((a, b) =>
+      String(a.lastCheckedAt || "").localeCompare(String(b.lastCheckedAt || "")) ||
+      a.slug.localeCompare(b.slug)
+    )
+    .slice(0, deepRecheckMax)
+    .map((candidate) => candidate.slug),
+);
+
 const candidateQueue = [...rawBySlug.values()]
   .filter((candidate) =>
     !exclusionBySlug.has(candidate.slug) &&
@@ -543,12 +563,14 @@ const candidateQueue = [...rawBySlug.values()]
     const aInfo = discovered.get(a.slug);
     const bInfo = discovered.get(b.slug);
     const priority = (candidate, info) =>
+      (info?.hints?.forceFullCheck ? 50 : 0) +
       (candidate.reviewStatus === "fetch-error" ? 30 : 0) +
       (info?.hints?.officialDolls ? 20 : 0) +
       (info?.hints?.hasPaidLevels ? 15 : 0) +
       (info?.hints?.hasOneOff ? 15 : 0) +
       (rawSlugsBeforeDiscovery.has(candidate.slug) ? 10 : 0) +
-      (info?.hints?.russian ? 5 : 0);
+      (info?.hints?.russian ? 5 : 0) +
+      (deepRecheckSlugs.has(candidate.slug) ? 1 : 0);
     return priority(b, bInfo) - priority(a, aInfo) || a.slug.localeCompare(b.slug);
   })
   .slice(0, maxCandidateChecks);
@@ -598,11 +620,14 @@ for (const result of preflightResults) {
   const { assessment } = result;
   const trustedDiscovery = result.info?.hints?.officialDolls ||
     result.info?.hints?.targetedPost ||
+    result.info?.hints?.forceFullCheck ||
     (rawSlugsBeforeDiscovery.has(result.slug) && existing.reviewStatus !== "pending");
   // Discovery text can justify the more expensive full check, but only the
   // aggregate public Boosty content assessment may qualify a channel.
   const hasLanguageEvidence = assessment.isRussian || result.info?.hints?.russian || trustedDiscovery;
-  const hasTopicEvidence = assessment.relevanceScore >= 1 || trustedDiscovery;
+  const hasTopicEvidence = assessment.relevanceScore >= 1 ||
+    trustedDiscovery ||
+    result.info?.hints?.russian === true;
   if (
     assessment.hasPosts &&
     assessment.notBanned &&
@@ -639,7 +664,11 @@ for (const result of preflightResults) {
 let fullCheckCompleted = 0;
 const candidateResults = await mapWithConcurrency(eligibleForFullCheck, 3, async (result) => {
   try {
-    const refreshed = await fetchBoostyChannel({ slug: result.slug, blog: result.blog }, null, checkedAt);
+    const refreshed = await fetchBoostyChannel({
+      slug: result.slug,
+      blog: result.blog,
+      discoveryHints: result.info?.hints || {},
+    }, null, checkedAt);
     return {
       kind: "candidate",
       slug: result.slug,
@@ -759,7 +788,7 @@ for (const result of candidateResults) {
   }
 
   const channel = result.refreshed;
-  const qualifiesForAutomaticPublication = channel.qualifies && channel.relevanceScore >= 2;
+  const qualifiesForAutomaticPublication = channel.qualifies;
   const publishWithinLimit = qualifiesForAutomaticPublication && added.length < maxNewChannels;
   rawBySlug.set(slug, {
     ...existing,
@@ -772,6 +801,11 @@ for (const result of candidateResults) {
     reviewReason: publishWithinLimit ? null : qualifiesForAutomaticPublication ? "publication-limit" : "full-check",
     profileRelevanceScore: result.profileRelevanceScore,
     relevanceScore: channel.relevanceScore,
+    relevantPostCount: channel.relevantPostCount,
+    assessedPostCount: channel.assessedPostCount,
+    relevantPostShare: Number(channel.relevantPostShare.toFixed(6)),
+    targetedPostEvidence: channel.targetedPostEvidence,
+    outOfScopeProfile: channel.outOfScopeProfile,
     languageEvidence: languageEvidenceSummary(channel.languageEvidence),
     fetchError: null,
     firstSeenAt: existing?.firstSeenAt || checkedAt,

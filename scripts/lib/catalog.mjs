@@ -1,5 +1,7 @@
 const API_BASE = "https://api.boosty.to";
 const BOOSTY_REQUEST_INTERVAL_MS = Math.max(100, Number(process.env.BOOSTY_REQUEST_INTERVAL_MS) || 250);
+const BOOSTY_POST_PAGE_SIZE = 20;
+const MAX_ASSESSMENT_POSTS = 60;
 let nextBoostyRequestAt = 0;
 let boostyBackoffUntil = 0;
 let boostySchedulerTail = Promise.resolve();
@@ -11,7 +13,7 @@ export const CATEGORY_RULES = [
   },
   {
     category: "Текстильные и интерьерные куклы",
-    terms: ["текстильн кук", "интерьерн кук", "кукла из ткани", "тряпичн кук", "вальдорфск кук", "кукла из фетра", "тильд", "fabric doll", "cloth doll"],
+    terms: ["текстильн кук", "интерьерн кук", "кукла из ткани", "тряпичн кук", "вальдорфск кук", "кукла из фетра", "кукла из капрон", "чулочн кук", "тильд", "fabric doll", "cloth doll"],
   },
   {
     category: "BJD и шарнирные куклы",
@@ -19,7 +21,7 @@ export const CATEGORY_RULES = [
   },
   {
     category: "Авторские и арт-куклы",
-    terms: ["кукл ручн", "создани кук", "авторск кук", "арт-кукл", "art doll", "скульптинг кук", "лепк кук", "полимерн глин кук", "папье маше кук", "фарфоров кук", "кукольн скульптур", "doll making"],
+    terms: ["кукл ручн", "создани кук", "авторск кук", "арт-кукл", "art doll", "скульптинг кук", "лепк кук", "полимерн глин кук", "папье маше кук", "фарфоров кук", "кукольн скульптур", "la doll", "ладолл", "doll making"],
   },
   {
     category: "Реборн-куклы",
@@ -49,6 +51,14 @@ export const CATEGORY_RULES = [
     category: "Ремонт, реставрация и история",
     terms: ["истори кук", "антикварн кук", "винтажн кук", "реставрац кук", "ремонт кук", "восстановлен кук", "doll restoration", "музей кук"],
   },
+  {
+    category: "Народные, обрядовые и обережные куклы",
+    terms: ["народн кук", "традиционн кук", "обрядов кук", "обережн кук", "кукла оберег", "кукла-оберег", "кукла мотанк", "мотанк", "кукла закрутк", "кукла столбушк", "славянск кук"],
+  },
+  {
+    category: "Театральные куклы и марионетки",
+    terms: ["театральн кук", "кукольн театр", "кукла для театр", "кукла для спектакл", "марионет", "перчаточн кук", "тростев кук", "ростов кук", "puppet theatre", "puppet making"],
+  },
 ];
 
 export const CATEGORIES = Object.freeze(CATEGORY_RULES.map((rule) => rule.category));
@@ -71,6 +81,8 @@ export const FOCUS_TERMS = [
   ["Миниатюра 1:6", ["миниатюр 1:6", "мебель 1:6", "room box", "румбокс"], "Миниатюры и кукольные дома"],
   ["Коллекционирование / обзоры", ["коллекц кук", "обзор кук", "распаковк кук", "doll review"], "Коллекционирование и кукольные медиа"],
   ["История / реставрация", ["истори кук", "антикварн кук", "реставрац кук", "ремонт кук"], "Ремонт, реставрация и история"],
+  ["Народные / обережные куклы", ["народн кук", "обрядов кук", "обережн кук", "кукла мотанк", "кукла оберег"], "Народные, обрядовые и обережные куклы"],
+  ["Театральные куклы / марионетки", ["театральн кук", "кукольн театр", "марионет", "перчаточн кук", "тростев кук"], "Театральные куклы и марионетки"],
 ];
 const FOCUS_TOPIC_BY_LABEL = new Map(
   FOCUS_TERMS.map(([label, , topic]) => [label, topic]),
@@ -89,6 +101,13 @@ export const DISCOVERY_QUERIES = [
   "site:boosty.to арт-кукла полимерная глина",
   "site:boosty.to кукольная обувь парики аксессуары",
   "site:boosty.to кукольная фотография фотоистории",
+  "site:boosty.to народная обрядовая обережная кукла",
+  "site:boosty.to кукла мотанка закрутка столбушка",
+  "site:boosty.to театральная кукла марионетка",
+  "site:boosty.to кукольный театр перчаточная кукла",
+  "site:boosty.to чулочная кукла кукла из капрона",
+  "site:boosty.to Dollfie Pullip Fashion Royalty кукла",
+  "site:boosty.to STL 3D печать куклы",
 ];
 
 export const BOOSTY_POST_SEARCH_QUERIES = [
@@ -161,9 +180,29 @@ export const BOOSTY_POST_SEARCH_QUERIES = [
   "кукла из полимерной глины",
   "кукла папье маше",
   "фарфоровая кукла ручной работы",
+  "кукла из капрона",
+  "чулочная кукла",
   "вальдорфская кукла",
   "кукла из фетра",
   "тряпичная кукла",
+  "народная кукла",
+  "традиционная кукла",
+  "обрядовая кукла",
+  "обережная кукла",
+  "кукла оберег",
+  "кукла мотанка",
+  "кукла закрутка",
+  "изготовление театральной куклы",
+  "изготовление кукол для кукольного театра",
+  "мастер класс марионетка",
+  "перчаточная кукла",
+  "тростевая кукла",
+  "Pullip кукла",
+  "Dollfie кукла",
+  "Fashion Royalty кукла",
+  "Rainbow High кукла",
+  "STL кукла",
+  "3D печать куклы",
   "мастер класс кукла",
   "выкройка куклы",
   "курс по куклам",
@@ -212,6 +251,33 @@ function termMatches(text, term) {
 
 export function countMatches(text, terms) {
   return terms.filter((term) => termMatches(text, term)).length;
+}
+
+export function qualifiesDollRelevance({
+  relevanceScore = 0,
+  profileRelevanceScore = 0,
+  relevantPostCount = 0,
+  assessedPostCount = 0,
+  targetedPostEvidence = false,
+} = {}) {
+  const score = Number(relevanceScore) || 0;
+  const profileScore = Number(profileRelevanceScore) || 0;
+  const postCount = Number(relevantPostCount) || 0;
+  const assessedCount = Number(assessedPostCount) || 0;
+  const relevantPostShare = assessedCount > 0 ? postCount / assessedCount : 0;
+  const repeatedPostEvidence = postCount >= 2 && (
+    assessedCount <= 20 ||
+    relevantPostShare >= 0.1 ||
+    postCount >= 5
+  );
+  if (score < 1) return false;
+  if (repeatedPostEvidence) return true;
+  if (profileScore >= 1 && targetedPostEvidence) return true;
+  return score >= 2 && profileScore >= 1;
+}
+
+export function profileLooksOutOfScope(text) {
+  return /(?:фанфик|\bфик(?:и|ов|ам)?\b|фикбук|ficbook|author\.today|ранобэ|новелл|перевод(?:чик|ил|жу|ы|ов|ить)|писател|литератур|(?:пишу|пишущ\w*|автор)\s+(?:книг|роман|рассказ)|аудиокниг|озвуч|стрим|настольн\w*\s+игр|\bнри\b|комикс|аниме|манг|видеоигр|компьютерн\w*\s+игр|музык|песен|вокал|аранжиров|\basmr\b|асмр|шоу[\s-]*бизнес|конспир)/iu.test(String(text || ""));
 }
 
 export function languageMetrics(text) {
@@ -281,11 +347,16 @@ export function assessRussianLanguage({
   const corroboratedRussian = strongSignalCount >= 2 &&
     aggregateMetrics.cyrillic >= 30 &&
     aggregateMetrics.cyrillicShare >= 0.52;
+  const majorityRussianCorpus = aggregateMetrics.cyrillic >= 80 &&
+    aggregateMetrics.cyrillicShare >= 0.5 &&
+    russianPostTitleCount >= 5 &&
+    russianPostTextCount >= 5;
 
   return {
-    isRussian: aggregateRussian || corroboratedRussian || sparseRussianDescription,
+    isRussian: aggregateRussian || corroboratedRussian || sparseRussianDescription || majorityRussianCorpus,
     signals,
     strongSignalCount,
+    majorityRussianCorpus,
     russianPostTitleCount,
     russianPostTextCount,
     russianPostSampleCount,
@@ -696,6 +767,40 @@ export async function fetchBoostyBlog(slug) {
   return fetchBoostyJson(`${API_BASE}/v1/blog/${encodeURIComponent(safeSlug)}`);
 }
 
+export async function fetchBoostyPosts(slug, { limit = MAX_ASSESSMENT_POSTS } = {}) {
+  const safeSlug = validBoostySlug(slug);
+  const safeLimit = Math.min(
+    MAX_ASSESSMENT_POSTS,
+    Math.max(1, Number.parseInt(String(limit), 10) || MAX_ASSESSMENT_POSTS),
+  );
+  const posts = [];
+  const seenPostIds = new Set();
+  let offset = "";
+
+  while (posts.length < safeLimit) {
+    const url = new URL(`${API_BASE}/v1/blog/${encodeURIComponent(safeSlug)}/post/`);
+    url.searchParams.set("limit", String(Math.min(BOOSTY_POST_PAGE_SIZE, safeLimit - posts.length)));
+    if (offset) url.searchParams.set("offset", offset);
+    const response = await fetchBoostyJson(url);
+    for (const post of response.data || []) {
+      const postId = String(post?.id || `${post?.publishTime || post?.createdAt || ""}:${post?.title || ""}`);
+      if (seenPostIds.has(postId)) continue;
+      seenPostIds.add(postId);
+      posts.push(post);
+      if (posts.length >= safeLimit) break;
+    }
+
+    if (response.extra?.isLast || !response.extra?.offset || posts.length >= safeLimit) break;
+    const nextOffset = String(response.extra.offset);
+    if (!/^\d{1,20}:\d{1,20}$/u.test(nextOffset)) {
+      throw new Error(`Unexpected Boosty pagination offset for ${safeSlug}`);
+    }
+    offset = nextOffset;
+  }
+
+  return posts;
+}
+
 export function assessBoostyBlog(blog) {
   const descriptionText = parseRichText(blog?.description || []);
   const combinedText = [
@@ -725,9 +830,9 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
   const slug = validBoostySlug(seed.slug);
 
   const blog = seed.blog || await fetchBoostyBlog(slug);
-  const [levelsResult, postsResult] = await Promise.all([
+  const [levelsResult, fetchedPosts] = await Promise.all([
     fetchBoostyJson(`${API_BASE}/v1/blog/${encodeURIComponent(slug)}/subscription_level/?show_free_level=true&sort_by=on_time&offset=0&limit=50&order=gt`),
-    fetchBoostyJson(`${API_BASE}/v1/blog/${encodeURIComponent(slug)}/post/?limit=20`),
+    fetchBoostyPosts(slug),
   ]);
 
   const nowSeconds = Math.floor(new Date(`${checkedAt}T23:59:59+07:00`).getTime() / 1000);
@@ -745,7 +850,7 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     promoPriceRub: currentPromoPrice(level, nowSeconds),
   }));
 
-  const posts = (postsResult.data || [])
+  const posts = fetchedPosts
     .filter((post) => post?.isPublished !== false && !post?.isDeleted)
     .sort((a, b) => (b.publishTime || b.createdAt || 0) - (a.publishTime || a.createdAt || 0));
   const oneOffItems = posts
@@ -758,24 +863,25 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
   const lastPost = posts[0] || null;
   const profileAssessment = assessBoostyBlog(blog);
   const descriptionText = profileAssessment.descriptionText;
-  const recentPosts = posts.slice(0, 12);
-  const recentPostTitles = recentPosts.map((post) => post.title || "").filter(Boolean);
-  const recentPostTexts = recentPosts
+  const profileText = `${blog.title || ""} ${descriptionText}`;
+  const assessmentPosts = posts.slice(0, MAX_ASSESSMENT_POSTS);
+  const assessmentPostTitles = assessmentPosts.map((post) => post.title || "").filter(Boolean);
+  const assessmentPostTexts = assessmentPosts
     .map((post) => parseRichText([...(post.teaser || []), ...(post.data || [])]).slice(0, 2_000))
     .filter(Boolean);
   const combinedText = [
     blog.owner?.name,
     blog.title,
     descriptionText,
-    ...recentPostTitles,
-    ...recentPostTexts,
+    ...assessmentPostTitles,
+    ...assessmentPostTexts,
   ].filter(Boolean).join(" ").replace(/\s+/g, " ").toLowerCase();
 
   const relevanceScore = countMatches(combinedText, ALL_RELEVANCE_TERMS);
   const languageEvidence = assessRussianLanguage({
     description: descriptionText,
-    postTitles: recentPostTitles,
-    postTexts: recentPostTexts,
+    postTitles: assessmentPostTitles,
+    postTexts: assessmentPostTexts,
     tierNames: tiers.map((tier) => tier.name),
     oneOffTitles: oneOffItems.map((item) => item.title),
     ownerName: blog.owner?.name,
@@ -797,6 +903,15 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
   const hasPosts = Number(blog.count?.posts ?? 0) > 0;
   const notBanned = !/banned|заблокирован/i.test(`${blog.owner?.name || ""} ${blog.title || ""}`);
   const hasAdultContent = profileAssessment.hasAdultContent;
+  const outOfScopeProfile = profileLooksOutOfScope(profileText) && profileAssessment.relevanceScore < 1;
+  const targetedPostEvidence = seed.discoveryHints?.targetedPost === true;
+  const hasDollRelevance = qualifiesDollRelevance({
+    relevanceScore,
+    profileRelevanceScore: profileAssessment.relevanceScore,
+    relevantPostCount,
+    assessedPostCount: assessmentPosts.length,
+    targetedPostEvidence,
+  });
 
   return {
     slug: blog.blogUrl || slug,
@@ -838,6 +953,11 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     relevanceScore,
     profileRelevanceScore: profileAssessment.relevanceScore,
     relevantPostCount,
+    assessedPostCount: assessmentPosts.length,
+    relevantPostShare: assessmentPosts.length ? relevantPostCount / assessmentPosts.length : 0,
+    targetedPostEvidence,
+    hasDollRelevance,
+    outOfScopeProfile,
     isRussian,
     languageEvidence,
     hasPosts,
@@ -846,8 +966,8 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     hasAdultContent,
     notBanned,
     qualifies: isRussian &&
-      relevanceScore >= 2 &&
-      (profileAssessment.relevanceScore >= 1 || relevantPostCount >= 2) &&
+      hasDollRelevance &&
+      !outOfScopeProfile &&
       hasPosts &&
       (tiers.length > 0 || oneOffItems.length > 0) &&
       !hasAdultContent &&

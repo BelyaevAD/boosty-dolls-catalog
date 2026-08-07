@@ -20,6 +20,8 @@ import {
   inferClassification,
   languageMetrics,
   assessRussianLanguage,
+  qualifiesDollRelevance,
+  profileLooksOutOfScope,
   sanitizePublicSummary,
 } from "../scripts/lib/catalog.mjs";
 
@@ -129,6 +131,32 @@ test("classification recognizes core doll categories", () => {
   assert.equal(inferClassification("кастом OOAK Blythe repaint").category, "Кастом и OOAK");
   assert.equal(inferClassification("выкройка одежды для куклы Barbie").category, "Одежда и выкройки");
   assert.equal(inferClassification("кукольный домик миниатюра 1:12").category, "Миниатюры и кукольные дома");
+  assert.equal(inferClassification("народная обрядовая кукла мотанка оберег").category, "Народные, обрядовые и обережные куклы");
+  assert.equal(inferClassification("театральная кукла марионетка для кукольного театра").category, "Театральные куклы и марионетки");
+});
+
+test("relevance accepts repeated and proportionate post evidence without requiring synonym variety", () => {
+  assert.equal(qualifiesDollRelevance({ relevanceScore: 1, relevantPostCount: 3, assessedPostCount: 20 }), true);
+  assert.equal(qualifiesDollRelevance({ relevanceScore: 1, relevantPostCount: 2, assessedPostCount: 60 }), false);
+  assert.equal(qualifiesDollRelevance({ relevanceScore: 1, relevantPostCount: 6, assessedPostCount: 60 }), true);
+  assert.equal(qualifiesDollRelevance({
+    relevanceScore: 1,
+    profileRelevanceScore: 1,
+    targetedPostEvidence: true,
+  }), true);
+  assert.equal(qualifiesDollRelevance({
+    relevanceScore: 1,
+    profileRelevanceScore: 1,
+    targetedPostEvidence: false,
+  }), false);
+  assert.equal(qualifiesDollRelevance({ relevanceScore: 0, relevantPostCount: 10 }), false);
+  assert.equal(qualifiesDollRelevance({ relevanceScore: 2, profileRelevanceScore: 1 }), true);
+});
+
+test("out-of-scope profile detector separates fiction and media from explicit doll creators", () => {
+  assert.equal(profileLooksOutOfScope("Пишу фанфики и перевожу ранобэ"), true);
+  assert.equal(profileLooksOutOfScope("ASMR, стримы и обзоры компьютерных игр"), true);
+  assert.equal(profileLooksOutOfScope("Создаю авторских шарнирных кукол и мастер-классы"), false);
 });
 
 test("language metrics recognize Russian and bilingual text", () => {
@@ -177,6 +205,18 @@ test("language qualification uses content rather than author or channel names", 
     tierNames: ["Support"],
   });
   assert.equal(russianTeasersWithLatinTitles.isRussian, true);
+
+  const predominantlyRussianBilingualCorpus = assessRussianLanguage({
+    postTitles: Array.from({ length: 6 }, (_, index) => `Кукла ${index + 1}`),
+    postTexts: Array.from(
+      { length: 6 },
+      (_, index) =>
+        `Кукла ${index + 1} готова для работы, показываю материалы и этапы сборки. English pattern tutorial.`,
+    ),
+    tierNames: ["Все мастер-классы", "Поддержка автора"],
+  });
+  assert.equal(predominantlyRussianBilingualCorpus.isRussian, true);
+  assert.equal(predominantlyRussianBilingualCorpus.majorityRussianCorpus, true);
 });
 
 test("contact sanitizer removes public contact data", () => {
