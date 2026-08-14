@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "checkedAt": "2026-08-08",
-  "metricsCheckedAt": "2026-08-07",
-  "previousChannelCount": 224,
+  "checkedAt": "2026-08-14",
+  "metricsCheckedAt": "2026-08-14",
+  "previousChannelCount": 213,
   "channelCount": 213,
-  "candidateCount": 4200,
-  "discoveredCount": 0,
-  "checkedCandidateCount": 0,
+  "candidateCount": 4214,
+  "discoveredCount": 14,
+  "checkedCandidateCount": 136,
   "maxNewChannels": 200,
   "hardNewChannelLimit": 200,
   "prefilteredCount": 0,
@@ -17,18 +17,6 @@
   "qualifiedDeferredCount": 0,
   "qualifiedDeferred": [],
   "added": [],
-  "removed": [
-    "skazhitemyau",
-    "karlagen",
-    "national-talents",
-    "hisbones",
-    "alyery",
-    "cokol-d",
-    "hatheat",
-    "glassbush",
-    "ranobemania",
-    "lagnes-fox72",
-    "w00dyh1gh"
-  ],
+  "removed": [],
   "errors": []
 }

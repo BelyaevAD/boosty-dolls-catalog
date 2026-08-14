@@ -1,0 +1,2420 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-08-14",
+  "channels": [
+    {
+      "slug": "dools_toys_for_you",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 14200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-12-19T04:17:32.000Z"
+    },
+    {
+      "slug": "_kukla_olya_handmade_",
+      "subscribers": 13,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-01-12T18:06:44.000Z"
+    },
+    {
+      "slug": "olya_iskusnica",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-03-24T14:37:41.000Z"
+    },
+    {
+      "slug": "art_forest",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 800,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-02-17T13:13:24.000Z"
+    },
+    {
+      "slug": "eify",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-11-14T18:24:01.000Z"
+    },
+    {
+      "slug": "ekaterina_isakova",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-12T11:26:19.000Z"
+    },
+    {
+      "slug": "gooddolls",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 275,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-26T14:21:04.000Z"
+    },
+    {
+      "slug": "sandradolldress",
+      "subscribers": 44,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 280,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-10T05:28:20.000Z"
+    },
+    {
+      "slug": "lisika.doll",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-05-27T04:17:52.000Z"
+    },
+    {
+      "slug": "romanova.room",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 60,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-05-09T08:53:29.000Z"
+    },
+    {
+      "slug": "anna_darling_dolls",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 4500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-04-05T10:29:28.000Z"
+    },
+    {
+      "slug": "annakorolevamk",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 750,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-11-14T15:12:32.000Z"
+    },
+    {
+      "slug": "anna.anufrieva",
+      "subscribers": 77,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 110,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-04T12:32:48.000Z"
+    },
+    {
+      "slug": "desouris",
+      "subscribers": 31,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-02-12T16:22:36.000Z"
+    },
+    {
+      "slug": "annakuchina",
+      "subscribers": 44,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-01T08:20:07.000Z"
+    },
+    {
+      "slug": "samanna",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-05T13:21:15.000Z"
+    },
+    {
+      "slug": "anna_utesheva",
+      "subscribers": 6,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-08-03T10:49:05.000Z"
+    },
+    {
+      "slug": "barbiejennylane",
+      "subscribers": 13,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-10-13T18:09:20.000Z"
+    },
+    {
+      "slug": "mysweettoys",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-03-29T08:52:33.000Z"
+    },
+    {
+      "slug": "veramir",
+      "subscribers": 22,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-03-17T16:42:00.000Z"
+    },
+    {
+      "slug": "dolls_print",
+      "subscribers": 10,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-03-26T08:45:24.000Z"
+    },
+    {
+      "slug": "nikadolltoy",
+      "subscribers": 45,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 220,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-29T10:31:09.000Z"
+    },
+    {
+      "slug": "adultcollector",
+      "subscribers": 109,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-10T09:35:11.000Z"
+    },
+    {
+      "slug": "viktoriyalinskaya",
+      "subscribers": 84,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 320,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-12-11T05:16:50.000Z"
+    },
+    {
+      "slug": "vlasovasa",
+      "subscribers": 24,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-09-21T07:13:09.000Z"
+    },
+    {
+      "slug": "tanty_dress",
+      "subscribers": 106,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 120,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-01T03:48:17.000Z"
+    },
+    {
+      "slug": "embodied_ideas",
+      "subscribers": 34,
+      "minSubscriptionPriceRub": 3000,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 500,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-08-02T13:18:55.000Z"
+    },
+    {
+      "slug": "vyazanye_istorii_",
+      "subscribers": 435,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-10T06:53:22.000Z"
+    },
+    {
+      "slug": "dollsgalinamalina",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 10,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-09-01T18:20:09.000Z"
+    },
+    {
+      "slug": "goose_barbie",
+      "subscribers": 15,
+      "minSubscriptionPriceRub": 300,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 170,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-03-03T14:17:00.000Z"
+    },
+    {
+      "slug": "darinadolgix",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-02-23T13:49:44.000Z"
+    },
+    {
+      "slug": "butinenok",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2022-05-10T07:40:10.000Z"
+    },
+    {
+      "slug": "d.rema",
+      "subscribers": 8,
+      "minSubscriptionPriceRub": 910,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-20T11:09:00.000Z"
+    },
+    {
+      "slug": "scrapdekabryna",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-08-12T12:29:03.000Z"
+    },
+    {
+      "slug": "doll_shik",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-01-06T12:56:13.000Z"
+    },
+    {
+      "slug": "lenkin_penkin_doll",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2023-01-14T16:45:42.000Z"
+    },
+    {
+      "slug": "dollskorunova",
+      "subscribers": 43,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-05T10:04:55.000Z"
+    },
+    {
+      "slug": "elena_kropo",
+      "subscribers": 21,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-11T17:26:42.000Z"
+    },
+    {
+      "slug": "lena.seleniya",
+      "subscribers": 22,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-11-19T13:13:51.000Z"
+    },
+    {
+      "slug": "interior-dolls",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 13200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-08-22T12:18:56.000Z"
+    },
+    {
+      "slug": "jgri_dolls",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 10,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-21T16:05:45.000Z"
+    },
+    {
+      "slug": "martswet",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 370,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-10-16T13:21:19.000Z"
+    },
+    {
+      "slug": "cucla_v_radost",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-03-09T10:07:08.000Z"
+    },
+    {
+      "slug": "kuklalubimaya",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-09T11:55:37.000Z"
+    },
+    {
+      "slug": "irisdolls",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-08-01T18:31:33.000Z"
+    },
+    {
+      "slug": "ira_ulianova",
+      "subscribers": 44,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-09-12T14:11:24.000Z"
+    },
+    {
+      "slug": "ya13",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-05-01T19:33:27.000Z"
+    },
+    {
+      "slug": "katedolls59",
+      "subscribers": 149,
+      "minSubscriptionPriceRub": 10,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 120,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-03T18:07:37.000Z"
+    },
+    {
+      "slug": "oksana_art",
+      "subscribers": 15,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-18T13:30:27.000Z"
+    },
+    {
+      "slug": "kristinka_toys_patterns",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 400,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 120,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-08-07T19:13:54.000Z"
+    },
+    {
+      "slug": "s.v_dolls_",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 800,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-05-16T13:17:58.000Z"
+    },
+    {
+      "slug": "yunonochca",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 30,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-06-01T09:45:30.000Z"
+    },
+    {
+      "slug": "kukladomia2",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2024-12-15T14:30:00.000Z"
+    },
+    {
+      "slug": "kukolka.adelka",
+      "subscribers": 35,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 240,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-10T17:05:54.000Z"
+    },
+    {
+      "slug": "dollish",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 140,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-07-21T10:44:10.000Z"
+    },
+    {
+      "slug": "blueberrydollstudio",
+      "subscribers": 31,
+      "minSubscriptionPriceRub": 190,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-21T18:09:01.000Z"
+    },
+    {
+      "slug": "narniya_kukol",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-01-19T14:20:39.000Z"
+    },
+    {
+      "slug": "kamberlana",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2023-02-09T17:41:45.000Z"
+    },
+    {
+      "slug": "vyazemdlyakukol",
+      "subscribers": 123,
+      "minSubscriptionPriceRub": 600,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-14T10:37:46.000Z"
+    },
+    {
+      "slug": "lelena",
+      "subscribers": 26,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-07T04:20:52.000Z"
+    },
+    {
+      "slug": "vivedoll",
+      "subscribers": 113,
+      "minSubscriptionPriceRub": 322,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-08T19:02:00.000Z"
+    },
+    {
+      "slug": "personage_doll",
+      "subscribers": 9,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-13T14:06:29.000Z"
+    },
+    {
+      "slug": "tedlyglu",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": 499,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 900,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-08-15T14:18:05.000Z"
+    },
+    {
+      "slug": "lyubava_kukla",
+      "subscribers": 29,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 350,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-03-12T09:38:06.000Z"
+    },
+    {
+      "slug": "lubavacrochet",
+      "subscribers": 25,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 165,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-12-11T09:03:50.000Z"
+    },
+    {
+      "slug": "miladolls_waldorf",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-05-16T19:04:05.000Z"
+    },
+    {
+      "slug": "lildreamers",
+      "subscribers": 118,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-08-03T00:01:37.000Z"
+    },
+    {
+      "slug": "marina_hlopova",
+      "subscribers": 18,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 197,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-25T05:11:03.000Z"
+    },
+    {
+      "slug": "my_fancy_toy",
+      "subscribers": 92,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 390,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-17T15:15:02.000Z"
+    },
+    {
+      "slug": "barbimk",
+      "subscribers": 173,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-31T10:02:52.000Z"
+    },
+    {
+      "slug": "milaamanova",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 25000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-07-10T01:33:07.000Z"
+    },
+    {
+      "slug": "nkochergina",
+      "subscribers": 17,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-05T06:53:58.000Z"
+    },
+    {
+      "slug": "nadinandolls",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 175,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-04-14T15:35:45.000Z"
+    },
+    {
+      "slug": "nadega",
+      "subscribers": 135,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-08T11:58:38.000Z"
+    },
+    {
+      "slug": "lorin_toys",
+      "subscribers": 8,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 180,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-06-05T17:29:27.000Z"
+    },
+    {
+      "slug": "nataliaportnova",
+      "subscribers": 122,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-14T09:39:44.000Z"
+    },
+    {
+      "slug": "irni_dolls",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2023-08-09T07:00:40.000Z"
+    },
+    {
+      "slug": "sewing-school-pollyanna",
+      "subscribers": 50,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 3700,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-11-22T05:53:32.000Z"
+    },
+    {
+      "slug": "kasatkadolls",
+      "subscribers": 877,
+      "minSubscriptionPriceRub": 450,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-07T11:44:59.000Z"
+    },
+    {
+      "slug": "plasticdreams",
+      "subscribers": 276,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-07-31T06:09:44.000Z"
+    },
+    {
+      "slug": "olinsdolls",
+      "subscribers": 44,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-27T14:53:29.000Z"
+    },
+    {
+      "slug": "omoskvina",
+      "subscribers": 16,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-10-18T16:52:05.000Z"
+    },
+    {
+      "slug": "crochetpatterndoll",
+      "subscribers": 27,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-12-13T10:10:20.000Z"
+    },
+    {
+      "slug": "olinimk",
+      "subscribers": 168,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-27T03:22:09.000Z"
+    },
+    {
+      "slug": "natali-cotton-dolls",
+      "subscribers": 37,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 350,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-05-08T05:57:37.000Z"
+    },
+    {
+      "slug": "rumbox-miniatura",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-07-22T15:12:27.000Z"
+    },
+    {
+      "slug": "rizhik_toys",
+      "subscribers": 62,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": 30,
+      "minOneOffPriceRub": 99,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-03-24T09:52:47.000Z"
+    },
+    {
+      "slug": "svetlanabereznova",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-06-14T07:25:12.000Z"
+    },
+    {
+      "slug": "kuklatyliya",
+      "subscribers": 30,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 310,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-11-19T10:46:38.000Z"
+    },
+    {
+      "slug": "mechtasofi",
+      "subscribers": 8,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 650,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-05-12T11:23:20.000Z"
+    },
+    {
+      "slug": "kashegina_svetlana",
+      "subscribers": 60,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-12-20T10:48:06.000Z"
+    },
+    {
+      "slug": "svetlana.meshenko",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 600,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-09-09T08:51:32.000Z"
+    },
+    {
+      "slug": "dollss",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-05-05T05:46:37.000Z"
+    },
+    {
+      "slug": "olga28121951",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 60,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-09-30T12:25:39.000Z"
+    },
+    {
+      "slug": "dobropups",
+      "subscribers": 10,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 280,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-25T15:13:47.000Z"
+    },
+    {
+      "slug": "imdolls",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 400,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-02-14T07:20:54.000Z"
+    },
+    {
+      "slug": "tati12345",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1800,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-10-01T07:07:15.000Z"
+    },
+    {
+      "slug": "t.chelnokova83",
+      "subscribers": 70,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-10T06:21:26.000Z"
+    },
+    {
+      "slug": "tatti_toys",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 920,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-11-14T06:42:00.000Z"
+    },
+    {
+      "slug": "liya_interior_toys",
+      "subscribers": 5,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-04-14T14:31:37.000Z"
+    },
+    {
+      "slug": "dolls.and.me",
+      "subscribers": 9,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 220,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-21T01:38:02.000Z"
+    },
+    {
+      "slug": "hobbybyheaven",
+      "subscribers": 30,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-21T09:44:10.000Z"
+    },
+    {
+      "slug": "1979yu",
+      "subscribers": 39,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-16T15:03:25.000Z"
+    },
+    {
+      "slug": "kozina_toys",
+      "subscribers": 10,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-03-10T19:43:23.000Z"
+    },
+    {
+      "slug": "jrdolls",
+      "subscribers": 38,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-12-24T18:01:45.000Z"
+    },
+    {
+      "slug": "shellydolls",
+      "subscribers": 12,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2023-04-30T18:24:57.000Z"
+    },
+    {
+      "slug": "unisson",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 10,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-03-24T17:04:11.000Z"
+    },
+    {
+      "slug": "yana.kozlova.dolls",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2024-01-16T11:24:01.000Z"
+    },
+    {
+      "slug": "aksamit",
+      "subscribers": 22,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-01-24T18:55:50.000Z"
+    },
+    {
+      "slug": "albinaglumova",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 23400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-07-29T13:30:49.000Z"
+    },
+    {
+      "slug": "alenkina_kukla",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 20000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-04-02T10:17:05.000Z"
+    },
+    {
+      "slug": "helphope",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 550,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-02-08T13:18:15.000Z"
+    },
+    {
+      "slug": "nesuraznayaaa",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-09-12T18:56:20.000Z"
+    },
+    {
+      "slug": "anfisatoys",
+      "subscribers": 10,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2200,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-10-01T13:32:06.000Z"
+    },
+    {
+      "slug": "anika_knit_crochet",
+      "subscribers": 150,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-24T16:53:39.000Z"
+    },
+    {
+      "slug": "anittamaltseva",
+      "subscribers": 52,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-04-11T19:08:54.000Z"
+    },
+    {
+      "slug": "annsherann",
+      "subscribers": 37,
+      "minSubscriptionPriceRub": 120,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-09-12T18:35:04.000Z"
+    },
+    {
+      "slug": "annakorolleva",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2700,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-07-30T12:44:47.000Z"
+    },
+    {
+      "slug": "annadolls6",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 850,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-12-02T21:09:41.000Z"
+    },
+    {
+      "slug": "anyamanya",
+      "subscribers": 41,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2100,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-12-01T20:13:41.000Z"
+    },
+    {
+      "slug": "atelierdoll",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-09-12T04:03:59.000Z"
+    },
+    {
+      "slug": "astikot",
+      "subscribers": 269,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 240,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-19T05:51:55.000Z"
+    },
+    {
+      "slug": "bersreview",
+      "subscribers": 2286,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 3000,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-13T19:33:47.000Z"
+    },
+    {
+      "slug": "bibitaki",
+      "subscribers": 24,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": 375,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-13T21:54:00.000Z"
+    },
+    {
+      "slug": "bosonozhkadolls",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 500,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-31T06:58:26.000Z"
+    },
+    {
+      "slug": "globalsaturation",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-05-24T08:51:05.000Z"
+    },
+    {
+      "slug": "cheeky.dolls",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-03-16T07:59:53.000Z"
+    },
+    {
+      "slug": "chydiki",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2021-04-17T14:42:05.000Z"
+    },
+    {
+      "slug": "cranes.creatures",
+      "subscribers": 6,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-08-21T22:25:20.000Z"
+    },
+    {
+      "slug": "thread_and_doll",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 30,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2024-10-06T03:16:34.000Z"
+    },
+    {
+      "slug": "miniaturediylife",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": 600,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-01-19T18:33:31.000Z"
+    },
+    {
+      "slug": "dolljacquard",
+      "subscribers": 44,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-11T15:42:04.000Z"
+    },
+    {
+      "slug": "doll_charm",
+      "subscribers": 10,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-03-28T21:11:28.000Z"
+    },
+    {
+      "slug": "doll_katt",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-07-19T08:17:03.000Z"
+    },
+    {
+      "slug": "dollaland",
+      "subscribers": 33,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-14T05:02:28.000Z"
+    },
+    {
+      "slug": "dollversediaries",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": 170,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-06T16:21:51.000Z"
+    },
+    {
+      "slug": "dolly_game",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2024-12-24T12:49:32.000Z"
+    },
+    {
+      "slug": "dreamdollspace",
+      "subscribers": 8,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 590,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-09-05T10:59:50.000Z"
+    },
+    {
+      "slug": "danilova77",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-06-02T06:17:10.000Z"
+    },
+    {
+      "slug": "dollbootscraft",
+      "subscribers": 6,
+      "minSubscriptionPriceRub": 800,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2022-09-02T15:29:48.000Z"
+    },
+    {
+      "slug": "floria_elena",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 700,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-03-28T11:07:42.000Z"
+    },
+    {
+      "slug": "elena.niyazova",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 350,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-11-13T08:01:30.000Z"
+    },
+    {
+      "slug": "elenashmidt_crochet.toys",
+      "subscribers": 51,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-07-25T10:18:00.000Z"
+    },
+    {
+      "slug": "elenika_dol",
+      "subscribers": 14,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-11-14T12:42:07.000Z"
+    },
+    {
+      "slug": "enivaqueen",
+      "subscribers": 34,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 700,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-03-05T19:05:48.000Z"
+    },
+    {
+      "slug": "flori_dolls",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-08-28T17:38:00.000Z"
+    },
+    {
+      "slug": "froliki_dolls",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 7000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-08-03T10:21:11.000Z"
+    },
+    {
+      "slug": "guru_amiguru",
+      "subscribers": 14,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 450,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-02-17T05:00:36.000Z"
+    },
+    {
+      "slug": "handmadegu.ru",
+      "subscribers": 15,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-07-24T06:47:11.000Z"
+    },
+    {
+      "slug": "hiodollhouse",
+      "subscribers": 100,
+      "minSubscriptionPriceRub": 150,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-07T09:42:19.000Z"
+    },
+    {
+      "slug": "ilka_bukinist",
+      "subscribers": 26,
+      "minSubscriptionPriceRub": 1000,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 129,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-03-15T14:36:00.000Z"
+    },
+    {
+      "slug": "inna-74",
+      "subscribers": 47,
+      "minSubscriptionPriceRub": 550,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 220,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-03T07:28:11.000Z"
+    },
+    {
+      "slug": "razdolle_by_inna",
+      "subscribers": 5,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-02T12:59:36.000Z"
+    },
+    {
+      "slug": "irina_sai",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-02-05T09:57:22.000Z"
+    },
+    {
+      "slug": "iriska_spb",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-04-13T19:53:37.000Z"
+    },
+    {
+      "slug": "juliadollscraftshop",
+      "subscribers": 133,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 120,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-14T06:52:18.000Z"
+    },
+    {
+      "slug": "juliola",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-03-27T12:28:21.000Z"
+    },
+    {
+      "slug": "moon_kat",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 3150,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-02-18T02:59:27.000Z"
+    },
+    {
+      "slug": "kateohara",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": 3600,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 3600,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-06-27T06:48:51.000Z"
+    },
+    {
+      "slug": "katerinagushchina",
+      "subscribers": 245,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 75,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-04-27T13:28:02.000Z"
+    },
+    {
+      "slug": "kukolki",
+      "subscribers": 5,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-01-15T06:50:56.000Z"
+    },
+    {
+      "slug": "knopka.doll",
+      "subscribers": 20,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 690,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-09-17T17:19:03.000Z"
+    },
+    {
+      "slug": "koritsa_art",
+      "subscribers": 19,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 7000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-12-26T14:11:16.000Z"
+    },
+    {
+      "slug": "cozy.dolls.spb",
+      "subscribers": 16,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-12-24T20:25:30.000Z"
+    },
+    {
+      "slug": "kukly_iri",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 99,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-21T13:32:09.000Z"
+    },
+    {
+      "slug": "lesnoykompot",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2022-04-19T10:29:21.000Z"
+    },
+    {
+      "slug": "lesya.kirillova",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 2600,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-01-17T14:13:01.000Z"
+    },
+    {
+      "slug": "linenelfstudio",
+      "subscribers": 37,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 700,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-07-23T00:35:40.000Z"
+    },
+    {
+      "slug": "lorenssia",
+      "subscribers": 2,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-06-06T14:34:07.000Z"
+    },
+    {
+      "slug": "pechat3dmonsterhigh",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-10-18T21:56:57.000Z"
+    },
+    {
+      "slug": "luann",
+      "subscribers": 277,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2026-08-07T00:59:30.000Z"
+    },
+    {
+      "slug": "luda_doll_",
+      "subscribers": 20,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 50,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-04-01T10:02:16.000Z"
+    },
+    {
+      "slug": "lumianade",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-30T14:59:52.000Z"
+    },
+    {
+      "slug": "lyalalynadolls",
+      "subscribers": 122,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-12T09:44:09.000Z"
+    },
+    {
+      "slug": "m.ai.n.dolls",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-08-16T05:35:43.000Z"
+    },
+    {
+      "slug": "marinabo",
+      "subscribers": 27,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-14T09:46:48.000Z"
+    },
+    {
+      "slug": "mama_paulita",
+      "subscribers": 150,
+      "minSubscriptionPriceRub": 350,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-10-28T08:56:51.000Z"
+    },
+    {
+      "slug": "mariannaknit",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-07-29T16:23:54.000Z"
+    },
+    {
+      "slug": "ds_doll",
+      "subscribers": 15,
+      "minSubscriptionPriceRub": 250,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 7250,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-06-25T00:46:07.000Z"
+    },
+    {
+      "slug": "maluk_dolls",
+      "subscribers": 460,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 350,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-02T20:37:38.000Z"
+    },
+    {
+      "slug": "meliandolls",
+      "subscribers": 7,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 300,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-08-12T10:08:46.000Z"
+    },
+    {
+      "slug": "milamar77",
+      "subscribers": 24,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 168,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-19T08:18:06.000Z"
+    },
+    {
+      "slug": "minidollfashion",
+      "subscribers": 79,
+      "minSubscriptionPriceRub": 299,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-07T07:00:00.000Z"
+    },
+    {
+      "slug": "natvyazanie",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-02-26T12:24:03.000Z"
+    },
+    {
+      "slug": "nata_dyukareva",
+      "subscribers": 14,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 230,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-10-06T15:18:45.000Z"
+    },
+    {
+      "slug": "nikukla",
+      "subscribers": 35,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 310,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-07-26T17:18:06.000Z"
+    },
+    {
+      "slug": "mastdoll",
+      "subscribers": 13,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 5000,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-01-03T12:39:18.000Z"
+    },
+    {
+      "slug": "oksanakleninadolls",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 17000,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-09-28T15:08:53.000Z"
+    },
+    {
+      "slug": "olga.norviliene",
+      "subscribers": 355,
+      "minSubscriptionPriceRub": 300,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 500,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-12T20:17:44.000Z"
+    },
+    {
+      "slug": "oparukiimaster.ooak",
+      "subscribers": 50,
+      "minSubscriptionPriceRub": 175,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-13T13:27:15.000Z"
+    },
+    {
+      "slug": "opendolls",
+      "subscribers": 3,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2023-01-22T20:55:21.000Z"
+    },
+    {
+      "slug": "re_born.baby",
+      "subscribers": 46,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 350,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-01-20T16:14:35.000Z"
+    },
+    {
+      "slug": "rycreator",
+      "subscribers": 193,
+      "minSubscriptionPriceRub": 49,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 29,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-11T12:06:21.000Z"
+    },
+    {
+      "slug": "shoniestyledoll",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 250,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-04-15T18:01:00.000Z"
+    },
+    {
+      "slug": "skvorkadolls",
+      "subscribers": 11,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-12-04T05:11:04.000Z"
+    },
+    {
+      "slug": "tomamota",
+      "subscribers": 4,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 7500,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2023-11-15T22:43:23.000Z"
+    },
+    {
+      "slug": "tanya88",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-03-28T11:37:10.000Z"
+    },
+    {
+      "slug": "amiguroom",
+      "subscribers": 47,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2024-12-18T09:13:53.000Z"
+    },
+    {
+      "slug": "bushick",
+      "subscribers": 5,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2024-05-30T07:14:44.000Z"
+    },
+    {
+      "slug": "tatjana_h_dolls",
+      "subscribers": 254,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 150,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-11T10:27:44.000Z"
+    },
+    {
+      "slug": "tatiday",
+      "subscribers": 77,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-01-18T15:02:05.000Z"
+    },
+    {
+      "slug": "tatyanalevchenko",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 1200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-05-08T13:08:52.000Z"
+    },
+    {
+      "slug": "trudigrad",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 17050,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-05T19:39:31.000Z"
+    },
+    {
+      "slug": "ulianadolls",
+      "subscribers": 13,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 450,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2022-12-21T08:21:33.000Z"
+    },
+    {
+      "slug": "ulyanabarbie",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 10,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-03-21T22:34:39.000Z"
+    },
+    {
+      "slug": "valeraastafeva",
+      "subscribers": 42,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 40,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-03-09T12:10:17.000Z"
+    },
+    {
+      "slug": "vanilla_doll",
+      "subscribers": 5,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 200,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2023-05-11T09:10:19.000Z"
+    },
+    {
+      "slug": "varvadoll",
+      "subscribers": 1,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 400,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2025-09-15T11:15:15.000Z"
+    },
+    {
+      "slug": "varvarason",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 100,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": null,
+      "paymentTypes": [
+        "subscription"
+      ],
+      "lastPostAt": "2025-10-15T22:56:30.000Z"
+    },
+    {
+      "slug": "vlyamina",
+      "subscribers": 0,
+      "minSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2025-04-25T02:36:11.000Z"
+    },
+    {
+      "slug": "vooot_takoi",
+      "subscribers": 78,
+      "minSubscriptionPriceRub": 330,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 190,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-08-08T08:50:59.000Z"
+    },
+    {
+      "slug": "zhannaknit39",
+      "subscribers": 45,
+      "minSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 250,
+      "paymentTypes": [
+        "one-off"
+      ],
+      "lastPostAt": "2026-05-06T12:24:29.000Z"
+    },
+    {
+      "slug": "fdzlata",
+      "subscribers": 36,
+      "minSubscriptionPriceRub": 50,
+      "minSubscriptionPromoPriceRub": null,
+      "minOneOffPriceRub": 100,
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "lastPostAt": "2026-02-16T09:25:35.000Z"
+    }
+  ]
+}
