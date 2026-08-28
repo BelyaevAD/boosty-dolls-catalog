@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "checkedAt": "2026-08-21",
-  "metricsCheckedAt": "2026-08-21",
+  "checkedAt": "2026-08-29",
+  "metricsCheckedAt": "2026-08-29",
   "previousChannelCount": 213,
-  "channelCount": 213,
-  "candidateCount": 4223,
-  "discoveredCount": 9,
-  "checkedCandidateCount": 113,
+  "channelCount": 214,
+  "candidateCount": 4226,
+  "discoveredCount": 3,
+  "checkedCandidateCount": 107,
   "maxNewChannels": 200,
   "hardNewChannelLimit": 200,
   "prefilteredCount": 0,
@@ -16,7 +16,9 @@
   "terminalNotFoundCount": 0,
   "qualifiedDeferredCount": 0,
   "qualifiedDeferred": [],
-  "added": [],
+  "added": [
+    "chicdools"
+  ],
   "removed": [],
   "errors": []
 }
