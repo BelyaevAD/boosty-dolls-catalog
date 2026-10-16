@@ -1,24 +1,22 @@
 {
   "schemaVersion": 2,
-  "checkedAt": "2026-10-09",
-  "metricsCheckedAt": "2026-10-09",
-  "previousChannelCount": 216,
+  "checkedAt": "2026-10-16",
+  "metricsCheckedAt": "2026-10-16",
+  "previousChannelCount": 215,
   "channelCount": 215,
-  "candidateCount": 5195,
-  "discoveredCount": 18,
+  "candidateCount": 5547,
+  "discoveredCount": 352,
   "checkedCandidateCount": 250,
   "maxNewChannels": 200,
   "hardNewChannelLimit": 200,
-  "prefilteredCount": 140,
-  "pendingCount": 91,
+  "prefilteredCount": 108,
+  "pendingCount": 295,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 34,
-  "terminalNotFoundCount": 3,
+  "terminalNotFoundCount": 4,
   "qualifiedDeferredCount": 0,
   "qualifiedDeferred": [],
   "added": [],
-  "removed": [
-    "my_fancy_toy"
-  ],
+  "removed": [],
   "errors": []
 }
