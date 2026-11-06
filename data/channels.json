@@ -1,9 +1,9 @@
 {
   "meta": {
     "schemaVersion": 2,
-    "checkedAt": "2026-10-30",
-    "generatedAt": "2026-10-30",
-    "channelCount": 217,
+    "checkedAt": "2026-11-07",
+    "generatedAt": "2026-11-07",
+    "channelCount": 220,
     "generatedBy": "Еженедельное автоматическое обновление"
   },
   "channels": [
@@ -48,7 +48,7 @@
           "publishedAt": "2023-08-16T07:27:42.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -113,7 +113,7 @@
           "publishedAt": "2022-09-13T14:58:15.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 13,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -178,7 +178,7 @@
           "publishedAt": "2025-08-12T17:38:41.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-25"
@@ -230,7 +230,7 @@
           "publishedAt": "2026-02-17T12:55:59.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -288,7 +288,7 @@
           "publishedAt": "2024-10-08T18:09:42.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -353,7 +353,7 @@
           "publishedAt": "2024-03-07T23:41:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -419,7 +419,7 @@
           "publishedAt": "2024-11-23T14:00:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -484,7 +484,7 @@
           "publishedAt": "2026-01-05T11:55:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 44,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-21"
@@ -524,7 +524,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -564,7 +564,7 @@
           "publishedAt": "2024-05-09T08:53:29.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -609,7 +609,7 @@
           "publishedAt": "2023-03-30T12:47:47.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-29"
@@ -650,7 +650,7 @@
           "publishedAt": "2025-11-14T15:12:32.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -715,7 +715,7 @@
           "publishedAt": "2025-07-18T20:14:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 76,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -780,7 +780,7 @@
           "publishedAt": "2024-11-22T23:25:41.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 32,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -845,9 +845,9 @@
           "publishedAt": "2025-10-29T11:52:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 46,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 47,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -911,7 +911,7 @@
           "publishedAt": "2024-07-03T19:18:16.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -983,7 +983,7 @@
           "publishedAt": "2023-06-05T03:55:35.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 6,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1067,7 +1067,7 @@
           "publishedAt": "2024-08-03T09:00:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 13,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1140,7 +1140,7 @@
           "publishedAt": "2022-12-28T09:51:14.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1212,7 +1212,7 @@
           "publishedAt": "2023-08-06T11:36:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 22,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1269,7 +1269,7 @@
           "publishedAt": "2024-01-08T07:44:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 10,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1291,7 +1291,7 @@
       "subscribers": 48,
       "postsCount": 43,
       "lastPostAt": "2026-10-26T16:32:49.000Z",
-      "lastPostTitle": "Предзаказ МК \"Кукла Гриша\"",
+      "lastPostTitle": "МК \"Кукла Гриша\"",
       "paymentTypes": [
         "one-off"
       ],
@@ -1305,8 +1305,8 @@
       "oneOffCountRecent": 43,
       "oneOffItems": [
         {
-          "title": "Предзаказ МК \"Кукла Гриша\"",
-          "priceRub": 350,
+          "title": "МК \"Кукла Гриша\"",
+          "priceRub": 500,
           "publishedAt": "2026-10-26T16:32:49.000Z"
         },
         {
@@ -1335,7 +1335,7 @@
           "publishedAt": "2026-07-29T10:26:07.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 48,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-25"
@@ -1355,8 +1355,8 @@
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Коллекционирование / обзоры.",
       "summary": "Привет всем! Вы на канале взрослый коллекционер. А это значит куклы - это ваша страсть. Наш канал будет интересен всем. Тем, кто уже охвачен \"кукольной лихорадкой\". и тем, кто только в начале пути. Наши коллекции регулярно пополняются новенькими куклами, и мы хотим поделиться с вами эмоциями от своих приобретений. Сверх задач ни себе, ни вам не ставим. Поэтому заваривайте чаёк, и нажимайте кнопку \"начать просмотр\".",
       "subscribers": 107,
-      "postsCount": 580,
-      "lastPostAt": "2026-10-30T14:58:54.000Z",
+      "postsCount": 584,
+      "lastPostAt": "2026-11-06T15:55:33.000Z",
       "lastPostTitle": "Новый шортс",
       "paymentTypes": [
         "subscription"
@@ -1391,7 +1391,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 107,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1464,7 +1464,7 @@
           "publishedAt": "2024-01-05T11:52:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 84,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1529,7 +1529,7 @@
           "publishedAt": "2025-08-18T07:41:30.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 27,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
@@ -1595,7 +1595,7 @@
           "publishedAt": "2026-09-16T08:55:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 113,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -1668,7 +1668,7 @@
           "publishedAt": "2024-02-21T07:14:11.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 34,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -1686,7 +1686,7 @@
       "focus": "Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
       "summary": "Автор публикует материалы по темам: Одежда и выкройки.",
-      "subscribers": 450,
+      "subscribers": 454,
       "postsCount": 16,
       "lastPostAt": "2026-10-23T15:52:21.000Z",
       "lastPostTitle": "Мастер-класс «Дед Мороз»",
@@ -1733,10 +1733,10 @@
           "publishedAt": "2026-03-01T12:45:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 443,
-      "growthSinceSnapshot": 7,
-      "lastObservedGrowthDate": "2026-10-30"
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 450,
+      "growthSinceSnapshot": 4,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "dollsgalinamalina",
@@ -1773,7 +1773,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1851,7 +1851,7 @@
           "publishedAt": "2025-01-07T03:32:58.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 15,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1896,7 +1896,7 @@
           "publishedAt": "2024-02-23T13:46:16.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -1953,7 +1953,7 @@
           "publishedAt": "2022-05-09T17:18:17.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2027,7 +2027,7 @@
           "publishedAt": "2026-05-20T10:40:48.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 8,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2090,7 +2090,7 @@
           "publishedAt": "2024-08-07T06:00:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2146,7 +2146,7 @@
           "publishedAt": "2022-03-11T20:06:22.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2188,7 +2188,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2253,7 +2253,7 @@
           "publishedAt": "2025-06-03T08:02:55.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 44,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
@@ -2298,7 +2298,7 @@
           "publishedAt": "2023-03-16T20:02:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 21,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2359,7 +2359,7 @@
           "publishedAt": "2022-07-14T06:44:14.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 22,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2400,7 +2400,7 @@
           "publishedAt": "2025-08-22T12:18:56.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2498,7 +2498,7 @@
           "publishedAt": "2023-07-03T09:20:45.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2538,7 +2538,7 @@
           "publishedAt": "2024-10-16T13:21:19.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2599,7 +2599,7 @@
           "publishedAt": "2025-10-10T13:43:09.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -2659,7 +2659,7 @@
           "publishedAt": "2023-11-19T11:26:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2699,7 +2699,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2764,7 +2764,7 @@
           "publishedAt": "2024-12-27T09:37:34.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 45,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -2826,7 +2826,7 @@
           "publishedAt": "2024-04-22T11:31:24.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -2898,7 +2898,7 @@
           "publishedAt": "2026-02-13T15:59:21.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 157,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -2963,7 +2963,7 @@
           "publishedAt": "2023-11-25T13:59:40.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 16,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-11"
@@ -3035,7 +3035,7 @@
           "publishedAt": "2023-02-12T05:29:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3091,7 +3091,7 @@
           "publishedAt": "2022-11-18T15:30:34.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 8,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -3160,7 +3160,7 @@
           "publishedAt": "2024-09-15T03:37:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3221,7 +3221,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3242,9 +3242,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы; Одежда и выкройки.",
       "summary": "Добро пожаловать в мой кукольный мир! Меня зовут Юлия, и я создаю уютных текстильных кукол ручной работы. Здесь вы можете заказать готовую куколку в подарок или для дома, а также приобрести мои авторские pdf-мастер-классы и выкройки. Я верю, что в каждом доме должно жить немного рукотворного волшебства. Давайте творить вместе!",
       "subscribers": 1,
-      "postsCount": 12,
-      "lastPostAt": "2026-10-28T06:05:43.000Z",
-      "lastPostTitle": "Эта розовая малышка ищет свой уютный дом! 🐑",
+      "postsCount": 13,
+      "lastPostAt": "2026-11-06T03:49:43.000Z",
+      "lastPostTitle": "Творите волшебство своими руками! 🧸",
       "paymentTypes": [
         "one-off"
       ],
@@ -3288,7 +3288,7 @@
           "publishedAt": "2026-10-18T18:55:04.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3353,7 +3353,7 @@
           "publishedAt": "2026-08-10T17:05:54.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 39,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -3404,7 +3404,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3423,9 +3423,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Blythe; Barbie / Fashion dolls.",
       "summary": "Приветствую Вас в своей Творческой мастерской Blueberry! Меня зовут Марианна! Этот канал посвящен куклам. Здесь вы сможете найти мастер-классы по созданию париков и трессов для кукол, а также мастер-классы с выкройками по созданию одежды, обзоры на кукол с aliexpress и аксессуаров для них и многое другое. Рада видеть Вас среди своих подписчиков!",
       "subscribers": 34,
-      "postsCount": 68,
-      "lastPostAt": "2026-10-13T08:06:34.000Z",
-      "lastPostTitle": "Бомбер для Барби. Часть 6: обработка планок",
+      "postsCount": 69,
+      "lastPostAt": "2026-11-04T06:34:58.000Z",
+      "lastPostTitle": "Бомбер для Барби. Часть 7: вязание карманов",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -3461,9 +3461,9 @@
           "publishedAt": "2023-02-23T18:46:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 33,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 34,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3501,7 +3501,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3557,7 +3557,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3578,9 +3578,9 @@
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Barbie / Fashion dolls; Одежда и выкройки.",
       "summary": "Привет! Меня зовут Лариса и я очень люблю играть в куклы! Особенно я люблю одевать кукол и создавать для них разные образы. И с радостью помогу сделать тоже самое вам. Мои Мастер классы написаны простым и понятным языком, с ними справится даже новичок! Если у вас возникли какие-то сложности касательно МК, вы всегда можете написать мне.",
       "subscribers": 133,
-      "postsCount": 636,
-      "lastPostAt": "2026-10-29T07:42:11.000Z",
-      "lastPostTitle": "МК Снегурочка для Мии 14см",
+      "postsCount": 638,
+      "lastPostAt": "2026-11-04T04:49:16.000Z",
+      "lastPostTitle": "МК Морозко для Паолы",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -3606,13 +3606,23 @@
       "oneOffCountRecent": 60,
       "oneOffItems": [
         {
+          "title": "МК Морозко для Паолы",
+          "priceRub": 300,
+          "publishedAt": "2026-11-04T04:49:16.000Z"
+        },
+        {
+          "title": "МК Мороз для Мии 14см",
+          "priceRub": 400,
+          "publishedAt": "2026-10-31T06:40:12.000Z"
+        },
+        {
           "title": "МК Снегурочка для Мии 14см",
-          "priceRub": 250,
+          "priceRub": 400,
           "publishedAt": "2026-10-29T07:42:11.000Z"
         },
         {
           "title": "МК Снегурочка 2027 Паола",
-          "priceRub": 250,
+          "priceRub": 400,
           "publishedAt": "2026-10-27T07:04:55.000Z"
         },
         {
@@ -3624,21 +3634,11 @@
           "title": "МК Ульяна для Мии 14см",
           "priceRub": 400,
           "publishedAt": "2026-10-20T15:51:59.000Z"
-        },
-        {
-          "title": "МК Ми-ми-Мишки для Мии 14см",
-          "priceRub": 400,
-          "publishedAt": "2026-10-15T06:53:42.000Z"
-        },
-        {
-          "title": "МК Первый снег для Лоренс 42см",
-          "priceRub": 500,
-          "publishedAt": "2026-10-14T06:13:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 132,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 133,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3701,7 +3701,7 @@
           "publishedAt": "2024-07-29T21:08:53.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 26,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3722,7 +3722,7 @@
       "focus": "Вязаные куклы; Авторские арт-куклы; Barbie / Fashion dolls",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Авторские арт-куклы; Barbie / Fashion dolls.",
       "summary": "Привет! Рада Вас приветствовать! Я - Леля Григорьева. Официально, по паспорту и без двух точек над «Е»)) Вяжу для кукол 1:6 реалистичную одежду и кружевное бельё. Разрабатываю новые авторские модели, пишу МК и рисую схемы.",
-      "subscribers": 113,
+      "subscribers": 114,
       "postsCount": 157,
       "lastPostAt": "2026-06-08T19:02:00.000Z",
       "lastPostTitle": "Летние Каникулы в ЛельМОДЕЛЬ 1:6",
@@ -3776,10 +3776,10 @@
           "publishedAt": "2025-02-03T11:47:19.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 113,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-09"
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "personage_doll",
@@ -3795,9 +3795,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Коллекционирование / обзоры.",
       "summary": "Приветствую всех заглянувших в мой блог! Меня зовут Лена Ляхович, по профессии я портной-закройщик, занимаюсь швейным делом уже более 15ти лет. В кукольном хобби я с 2020 года. В моей коллекции куклы Паола Рейна и Руби Ред. И так как я ни дня не могу прожить без шитья, эти куклы стали моими любимыми моделями.",
       "subscribers": 11,
-      "postsCount": 24,
-      "lastPostAt": "2026-08-17T08:58:07.000Z",
-      "lastPostTitle": "МК Платье \"Лето\" для Паола Рейна",
+      "postsCount": 25,
+      "lastPostAt": "2026-11-03T19:29:38.000Z",
+      "lastPostTitle": "Платье со съемным воротником для Руби Ред 37 см",
       "paymentTypes": [
         "one-off"
       ],
@@ -3808,8 +3808,13 @@
       "tiers": [],
       "minOneOffPriceRub": 200,
       "maxOneOffPriceRub": 950,
-      "oneOffCountRecent": 24,
+      "oneOffCountRecent": 25,
       "oneOffItems": [
+        {
+          "title": "Платье со съемным воротником для Руби Ред 37 см",
+          "priceRub": 400,
+          "publishedAt": "2026-11-03T19:29:38.000Z"
+        },
         {
           "title": "МК Платье \"Лето\" для Паола Рейна",
           "priceRub": 500,
@@ -3834,14 +3839,9 @@
           "title": "Майка для мальчика Руби Ред 39см",
           "priceRub": 200,
           "publishedAt": "2026-06-10T13:18:59.000Z"
-        },
-        {
-          "title": "ВЫКРОЙКА! платье с квадратной кокеткой для ГОТЦ 50 см",
-          "priceRub": 400,
-          "publishedAt": "2026-05-23T15:14:06.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 11,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -3928,7 +3928,7 @@
           "publishedAt": "2024-09-04T11:46:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -3995,7 +3995,7 @@
           "publishedAt": "2025-01-06T01:00:23.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 29,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -4061,7 +4061,7 @@
           "publishedAt": "2022-10-03T17:23:49.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 25,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4116,7 +4116,7 @@
           "publishedAt": "2025-05-06T11:53:53.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4163,9 +4163,9 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 126,
-      "growthSinceSnapshot": 2,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 128,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4228,7 +4228,7 @@
           "publishedAt": "2026-06-15T05:39:56.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 18,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4248,7 +4248,7 @@
       "focus": "Вязаные куклы; Barbie / Fashion dolls; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Barbie / Fashion dolls; Одежда и выкройки.",
       "summary": "Мастер-классы по вязанию кукольной одежды. Основные темы: Вязаные куклы; Barbie / Fashion dolls; Одежда и выкройки.",
-      "subscribers": 178,
+      "subscribers": 180,
       "postsCount": 70,
       "lastPostAt": "2026-10-29T21:22:27.000Z",
       "lastPostTitle": "Кофточка на 1/4 с коротким рукавом",
@@ -4295,10 +4295,10 @@
           "publishedAt": "2026-04-10T22:36:43.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 178,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-23"
+      "growthSinceSnapshot": 2,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "milaamanova",
@@ -4336,7 +4336,7 @@
           "publishedAt": "2022-07-10T01:33:07.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4401,7 +4401,7 @@
           "publishedAt": "2023-04-07T09:38:38.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 18,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -4475,7 +4475,7 @@
           "publishedAt": "2024-04-08T17:51:59.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4494,9 +4494,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Авторские и арт-куклы.",
       "summary": "дизайны машинной вышивки в стиле народных росписей. Основные темы: Авторские и арт-куклы.",
       "subscribers": 141,
-      "postsCount": 251,
-      "lastPostAt": "2026-10-28T03:43:44.000Z",
-      "lastPostTitle": "собака пудель ( в двух размерах)",
+      "postsCount": 253,
+      "lastPostAt": "2026-11-05T16:44:18.000Z",
+      "lastPostTitle": "салфетка \"Золотые купола 2\" полноразмерная",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -4517,6 +4517,16 @@
       "oneOffCountRecent": 59,
       "oneOffItems": [
         {
+          "title": "салфетка \"Золотые купола 2\" полноразмерная",
+          "priceRub": 550,
+          "publishedAt": "2026-11-05T16:44:18.000Z"
+        },
+        {
+          "title": "салфетка \"Золотые купола\" 2 разделенная на две части размер 11см на 21см",
+          "priceRub": 550,
+          "publishedAt": "2026-11-05T16:38:46.000Z"
+        },
+        {
           "title": "собака пудель ( в двух размерах)",
           "priceRub": 600,
           "publishedAt": "2026-10-28T03:43:44.000Z"
@@ -4535,19 +4545,9 @@
           "title": "Лошадка качалка в стиле мезенской росписи (размер 8см на 10см)подвеска елочная игрушка",
           "priceRub": 500,
           "publishedAt": "2026-10-17T03:28:33.000Z"
-        },
-        {
-          "title": "Лошадка качалка в стиле мезенской росписи (размер 11см на 13,см)подвеска елочная игрушка",
-          "priceRub": 500,
-          "publishedAt": "2026-10-17T03:26:33.000Z"
-        },
-        {
-          "title": "Дизайн мотива с мезенской лошадью общий размер 26/20см",
-          "priceRub": 400,
-          "publishedAt": "2026-10-13T12:08:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 141,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -4612,7 +4612,7 @@
           "publishedAt": "2023-07-12T18:02:58.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 9,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -4689,7 +4689,7 @@
           "publishedAt": "2025-06-04T07:16:40.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 122,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -4741,7 +4741,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4781,7 +4781,7 @@
           "publishedAt": "2022-11-22T05:53:32.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 50,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -4800,9 +4800,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
       "summary": "🌞 Здравствуйте! Меня зовут Оксана Лифенко и я рада приветствовать Вас на канале авторской школы «Искусство вязания крючком для кукол»! Здесь Вы найдете описания, мастер-классы, идеи и вдохновение. 🌈 Вязание для кукол – это огромный мир творчества и неограниченной фантазии. Вязать для кукол легко и интересно – минимум пряжи, яркие сочетания, быстрый и всегда отличный результат.",
       "subscribers": 887,
-      "postsCount": 139,
-      "lastPostAt": "2026-10-30T14:28:14.000Z",
-      "lastPostTitle": "PDF Мастер-класс «Парижанка» для кукол Little Mia и Pippa 23 см",
+      "postsCount": 141,
+      "lastPostAt": "2026-11-01T00:17:30.000Z",
+      "lastPostTitle": "ВИДЕО уроки «Макаруны» крючком для кукол Паола Рейна 32 см",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -4822,6 +4822,11 @@
       "maxOneOffPriceRub": 1530,
       "oneOffCountRecent": 39,
       "oneOffItems": [
+        {
+          "title": "ВИДЕО уроки «Макаруны» крючком для кукол Паола Рейна 32 см",
+          "priceRub": 1530,
+          "publishedAt": "2026-11-01T00:17:30.000Z"
+        },
         {
           "title": "PDF Мастер-класс «Парижанка» для кукол Little Mia и Pippa 23 см",
           "priceRub": 450,
@@ -4846,14 +4851,9 @@
           "title": "ВИДЕО уроки «Лягушонок» крючком для кукол Паола Рейна 32 см",
           "priceRub": 1530,
           "publishedAt": "2026-09-06T14:17:16.000Z"
-        },
-        {
-          "title": "PDF Мастер-класс \"Мальвочка\" крючком для кукол Картошка 14 см",
-          "priceRub": 250,
-          "publishedAt": "2026-08-07T11:44:59.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 887,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -4874,7 +4874,7 @@
       "focus": "Barbie / Fashion dolls; Одежда и выкройки; Миниатюра 1:6",
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Одежда и выкройки; Миниатюра 1:6.",
       "summary": "Всем привет! Меня зовут Олеся. Я коллекционирую кукол Барби и веду об этом ютуб канал Plastic Dreams.",
-      "subscribers": 336,
+      "subscribers": 335,
       "postsCount": 116,
       "lastPostAt": "2026-10-26T11:33:24.000Z",
       "lastPostTitle": "РОЗЫГРЫШ ноябрь",
@@ -4906,9 +4906,9 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 332,
-      "growthSinceSnapshot": 4,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 336,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4924,7 +4924,7 @@
       "focus": "Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Коллекционирование / обзоры.",
       "summary": "Всем привет! Меня зовут Ольга. Рада вас приветствовать на своей страничке. Я коллекционирую кукол разного формата и создаю для них одежду. Здесь вы найдете мастер классы для кукол Паола Рейна, Mia nines d`Onil, Llorens и Любимые подружки. Добро пожаловать!",
-      "subscribers": 49,
+      "subscribers": 50,
       "postsCount": 73,
       "lastPostAt": "2026-10-27T16:13:00.000Z",
       "lastPostTitle": "✨Мастер класс \"Кнопики-гномики\" для кукол Mia от Nines d'Onil 30см",
@@ -4971,10 +4971,10 @@
           "publishedAt": "2026-09-29T17:08:11.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 49,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-23"
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "omoskvina",
@@ -5058,7 +5058,7 @@
           "publishedAt": "2023-09-09T19:20:49.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 16,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5124,7 +5124,7 @@
           "publishedAt": "2022-12-29T21:09:15.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 29,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -5189,9 +5189,9 @@
           "publishedAt": "2024-09-13T08:09:30.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 175,
-      "growthSinceSnapshot": 2,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 177,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -5255,7 +5255,7 @@
           "publishedAt": "2024-06-25T12:44:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 37,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5274,9 +5274,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы.",
       "summary": "Привет! Меня зовут Пётр. Я работаю дизайнером человеко-машинного взаимодействия и интерфейсов более 20 лет. У меня есть хобби.",
       "subscribers": 18,
-      "postsCount": 935,
-      "lastPostAt": "2026-10-26T21:38:13.000Z",
-      "lastPostTitle": "Каждый раз, когда чихаю",
+      "postsCount": 936,
+      "lastPostAt": "2026-11-02T09:31:48.000Z",
+      "lastPostTitle": "",
       "paymentTypes": [
         "subscription"
       ],
@@ -5305,7 +5305,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 18,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5360,7 +5360,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5432,7 +5432,7 @@
           "publishedAt": "2024-06-24T05:29:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 64,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -5473,7 +5473,7 @@
           "publishedAt": "2023-04-14T07:41:29.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5523,7 +5523,7 @@
           "publishedAt": "2023-06-11T08:01:01.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 30,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5588,7 +5588,7 @@
           "publishedAt": "2022-04-12T09:31:53.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 8,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5653,7 +5653,7 @@
           "publishedAt": "2023-06-30T17:23:03.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 60,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -5707,7 +5707,7 @@
           "publishedAt": "2023-07-07T16:30:42.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5747,7 +5747,7 @@
           "publishedAt": "2022-05-05T05:46:37.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5800,7 +5800,7 @@
           "publishedAt": "2022-11-19T08:35:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5856,7 +5856,7 @@
           "publishedAt": "2022-07-11T08:44:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 11,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -5918,7 +5918,7 @@
           "publishedAt": "2025-12-10T04:38:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -5983,7 +5983,7 @@
           "publishedAt": "2023-08-30T06:43:23.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6048,7 +6048,7 @@
           "publishedAt": "2025-11-28T08:21:52.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 73,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
@@ -6088,7 +6088,7 @@
           "publishedAt": "2023-11-14T06:42:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6144,7 +6144,7 @@
           "publishedAt": "2025-07-03T06:15:15.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 5,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6209,7 +6209,7 @@
           "publishedAt": "2025-12-31T04:53:24.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 10,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-11"
@@ -6274,7 +6274,7 @@
           "publishedAt": "2025-06-10T10:40:14.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 30,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6340,7 +6340,7 @@
           "publishedAt": "2025-10-22T16:37:58.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 41,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -6406,7 +6406,7 @@
           "publishedAt": "2023-03-02T15:01:41.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 10,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6458,7 +6458,7 @@
           "publishedAt": "2022-09-07T20:03:56.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 39,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-21"
@@ -6513,7 +6513,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 12,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6558,7 +6558,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6604,7 +6604,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6645,7 +6645,7 @@
           "publishedAt": "2024-01-24T18:55:50.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 23,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
@@ -6685,7 +6685,7 @@
           "publishedAt": "2023-07-29T13:30:49.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6730,7 +6730,7 @@
           "publishedAt": "2022-03-28T18:34:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6780,9 +6780,75 @@
           "publishedAt": "2026-02-08T12:43:52.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
+      "lastObservedGrowthDate": null
+    },
+    {
+      "slug": "blytheclotes",
+      "language": "ru",
+      "name": "Anastasia ",
+      "title": "Knitted clothes for Blythe, winter accessories",
+      "boostyUrl": "https://boosty.to/blytheclotes",
+      "category": "Одежда и выкройки",
+      "topics": [
+        "Одежда и выкройки",
+        "Кастом и OOAK"
+      ],
+      "focus": "Blythe; Barbie / Fashion dolls; Одежда и выкройки",
+      "reason": "Профильный русскоязычный кукольный автор: Blythe; Barbie / Fashion dolls; Одежда и выкройки.",
+      "summary": "Knitted clothes for Blythe, winter accessories. Основные темы: Blythe; Barbie / Fashion dolls; Одежда и выкройки.",
+      "subscribers": 4,
+      "postsCount": 22,
+      "lastPostAt": "2023-12-13T16:13:14.000Z",
+      "lastPostTitle": "Поговорим о пряже?",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 1100,
+      "maxOneOffPriceRub": 20800,
+      "oneOffCountRecent": 16,
+      "oneOffItems": [
+        {
+          "title": "Cardigan for Blythe",
+          "priceRub": 3500,
+          "publishedAt": "2023-12-09T07:59:00.000Z"
+        },
+        {
+          "title": "Christmas outfit for Blythe",
+          "priceRub": 2200,
+          "publishedAt": "2023-12-09T04:57:49.000Z"
+        },
+        {
+          "title": "Outfit for Blythe doll",
+          "priceRub": 2300,
+          "publishedAt": "2023-12-02T04:20:51.000Z"
+        },
+        {
+          "title": "Dress for Blythe",
+          "priceRub": 2000,
+          "publishedAt": "2023-11-25T11:09:30.000Z"
+        },
+        {
+          "title": "Outfit for Blythe doll",
+          "priceRub": 2800,
+          "publishedAt": "2023-11-18T06:43:16.000Z"
+        },
+        {
+          "title": "Outfit for Blythe",
+          "priceRub": 1900,
+          "publishedAt": "2023-11-09T13:26:14.000Z"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
       "lastObservedGrowthDate": null
     },
     {
@@ -6845,7 +6911,7 @@
           "publishedAt": "2024-09-12T17:54:54.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6911,7 +6977,7 @@
           "publishedAt": "2022-04-09T22:19:53.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 10,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -6929,7 +6995,7 @@
       "focus": "Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
       "summary": "Меня зовут Елена Клинова, я вяжу для самых разных кукол. В моем \"послужном списке\" есть и малявки stodoll, и здоровенные немецкие барышни ростом 60 см, но главные в доме однозначно девчонки Paola Reina и три весёлых булочки Mia Nines d'Onil. Именно они чаще всего вдохновляют меня, и я записываю самые удачные модели, которые получаются в процессе \"игры в куклы и нитки\".",
-      "subscribers": 152,
+      "subscribers": 151,
       "postsCount": 39,
       "lastPostAt": "2026-08-24T14:19:08.000Z",
       "lastPostTitle": "МК \"Йожкин свитер\" для Паола Рейна и ёжиков из Шалькау",
@@ -6976,9 +7042,9 @@
           "publishedAt": "2025-02-05T11:26:35.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 152,
-      "growthSinceSnapshot": 0,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-09"
     },
     {
@@ -7058,7 +7124,7 @@
           "publishedAt": "2023-02-12T15:36:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 53,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-04"
@@ -7100,7 +7166,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 37,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7140,7 +7206,7 @@
           "publishedAt": "2022-07-30T12:44:47.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7187,7 +7253,7 @@
           "publishedAt": "2025-12-02T16:24:04.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7252,7 +7318,7 @@
           "publishedAt": "2023-01-30T17:02:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 41,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7325,7 +7391,7 @@
           "publishedAt": "2023-09-15T07:48:47.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7343,7 +7409,7 @@
       "focus": "Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
       "summary": "Автор публикует материалы по темам: Одежда и выкройки.",
-      "subscribers": 288,
+      "subscribers": 290,
       "postsCount": 28,
       "lastPostAt": "2026-10-02T02:51:26.000Z",
       "lastPostTitle": "Мастер-класс \"Белочки\"",
@@ -7355,45 +7421,45 @@
       "minSubscriptionPromoPriceRub": null,
       "tierCount": 0,
       "tiers": [],
-      "minOneOffPriceRub": 240,
+      "minOneOffPriceRub": 225,
       "maxOneOffPriceRub": 600,
       "oneOffCountRecent": 28,
       "oneOffItems": [
         {
           "title": "Мастер-класс \"Белочки\"",
-          "priceRub": 400,
+          "priceRub": 365,
           "publishedAt": "2026-10-02T02:51:26.000Z"
         },
         {
           "title": "Мастер-класс \"Енотики\"",
-          "priceRub": 480,
+          "priceRub": 350,
           "publishedAt": "2026-10-02T02:48:41.000Z"
         },
         {
           "title": "Мастер-класс \"Тигрята\"",
-          "priceRub": 430,
+          "priceRub": 365,
           "publishedAt": "2026-06-19T05:51:55.000Z"
         },
         {
           "title": "Доп. файл одежды для куклы Ариши \"Вессение букашки\"",
-          "priceRub": 400,
+          "priceRub": 300,
           "publishedAt": "2026-04-17T09:01:07.000Z"
         },
         {
           "title": "ENG Pattern \"Otter\"",
-          "priceRub": 500,
+          "priceRub": 365,
           "publishedAt": "2026-03-30T06:00:39.000Z"
         },
         {
           "title": "RUS Мастер - класс \"Выдрята\"",
-          "priceRub": 500,
+          "priceRub": 365,
           "publishedAt": "2026-03-23T07:31:52.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 285,
-      "growthSinceSnapshot": 3,
-      "lastObservedGrowthDate": "2026-10-30"
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 288,
+      "growthSinceSnapshot": 2,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "bersreview",
@@ -7404,15 +7470,16 @@
       "category": "Коллекционирование и кукольные медиа",
       "topics": [
         "Коллекционирование и кукольные медиа",
+        "Авторские и арт-куклы",
         "Кастом и OOAK"
       ],
-      "focus": "Barbie / Fashion dolls; Monster High; Коллекционирование / обзоры",
-      "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Monster High; Коллекционирование / обзоры.",
+      "focus": "Авторские арт-куклы; Barbie / Fashion dolls; Monster High",
+      "reason": "Профильный русскоязычный кукольный автор: Авторские арт-куклы; Barbie / Fashion dolls; Monster High.",
       "summary": "Всем привет! С вами Наташа Берсик. И я очень хочу оставаться с вами: продолжать выпускать видео, дарить улыбки, объединять вас вокруг кукольного хобби✨ Сейчас мы испытываем трудности и будем рады вашей поддержке. Она может выражаться в комментариях, лайках, репостах видео - это уже очень круто! На каждом уровне подписки я буду радовать вас всякими приятностями💕",
-      "subscribers": 2416,
-      "postsCount": 408,
-      "lastPostAt": "2026-10-25T16:03:44.000Z",
-      "lastPostTitle": "Cсылка на эфир",
+      "subscribers": 2423,
+      "postsCount": 410,
+      "lastPostAt": "2026-11-03T16:12:08.000Z",
+      "lastPostTitle": "Кукольный Дайджест #128: КЕН за 6000$! Авторские куклы Pidgin для всех? Пинхед детская игрушка",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -7458,10 +7525,10 @@
           "publishedAt": "2026-07-13T17:51:18.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2421,
-      "growthSinceSnapshot": -5,
-      "lastObservedGrowthDate": "2026-10-23"
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 2416,
+      "growthSinceSnapshot": 7,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "bibitaki",
@@ -7478,17 +7545,17 @@
       "focus": "Barbie / Fashion dolls; Одежда и выкройки; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Одежда и выкройки; Коллекционирование / обзоры.",
       "summary": "Привет, друзья! Канал о разных, но таких прекрасных куклах! Здесь вы можете оформить подписку с ежемесячными донатами или отправить разовый донат на отдельный пост, если он вам особенно понравился.",
-      "subscribers": 40,
-      "postsCount": 68,
-      "lastPostAt": "2026-10-01T08:38:37.000Z",
-      "lastPostTitle": "Bibitaki Gazette Октябрь 2026 (Barbie)",
+      "subscribers": 42,
+      "postsCount": 63,
+      "lastPostAt": "2026-10-31T21:59:52.000Z",
+      "lastPostTitle": "Bibitaki Gazette | Ноябрь 2026 - Fashion Royalty",
       "paymentTypes": [
         "subscription",
         "one-off"
       ],
       "minSubscriptionPriceRub": 100,
       "maxSubscriptionPriceRub": 500,
-      "minSubscriptionPromoPriceRub": 375,
+      "minSubscriptionPromoPriceRub": 425,
       "tierCount": 3,
       "tiers": [
         {
@@ -7504,13 +7571,28 @@
         {
           "name": "Fashion Royalty",
           "priceRub": 500,
-          "promoPriceRub": 375
+          "promoPriceRub": 425
         }
       ],
       "minOneOffPriceRub": 100,
       "maxOneOffPriceRub": 800,
-      "oneOffCountRecent": 47,
+      "oneOffCountRecent": 45,
       "oneOffItems": [
+        {
+          "title": "Bibitaki Gazette | Ноябрь 2026 - Fashion Royalty",
+          "priceRub": 500,
+          "publishedAt": "2026-10-31T21:59:52.000Z"
+        },
+        {
+          "title": "Bibitaki Gazette | Ноябрь 2026 - Poppy Parker",
+          "priceRub": 250,
+          "publishedAt": "2026-10-31T21:55:41.000Z"
+        },
+        {
+          "title": "Bibitaki Gazette | Ноябрь 2026 - Barbie",
+          "priceRub": 100,
+          "publishedAt": "2026-10-31T21:49:44.000Z"
+        },
         {
           "title": "Bibitaki Gazette Октябрь 2026 (Barbie)",
           "priceRub": 100,
@@ -7525,27 +7607,12 @@
           "title": "Bibitaki Gazette Октябрь 2026 (Fashion Royalty)",
           "priceRub": 500,
           "publishedAt": "2026-10-01T08:25:56.000Z"
-        },
-        {
-          "title": "Bibitaki Gazette Сентябрь 2026 (Fashion Royalty)",
-          "priceRub": 500,
-          "publishedAt": "2026-09-01T01:03:45.000Z"
-        },
-        {
-          "title": "Bibitaki Gazette Сентябрь 2026 (Poppy Parker)",
-          "priceRub": 250,
-          "publishedAt": "2026-09-01T00:55:27.000Z"
-        },
-        {
-          "title": "Bibitaki Gazette Сентябрь 2026 (Barbie)",
-          "priceRub": 100,
-          "publishedAt": "2026-09-01T00:50:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 40,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-09"
+      "growthSinceSnapshot": 2,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "bosonozhkadolls",
@@ -7616,7 +7683,7 @@
           "publishedAt": "2025-10-04T11:19:13.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7673,7 +7740,7 @@
           "publishedAt": "2022-06-29T07:00:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7713,7 +7780,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7792,7 +7859,7 @@
           "publishedAt": "2026-09-24T08:52:23.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -7849,7 +7916,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7889,7 +7956,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 6,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -7929,7 +7996,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8006,7 +8073,7 @@
           "publishedAt": "2023-10-27T05:58:11.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8024,7 +8091,7 @@
       "focus": "Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Одежда и выкройки.",
       "summary": "Привет, меня зовут Марина и я автор этой странички. Увлекаюсь жаккардовым вязанием, вяжу одежду для кукол типа Paola Reina и предлагаю вам мастер-классы. Покупая мастер-класс Вы получаете документ в формате PDF с подробными схемами жаккардовых узоров и описанием вязания. Можно оформить подписку - 200 руб в месяц и получить доступ ко множеству файлов с мастер-классами",
-      "subscribers": 44,
+      "subscribers": 45,
       "postsCount": 48,
       "lastPostAt": "2026-09-12T13:12:40.000Z",
       "lastPostTitle": "«Осенние листья» - описание вязания платьица и шапочки для кукол типа Паола Рейна, любимых подружек и других, подходящих по размеру",
@@ -8078,10 +8145,10 @@
           "publishedAt": "2026-08-11T15:37:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 44,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "doll_charm",
@@ -8120,7 +8187,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 10,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8186,7 +8253,7 @@
           "publishedAt": "2022-03-20T14:25:20.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8252,10 +8319,77 @@
           "publishedAt": "2023-10-16T18:34:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 37,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-25"
+    },
+    {
+      "slug": "dolls.toys.babyboxs",
+      "language": "ru",
+      "name": "dolls.toys.babyboxs",
+      "title": "Создаю понятные мастер-классы♥️",
+      "boostyUrl": "https://boosty.to/dolls.toys.babyboxs",
+      "category": "Вязаные куклы и амигуруми",
+      "topics": [
+        "Вязаные куклы и амигуруми",
+        "Одежда и выкройки",
+        "Аксессуары для кукол"
+      ],
+      "focus": "Вязаные куклы; Одежда и выкройки; Аксессуары",
+      "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки; Аксессуары.",
+      "summary": "Создаю понятные мастер-классы♥️. Основные темы: Вязаные куклы; Одежда и выкройки; Аксессуары.",
+      "subscribers": 828,
+      "postsCount": 57,
+      "lastPostAt": "2026-10-28T06:42:28.000Z",
+      "lastPostTitle": "Доп. файл 5 \"Школьница Николь\" (одежда спицами + крючком)",
+      "paymentTypes": [
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": null,
+      "maxSubscriptionPriceRub": null,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 0,
+      "tiers": [],
+      "minOneOffPriceRub": 270,
+      "maxOneOffPriceRub": 800,
+      "oneOffCountRecent": 54,
+      "oneOffItems": [
+        {
+          "title": "Доп. файл 5 \"Школьница Николь\" (одежда спицами + крючком)",
+          "priceRub": 280,
+          "publishedAt": "2026-10-28T06:42:28.000Z"
+        },
+        {
+          "title": "Доп. файл 4 «Коровка и лягушка». Два комплекта одежды для куклы Молли.",
+          "priceRub": 350,
+          "publishedAt": "2026-08-26T09:29:00.000Z"
+        },
+        {
+          "title": "Доп. файл 3 «Бабочка и пчела». Два комплекта одежды для куклы Молли.",
+          "priceRub": 350,
+          "publishedAt": "2026-08-26T09:25:31.000Z"
+        },
+        {
+          "title": "Доп. файл 2 «Цыплёнок и барашек». Два комплекта одежды для куклы Молли.",
+          "priceRub": 350,
+          "publishedAt": "2026-08-26T09:21:58.000Z"
+        },
+        {
+          "title": "Доп. файл 1 «Единорожка и оленёнок». Два комплекта одежды для куклы Молли.",
+          "priceRub": 350,
+          "publishedAt": "2026-08-26T09:19:01.000Z"
+        },
+        {
+          "title": "Доп. файл \"Тюльпанчик, одуванчик и сирень\" для куклы Авроры",
+          "priceRub": 420,
+          "publishedAt": "2026-05-20T07:57:41.000Z"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
     },
     {
       "slug": "dollversediaries",
@@ -8336,7 +8470,7 @@
           "publishedAt": "2026-05-30T15:10:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8376,7 +8510,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8442,7 +8576,7 @@
           "publishedAt": "2022-06-02T07:45:06.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 8,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8507,7 +8641,7 @@
           "publishedAt": "2022-07-29T15:42:33.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8571,7 +8705,7 @@
           "publishedAt": "2022-06-26T11:53:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
@@ -8621,7 +8755,7 @@
           "publishedAt": "2023-03-24T22:35:07.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8686,7 +8820,7 @@
           "publishedAt": "2023-11-11T10:45:01.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8751,7 +8885,7 @@
           "publishedAt": "2025-02-25T10:05:39.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 51,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8816,7 +8950,7 @@
           "publishedAt": "2024-10-20T07:30:09.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 14,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8895,7 +9029,7 @@
           "publishedAt": "2025-07-12T14:50:48.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 34,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -8935,7 +9069,7 @@
           "publishedAt": "2022-08-28T17:38:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9018,7 +9152,7 @@
           "publishedAt": "2024-01-10T15:04:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 14,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9058,7 +9192,7 @@
           "publishedAt": "2025-08-03T10:21:11.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9113,7 +9247,7 @@
           "publishedAt": "2024-02-16T06:12:44.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 14,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9131,10 +9265,10 @@
       "focus": "Миниатюра 1:6",
       "reason": "Профильный русскоязычный кукольный автор: Миниатюра 1:6.",
       "summary": "Здравствуйте, уважаемый читатель! Благодарю Вас за сделанный выбор. Я занимаюсь популяризацией рукоделия. Создаю текстильные и ватные игрушки, шью, вяжу спицами и крючком, делаю брошки и украшения, рисую. Имею очень большой рукодельный архив с массой старинных журналов, книг, схем и выкроек. Консультирую, помогаю подобрать необходимые материалы, схемы, информацию по самым разным видам рукоделия.",
-      "subscribers": 15,
-      "postsCount": 455,
-      "lastPostAt": "2026-10-30T14:56:04.000Z",
-      "lastPostTitle": "Нужна помощь подписчиков!",
+      "subscribers": 16,
+      "postsCount": 456,
+      "lastPostAt": "2026-11-06T12:04:44.000Z",
+      "lastPostTitle": "396. Делаем миниатюры из полимерной глины для кукольного домика.",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -9175,10 +9309,10 @@
           "publishedAt": "2026-08-22T10:15:44.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 15,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "hiodollhouse",
@@ -9249,7 +9383,7 @@
           "publishedAt": "2023-06-02T22:44:18.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 104,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -9324,7 +9458,7 @@
           "publishedAt": "2022-07-28T16:43:50.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 27,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-11"
@@ -9397,7 +9531,7 @@
           "publishedAt": "2026-07-04T06:28:45.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 47,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -9477,7 +9611,7 @@
           "publishedAt": "2025-01-30T12:30:02.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 8,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -9518,7 +9652,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 5,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-29"
@@ -9536,7 +9670,7 @@
       ],
       "focus": "Barbie / Fashion dolls; Коллекционирование / обзоры",
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Коллекционирование / обзоры.",
-      "summary": "Привет! Вот уже более 6 лет я коллекционирую кукол и время от времени возникает желание делится этой красотой с другими), а так же хочется какие-то моменты оставить в памяти) Началось все с банальной идеи приобрести Barbie мою ровесницу (обязательно как-нибудь расскажу об этом более подробно), и как говорится - понеслось))) Сейчас в коллекции более 400 кукол, а вот сколько конкретно надеюсь мы с вами скоро…",
+      "summary": "Привет! Вот уже более 7 лет я коллекционирую кукол и время от времени возникает желание делится этой красотой с другими), а так же хочется какие-то моменты оставить в памяти) Началось все с банальной идеи приобрести Barbie мою ровесницу (обязательно как-нибудь расскажу об этом более подробно), и как говорится - понеслось))) Сейчас в коллекции более 400 кукол, а вот сколько конкретно надеюсь мы с вами скоро…",
       "subscribers": 4,
       "postsCount": 31,
       "lastPostAt": "2026-04-13T19:53:37.000Z",
@@ -9559,7 +9693,7 @@
           "publishedAt": "2025-07-22T08:42:09.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9579,9 +9713,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls.",
       "summary": "Hello! My name is Julia! I like crocheting and knitting very much! Меня зовут Юлия! Здесь Вы найдете МК по вязанию нарядов для кукол и на русском языке. I create, crochet and knit outfits for dolls and also make patterns to them. I wish you all the best and hope that you will enjoy the process of crocheting and knitting according to my patterns!",
       "subscribers": 134,
-      "postsCount": 135,
-      "lastPostAt": "2026-10-20T12:23:18.000Z",
-      "lastPostTitle": "МК \"Камилла\" на русском языке (крючок)",
+      "postsCount": 137,
+      "lastPostAt": "2026-11-03T07:30:04.000Z",
+      "lastPostTitle": "МК \"Инга\" на русском языке (спицы)",
       "paymentTypes": [
         "one-off"
       ],
@@ -9594,6 +9728,16 @@
       "maxOneOffPriceRub": 740,
       "oneOffCountRecent": 60,
       "oneOffItems": [
+        {
+          "title": "МК \"Инга\" на русском языке (спицы)",
+          "priceRub": 400,
+          "publishedAt": "2026-11-03T07:30:04.000Z"
+        },
+        {
+          "title": "МК \"Стефания\" на русском языке (крючок)",
+          "priceRub": 650,
+          "publishedAt": "2026-11-03T07:25:01.000Z"
+        },
         {
           "title": "МК \"Камилла\" на русском языке (крючок)",
           "priceRub": 490,
@@ -9613,19 +9757,9 @@
           "title": "МК \"Лада\" на русском языке (спицы)",
           "priceRub": 380,
           "publishedAt": "2026-10-19T19:43:22.000Z"
-        },
-        {
-          "title": "МК \"Прага\" на русском языке (крючок)",
-          "priceRub": 400,
-          "publishedAt": "2026-10-19T19:37:36.000Z"
-        },
-        {
-          "title": "Воздушный кардиган для Барби (спицы)",
-          "priceRub": 300,
-          "publishedAt": "2026-10-08T13:45:10.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 134,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
@@ -9665,7 +9799,7 @@
           "publishedAt": "2022-03-21T11:31:32.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9716,7 +9850,7 @@
           "publishedAt": "2022-10-16T14:05:37.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9770,7 +9904,7 @@
           "publishedAt": "2023-03-26T14:44:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9835,7 +9969,7 @@
           "publishedAt": "2026-08-24T11:25:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 252,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
@@ -9897,7 +10031,7 @@
           "publishedAt": "2024-01-23T03:21:00.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 5,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -9963,7 +10097,7 @@
           "publishedAt": "2022-09-17T11:20:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 20,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10008,7 +10142,7 @@
           "publishedAt": "2023-12-27T18:40:08.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 19,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10048,7 +10182,7 @@
           "publishedAt": "2022-12-24T20:25:30.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 16,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10120,7 +10254,7 @@
           "publishedAt": "2025-07-15T08:23:40.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10171,7 +10305,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-04"
@@ -10221,7 +10355,7 @@
           "publishedAt": "2026-01-17T13:31:09.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10288,7 +10422,7 @@
           "publishedAt": "2024-03-21T18:57:36.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 40,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
@@ -10335,7 +10469,7 @@
           "publishedAt": "2023-06-06T14:34:07.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 2,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10400,7 +10534,7 @@
           "publishedAt": "2025-10-03T12:22:31.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10420,10 +10554,10 @@
       "focus": "BJD / шарнирные куклы; Авторские арт-куклы; Миниатюра 1:6",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы; Миниатюра 1:6.",
       "summary": "Приветствую на моем бусти аккаунте, меня зовут Ульяна, авторской куклой занимаюсь с 2010 года. Самоучка. И далее о себе текст я удалила, так как важнее описать ситуацию со входом чтобы не было вопросов и неудобных ситуаций: по регистрации на бусти, запомните четко все свои данные(запишите где-то себе отдельно) как именно вошли первый раз в аккаунт и оплатили подписку, если входили по почте, обязательно запомните с…",
-      "subscribers": 297,
-      "postsCount": 253,
-      "lastPostAt": "2026-10-26T03:43:39.000Z",
-      "lastPostTitle": "\"Елена\" тут будут видео по лицу",
+      "subscribers": 298,
+      "postsCount": 254,
+      "lastPostAt": "2026-11-05T12:17:54.000Z",
+      "lastPostTitle": "Проба пера с китайской глиной",
       "paymentTypes": [
         "subscription"
       ],
@@ -10457,10 +10591,10 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 297,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-23"
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "luda_doll_",
@@ -10523,7 +10657,7 @@
           "publishedAt": "2024-08-25T19:49:02.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 20,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10595,7 +10729,7 @@
           "publishedAt": "2026-03-22T15:46:07.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10615,7 +10749,7 @@
       "focus": "BJD / шарнирные куклы; Barbie / Fashion dolls",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Barbie / Fashion dolls.",
       "summary": "Привет мои друзья! Меня зовут Ольга Стратий, я скульптор кукольник, с 2016 года создаю шарнирные bjd куклы и не только, иногда беру заказы на портретные куклы. Так же люблю рисовать, но делаю это довольно редко,так как куклам посвящаю всё основное и свободное время жизни.",
-      "subscribers": 132,
+      "subscribers": 131,
       "postsCount": 76,
       "lastPostAt": "2026-06-12T09:44:09.000Z",
       "lastPostTitle": "",
@@ -10674,8 +10808,8 @@
           "publishedAt": "2023-11-01T05:09:38.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 133,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 132,
       "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-09"
     },
@@ -10739,7 +10873,7 @@
           "publishedAt": "2022-08-15T17:40:47.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10802,10 +10936,67 @@
           "publishedAt": "2025-12-21T14:26:16.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 29,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
+    },
+    {
+      "slug": "demiurge",
+      "language": "ru",
+      "name": "Maeglin Dark",
+      "title": "BJD Dolls",
+      "boostyUrl": "https://boosty.to/demiurge",
+      "category": "BJD и шарнирные куклы",
+      "topics": [
+        "BJD и шарнирные куклы"
+      ],
+      "focus": "BJD / шарнирные куклы",
+      "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы.",
+      "summary": "Life for a masterpiece! Sice 2010",
+      "subscribers": 28,
+      "postsCount": 122,
+      "lastPostAt": "2024-03-18T17:25:07.000Z",
+      "lastPostTitle": "",
+      "paymentTypes": [
+        "subscription",
+        "one-off"
+      ],
+      "minSubscriptionPriceRub": 200,
+      "maxSubscriptionPriceRub": 200,
+      "minSubscriptionPromoPriceRub": null,
+      "tierCount": 1,
+      "tiers": [
+        {
+          "name": "Friend",
+          "priceRub": 200,
+          "promoPriceRub": null
+        }
+      ],
+      "minOneOffPriceRub": 11400,
+      "maxOneOffPriceRub": 15200,
+      "oneOffCountRecent": 3,
+      "oneOffItems": [
+        {
+          "title": "Jericho",
+          "priceRub": 11400,
+          "publishedAt": "2023-03-24T08:41:23.000Z"
+        },
+        {
+          "title": "Jericho",
+          "priceRub": 15200,
+          "publishedAt": "2023-03-24T08:40:16.000Z"
+        },
+        {
+          "title": "Jericho",
+          "priceRub": 15200,
+          "publishedAt": "2023-03-24T08:39:27.000Z"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": null,
+      "growthSinceSnapshot": null,
+      "lastObservedGrowthDate": null
     },
     {
       "slug": "magicinscale",
@@ -10850,7 +11041,7 @@
           "publishedAt": "2022-05-15T18:55:10.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 7,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -10928,9 +11119,9 @@
           "publishedAt": "2022-12-02T08:26:27.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 151,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 152,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -10987,7 +11178,7 @@
           "publishedAt": "2023-04-11T11:24:57.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11007,9 +11198,9 @@
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Barbie / Fashion dolls.",
       "summary": "DS doll or Dragon’s Shell Doll is the brand under which I create heads for articulated dolls in original images, 1/3 and 1/4 sizes, as well as animal masks and original luminous swords for articulated dolls Diverse and interesting faces of DS doll are united by a single recognizable style on the verge of realism and stylization.",
       "subscribers": 15,
-      "postsCount": 37,
-      "lastPostAt": "2026-09-28T18:39:40.000Z",
-      "lastPostTitle": "Собираем предзаказ на Ацтека 1/3 (64.5 см)!",
+      "postsCount": 38,
+      "lastPostAt": "2026-11-05T12:42:49.000Z",
+      "lastPostTitle": "Закулисье литейки: 3D-печать на службе у силикона 🛠️",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -11060,7 +11251,7 @@
           "publishedAt": "2022-06-10T15:32:26.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 15,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-11"
@@ -11079,7 +11270,7 @@
       "focus": "Вязаные куклы; Одежда и выкройки",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы; Одежда и выкройки.",
       "summary": "Самые подробные МК! В результат которых не возможно не влюбиться🤩",
-      "subscribers": 465,
+      "subscribers": 468,
       "postsCount": 32,
       "lastPostAt": "2026-10-22T11:39:02.000Z",
       "lastPostTitle": "Вход в СОВМЕСТНИК",
@@ -11126,10 +11317,10 @@
           "publishedAt": "2025-06-13T07:12:59.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 464,
-      "growthSinceSnapshot": 1,
-      "lastObservedGrowthDate": "2026-10-30"
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 465,
+      "growthSinceSnapshot": 3,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "meliandolls",
@@ -11171,7 +11362,7 @@
           "publishedAt": "2024-08-12T10:02:44.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 6,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11236,7 +11427,7 @@
           "publishedAt": "2026-03-28T19:10:44.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 24,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -11256,9 +11447,9 @@
       "reason": "Профильный русскоязычный кукольный автор: Barbie / Fashion dolls; Одежда и выкройки.",
       "summary": "Всё, что нужно, чтобы научиться вязать одежду для любимых кукол и пупсиков, - это выбрать подходящий мастер-класс! Меня зовут Анна и я буду вашим проводником в мир миниатюрного вязания. Мои мастер-классы подходят всем, кто владеет базовыми навыками вязания крючком и на спицах. Подробные описания и много фотографий. Ограничений по количеству вопросов нет :)",
       "subscribers": 81,
-      "postsCount": 83,
-      "lastPostAt": "2026-10-19T23:26:15.000Z",
-      "lastPostTitle": "Тонкая кофточка для мини Картошечки под сарафаны и комбинезоны",
+      "postsCount": 84,
+      "lastPostAt": "2026-11-06T17:21:23.000Z",
+      "lastPostTitle": "Пальто для куклы Zsiga, Paola Reina mini, Xiaomi Monst",
       "paymentTypes": [
         "subscription"
       ],
@@ -11277,7 +11468,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 81,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
@@ -11322,7 +11513,7 @@
           "publishedAt": "2023-02-15T15:47:05.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11388,7 +11579,7 @@
           "publishedAt": "2023-03-20T14:06:10.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 14,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11454,9 +11645,9 @@
           "publishedAt": "2026-02-06T14:02:10.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 40,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 41,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -11511,7 +11702,7 @@
           "publishedAt": "2024-07-13T20:49:54.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 15,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-25"
@@ -11558,7 +11749,7 @@
           "publishedAt": "2022-12-20T07:56:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11578,7 +11769,7 @@
       "focus": "Текстильные куклы; Авторские арт-куклы; Аксессуары",
       "reason": "Профильный русскоязычный кукольный автор: Текстильные куклы; Авторские арт-куклы; Аксессуары.",
       "summary": "‌ Здесь про то, как создаются куклы. Подписывайтесь на мой блог и вы узнаете о том, как я придумываю новых кукольных персонажей. Как я воплощаю свои идеи технически, какие материалы использую. Можно ли зарабатывать «куклением»? И где искать источник вдохновения? Обо всём буду говорить здесь.",
-      "subscribers": 357,
+      "subscribers": 356,
       "postsCount": 156,
       "lastPostAt": "2026-10-21T18:00:48.000Z",
       "lastPostTitle": "Лепим Корнея! Для всех зрителей- подарок!",
@@ -11642,9 +11833,9 @@
           "publishedAt": "2025-05-14T17:54:15.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 357,
-      "growthSinceSnapshot": 0,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -11660,7 +11851,7 @@
       "focus": "Кастом / OOAK; Monster High",
       "reason": "Профильный русскоязычный кукольный автор: Кастом / OOAK; Monster High.",
       "summary": "Привет! Я занимаюсь создание уникальных кукол (ООАК) с 2018 года в 2020 году я купила свой первый 3D принтер, и поняла как преступно мало 3D моделей для кукол на просторах интернета. Я адаптирую 3D модели под кукол Любимых форматов, многие из моделей я выкладываю бесплатно, но некоторые есть и в платном доступе.",
-      "subscribers": 67,
+      "subscribers": 68,
       "postsCount": 637,
       "lastPostAt": "2026-10-30T11:35:03.000Z",
       "lastPostTitle": "3д модель / Сапоги туфли для куклы Monster High G1",
@@ -11719,10 +11910,10 @@
           "publishedAt": "2026-10-06T08:13:18.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 66,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 67,
       "growthSinceSnapshot": 1,
-      "lastObservedGrowthDate": "2026-10-30"
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "opendolls",
@@ -11759,7 +11950,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 3,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11814,7 +12005,7 @@
           "publishedAt": "2024-01-04T20:26:52.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 46,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -11918,7 +12109,7 @@
           "publishedAt": "2026-03-24T17:32:45.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 196,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
@@ -11970,7 +12161,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12044,7 +12235,7 @@
           "publishedAt": "2022-06-12T12:45:39.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 11,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12109,7 +12300,7 @@
           "publishedAt": "2023-10-28T18:41:24.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 4,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12149,7 +12340,7 @@
           "publishedAt": "2022-03-28T11:37:10.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12214,7 +12405,7 @@
           "publishedAt": "2023-04-09T21:04:46.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 47,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12287,7 +12478,7 @@
           "publishedAt": "2022-07-07T07:50:01.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 5,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12306,10 +12497,10 @@
       "focus": "BJD / шарнирные куклы; Blythe; Barbie / Fashion dolls",
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Blythe; Barbie / Fashion dolls.",
       "summary": "Друзья и сохоббиты! Рада приветствовать вас на моей творческой платформе Бусти! Здесь вы найдёте множество выкроек, схем и мастер-классов для ваших любимых кукол. Благодарю каждого, кто поддерживает моё творчество, — это вдохновляет меня создавать для вас всё более интересные и оригинальные фасоны.",
-      "subscribers": 261,
-      "postsCount": 236,
-      "lastPostAt": "2026-10-22T17:36:21.000Z",
-      "lastPostTitle": "Крылья Ангела. Вышивальная схема + туториал",
+      "subscribers": 262,
+      "postsCount": 242,
+      "lastPostAt": "2026-11-02T19:06:04.000Z",
+      "lastPostTitle": "Пальто приталенного силуэта для кукол формата 1:4",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -12337,43 +12528,43 @@
       ],
       "minOneOffPriceRub": 150,
       "maxOneOffPriceRub": 10000,
-      "oneOffCountRecent": 54,
+      "oneOffCountRecent": 53,
       "oneOffItems": [
+        {
+          "title": "Пальто приталенного силуэта для кукол формата 1:4",
+          "priceRub": 1500,
+          "publishedAt": "2026-11-02T19:06:04.000Z"
+        },
+        {
+          "title": "Мини-туториал: Невидимые крючки на кукольной одежде",
+          "priceRub": 150,
+          "publishedAt": "2026-11-02T16:59:31.000Z"
+        },
+        {
+          "title": "Веер для кукол формата 1:4, 1:6 (3 схемы для вышивки)",
+          "priceRub": 1000,
+          "publishedAt": "2026-11-01T21:05:17.000Z"
+        },
+        {
+          "title": "Пальто для Барби пышки. Выкройка + МК",
+          "priceRub": 900,
+          "publishedAt": "2026-11-01T20:14:42.000Z"
+        },
+        {
+          "title": "Пальто приталенного силуэта. Выкройка для кукол FR, NF, Xian, Mizi, Barbie MTM",
+          "priceRub": 1000,
+          "publishedAt": "2026-11-01T17:19:25.000Z"
+        },
         {
           "title": "Крылья Ангела. Вышивальная схема + туториал",
           "priceRub": 1000,
           "publishedAt": "2026-10-22T17:36:21.000Z"
-        },
-        {
-          "title": "Кокошник \" Королева тьмы\". Схема для кукол формата 1:6 + Туториал",
-          "priceRub": 800,
-          "publishedAt": "2026-10-20T19:05:40.000Z"
-        },
-        {
-          "title": "Кокошник \"Летучая мышь\". Схема для кукол формата 1:6 + Туториал",
-          "priceRub": 800,
-          "publishedAt": "2026-10-20T18:57:31.000Z"
-        },
-        {
-          "title": "Крылья летучей мыши. Схема для вышивальной машины + МК",
-          "priceRub": 1000,
-          "publishedAt": "2026-10-13T17:34:00.000Z"
-        },
-        {
-          "title": "Лайфхак: Как правильно кроить скользкие ткани роликовым ножом.",
-          "priceRub": 200,
-          "publishedAt": "2026-10-09T15:37:34.000Z"
-        },
-        {
-          "title": "Комбинезончик для кукол FR, NF, Barbie, Xian + Видео МК",
-          "priceRub": 900,
-          "publishedAt": "2026-10-09T14:09:42.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 261,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-09-25"
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "tatiday",
@@ -12435,9 +12626,9 @@
           "publishedAt": "2023-12-11T14:18:55.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
-      "historicalSubscribers": 77,
-      "growthSinceSnapshot": 1,
+      "checkedAt": "2026-11-07",
+      "historicalSubscribers": 78,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -12498,7 +12689,7 @@
           "publishedAt": "2023-02-07T17:45:14.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12538,7 +12729,7 @@
           "publishedAt": "2026-08-05T19:39:31.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12604,7 +12795,7 @@
           "publishedAt": "2022-11-07T16:55:56.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 13,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-14"
@@ -12658,7 +12849,7 @@
           "publishedAt": "2023-03-21T21:48:39.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12680,7 +12871,7 @@
       "subscribers": 42,
       "postsCount": 24,
       "lastPostAt": "2026-10-27T18:18:27.000Z",
-      "lastPostTitle": "Плету лапы для корзины-медведя",
+      "lastPostTitle": "Плету лапы для корзины-медведя и не только…",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -12731,7 +12922,7 @@
           "publishedAt": "2022-12-26T19:06:50.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 42,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12778,7 +12969,7 @@
           "publishedAt": "2023-05-11T09:10:19.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 5,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12843,7 +13034,7 @@
           "publishedAt": "2025-09-15T11:00:58.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 1,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12883,7 +13074,7 @@
       "maxOneOffPriceRub": null,
       "oneOffCountRecent": 0,
       "oneOffItems": [],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12937,7 +13128,7 @@
           "publishedAt": "2022-12-17T14:15:01.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 0,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
@@ -12955,10 +13146,10 @@
       "focus": "Вязаные куклы",
       "reason": "Профильный русскоязычный кукольный автор: Вязаные куклы.",
       "summary": "Всем привет! Меня зовут Ксюша и я придумываю и вяжу игрушки крючком и ооочень люблю это дело! Здесь вы найдете бесплатные описания игрушек, мастер-классы по вязанию кукол и других интересных персонажей. В подписке \"Поддержать творчество\" также доступны эксклюзивные мастер-классы и новые МК месяца! Желаю вам приятного творчества!",
-      "subscribers": 79,
-      "postsCount": 72,
-      "lastPostAt": "2026-10-27T08:52:39.000Z",
-      "lastPostTitle": "Жуткие скидки! 🎃",
+      "subscribers": 80,
+      "postsCount": 73,
+      "lastPostAt": "2026-11-01T20:01:43.000Z",
+      "lastPostTitle": "Журнал «Между рядами» 🧶 ноябрь 2026",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -13009,10 +13200,10 @@
           "publishedAt": "2026-05-24T14:07:17.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 79,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": "2026-10-02"
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-11-07"
     },
     {
       "slug": "zhannaknit39",
@@ -13075,7 +13266,7 @@
           "publishedAt": "2025-06-27T11:33:06.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 48,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
@@ -13096,9 +13287,9 @@
       "reason": "Профильный русскоязычный кукольный автор: BJD / шарнирные куклы; Авторские арт-куклы; Одежда и выкройки.",
       "summary": "Доброго времени суток! Для тех, кто решит поддержать меня и моё творчество я предоставлю доступ к моим эксклюзивным мастер-классам и секретам создания авторских кукол моей тематики! - МК по всевозможным частям скульптуры животных, антропоморфов: крылья, реалистичные головы и т.д. - МК по мягким телам разных кукол антропоморфов, по которым я создаю наборы для самостоятельного создания.",
       "subscribers": 36,
-      "postsCount": 57,
-      "lastPostAt": "2026-10-26T13:17:22.000Z",
-      "lastPostTitle": "Сотворила за неделю. Иллюстрации к страшному рассказу и кашпо.",
+      "postsCount": 58,
+      "lastPostAt": "2026-11-05T11:24:22.000Z",
+      "lastPostTitle": "Сделала впервые озвучку моего рассказа!",
       "paymentTypes": [
         "subscription",
         "one-off"
@@ -13159,7 +13350,7 @@
           "publishedAt": "2024-02-08T13:37:51.000Z"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-07",
       "historicalSubscribers": 36,
       "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
