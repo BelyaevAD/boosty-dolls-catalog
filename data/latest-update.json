@@ -1,23 +1,23 @@
 {
   "schemaVersion": 2,
-  "checkedAt": "2026-11-21",
-  "metricsCheckedAt": "2026-11-21",
-  "previousChannelCount": 226,
-  "channelCount": 227,
-  "candidateCount": 5699,
-  "discoveredCount": 4,
+  "checkedAt": "2026-11-28",
+  "metricsCheckedAt": "2026-11-28",
+  "previousChannelCount": 227,
+  "channelCount": 228,
+  "candidateCount": 5881,
+  "discoveredCount": 182,
   "checkedCandidateCount": 250,
   "maxNewChannels": 200,
   "hardNewChannelLimit": 200,
-  "prefilteredCount": 2,
-  "pendingCount": 139,
+  "prefilteredCount": 40,
+  "pendingCount": 310,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 34,
-  "terminalNotFoundCount": 1,
+  "terminalNotFoundCount": 0,
   "qualifiedDeferredCount": 0,
   "qualifiedDeferred": [],
   "added": [
-    "anet.art"
+    "svetlana_kostenko"
   ],
   "removed": [],
   "errors": []
